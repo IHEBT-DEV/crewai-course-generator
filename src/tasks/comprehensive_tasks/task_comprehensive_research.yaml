@@ -1,0 +1,142 @@
+task:
+  name : task_comprehensive_research
+  description: >
+    Conduct balanced research on {topic} combining academic rigor with practical applications.
+
+        Your research must cover BOTH theory and practice:
+
+        PHASE 1 - FOUNDATIONAL UNDERSTANDING (25%):
+        - Academic papers explaining core concepts
+        - Official documentation
+        - Survey papers for comprehensive overview
+        - Theoretical foundations with practical grounding
+
+        PHASE 2 - THEORETICAL DEPTH (25%):
+        - Papers with algorithms and complexity analysis
+        - Design principles and trade-offs
+        - Mathematical foundations (accessible level)
+        - Formal models and abstractions
+
+        Use Semantic Scholar and ArXiv for:
+        - Papers that bridge theory and practice
+        - Papers with implementations
+        - Tutorial papers (IEEE/ACM)
+        - Technical reports from industry
+
+        PHASE 3 - PRACTICAL APPLICATIONS (30%):
+        - Real-world case studies (engineering blogs)
+        - Architecture designs from companies
+        - Implementation tutorials
+        - Best practices and design patterns
+        - Performance benchmarks
+
+        Target sources:
+        - Netflix tech blog
+        - Uber engineering
+        - Airbnb engineering
+        - AWS/Google Cloud blogs
+        - Martin Fowler's site
+
+        PHASE 4 - HANDS-ON RESOURCES (20%):
+        - Comprehensive courses (theory + practice)
+        - Projects demonstrating concepts
+        - Code with explanations
+        - Learning paths (beginner → advanced)
+
+        Balance requirements:
+        - 40% academic sources (papers, formal docs)
+        - 60% practical sources (tutorials, code, blogs)
+
+        For academic sources, extract:
+        - Concepts with both formal and intuitive explanations
+        - Algorithms with code implementations
+        - Theory with practical examples
+
+        For practical sources, extract:
+        - Why things work (theoretical grounding)
+        - How to implement (code examples)
+        - When to use what (decision criteria)
+
+        Use all tools: Semantic Scholar, ArXiv, DuckDuckGo, Web Scraper.
+        Create bridges between academic concepts and practical implementation.
+  expected_output: >
+    A comprehensive balanced research report with:
+
+    1. EXECUTIVE SUMMARY (3 paragraphs)
+       - Overview of {topic}
+       - Why it matters (theory + practice)
+       - Learning landscape
+
+    2. THEORETICAL FOUNDATIONS (40% of content)
+
+       A. Core Concepts (5-8 concepts)
+          For each:
+          - Formal definition
+          - Intuitive explanation
+          - Visual/mental model
+          - Key papers [citations with URLs]
+
+       B. Algorithms and Complexity
+          - Main algorithms (3-5)
+          - Complexity analysis
+          - Design principles
+          - Papers with proofs [citations]
+
+       C. Mathematical Foundations
+          - Relevant math background
+          - Formal models
+          - Key theorems
+          - Accessible explanations
+
+    3. PRACTICAL APPLICATIONS (60% of content)
+
+       A. Real-World Case Studies (3-5)
+          - Company name and use case
+          - Architecture overview
+          - Why this approach
+          - Results achieved
+          - Blog post URL
+
+       B. Implementation Resources
+          - Official docs (URLs)
+          - Implementation tutorials (10-15)
+          - Code repositories (with URLs, stars)
+          - Best practices guides
+
+       C. Hands-On Projects (5-8)
+          - Project ideas (beginner → advanced)
+          - What concepts they demonstrate
+          - Tutorial links (if available)
+
+    4. INTEGRATION POINTS
+       - How theory guides practice
+       - How practice validates theory
+       - Design decisions and rationale
+       - Performance: theory vs reality
+
+    5. LEARNING PATH
+
+       LEVEL 1 - Foundations:
+       - Papers to understand basics
+       - Tutorials to try first
+
+       LEVEL 2 - Intermediate:
+       - Papers for deeper understanding
+       - Projects to build
+
+       LEVEL 3 - Advanced:
+       - Cutting-edge papers
+       - Complex projects
+       - Production considerations
+
+    6. COMPLETE RESOURCE LIST
+       - Academic papers (10-15 with URLs)
+       - Tutorials and courses (15-20 with URLs)
+       - Code repositories (10-12 with URLs)
+       - Engineering blogs (5-10 with URLs)
+       - Books and comprehensive guides
+
+    All sources must have working URLs and balance theory/practice.
+  output_model: Resources
+  agent: src/agents/comprehensive_agents/comprehensive_researcher.yaml
+  context: []

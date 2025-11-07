@@ -1,0 +1,68 @@
+providers:
+  huggingface:
+    base_url: null
+    api_env: HF_TOKEN
+    default_model: meta-llama/Llama-3-8b
+    prefix: huggingface/
+    temperature: 0.7
+
+  google:
+    base_url: null
+    api_env: GOOGLE_API_KEY
+    default_model: gemini-1.5-flash
+    prefix: gemini/
+    temperature: 0.7
+
+  groq:
+    base_url: null
+    api_env: GROQ_API_KEY
+    default_model: mixtral-8x7b
+    prefix: groq/
+    temperature: 0.7
+
+  fireworks:
+    base_url: https://api.fireworks.ai/inference/v1
+    api_env: FIREWORKS_API_KEY
+    default_model: mixtral-8x7b
+    prefix: fireworks_ai/accounts/fireworks/models/
+    temperature: 0.7
+
+  mistral:
+    base_url: null
+    api_env: MISTRAL_API_KEY
+    default_model: mistral-medium
+    prefix: mistral/
+    temperature: 0.7
+
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_env: OPENROUTER_API_KEY
+    default_model: mistralai/mixtral-8x7b
+    prefix: openrouter/
+    temperature: 0.7
+
+  sambanova:
+    base_url: null
+    api_env: SAMBANOVA_API_KEY
+    default_model: Meta-Llama-3-8B
+    prefix: sambanova/
+    temperature: 0.7
+
+  cerebras:
+    base_url: null
+    api_env: CEREBRAS_API_KEY
+    default_model: llama3.1-8b
+    prefix: cerebras/
+    temperature: 0.7
+
+  nebius:
+    base_url: null
+    api_env: NEBIUS_API_KEY
+    default_model: llama3-8b
+    prefix: nebius/
+    temperature: 0.7
+
+fallback_chain:
+  - openrouter
+  - mistral
+  - huggingface

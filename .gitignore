@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+.venv/
+env/
+ENV/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+logs/
+outputs/
+*.log
+
+# Cache
+.cache/
+__pycache__/
+
+# Docker
+*.pid
+*.tar
+.dockerignore
+
+# CrewAI specific
+src/__pycache__/
+src/.mypy_cache/

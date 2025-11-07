@@ -1,0 +1,19 @@
+task:
+  name :  'classification'
+  description: >
+    Determine the correct learning strategy for the given topic and user input.
+
+    You will receive:
+      - topic: the subject to learn
+      - user_input: learner’s answers or description (e.g., "2, A, job" or "experienced, hands-on projects")
+
+    Use the mapping rules and keyword heuristics to decide whether the strategy is:
+      academic_strategy, practical_strategy, or comprehensive_strategy.
+
+    Output only one of these three values, without extra commentary.
+  expected_output: >
+    One of: "academic_strategy", "practical_strategy", or "comprehensive_strategy".
+  agent: src/agents/classifier_agent.yaml
+  context:
+    - topic
+    - user_input

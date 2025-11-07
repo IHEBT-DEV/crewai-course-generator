@@ -1,0 +1,746 @@
+task:
+  name : task_paper_analysis
+  description: >
+    Create paper reading and analysis exercises for {topic} to develop research literacy.
+
+        Use the Academic Research Report to select papers for analysis.
+
+        Create 4 TYPES OF PAPER EXERCISES:
+
+        1. PAPER READING ASSIGNMENTS (40%)
+           - Individual paper deep dives
+           - Summary and key contributions
+           - Methodology understanding
+           - Results interpretation
+
+           Select 8-10 papers throughout course:
+           - 3 foundational papers
+           - 3 methodology papers
+           - 2-3 recent papers
+           - 1-2 survey papers
+
+        2. CRITICAL ANALYSIS (30%)
+           - Evaluate experimental design
+           - Critique claims vs evidence
+           - Identify assumptions and limitations
+           - Propose improvements
+
+           Create 4-5 analysis assignments
+
+        3. COMPARATIVE ANALYSIS (20%)
+           - Compare multiple papers
+           - Identify common themes
+           - Analyze evolution of ideas
+           - Synthesize insights
+
+           Create 2-3 comparison assignments
+
+        4. LITERATURE REVIEW (10%)
+           - Survey multiple papers
+           - Identify research trends
+           - Map research landscape
+           - Write mini survey
+
+           Create 1 comprehensive review assignment
+
+        FOR EACH PAPER ASSIGNMENT PROVIDE:
+
+        PAPER INFORMATION:
+        - Full citation
+        - PDF URL (if open access)
+        - Why this paper matters
+        - Connection to course material
+        - Estimated reading time
+
+        READING GUIDE:
+        - What to focus on (key sections)
+        - Background needed
+        - Key questions to consider
+        - Technical concepts to understand
+
+        ANALYSIS QUESTIONS:
+        - Problem and motivation
+        - Main contributions
+        - Methodology
+        - Results and findings
+        - Limitations
+        - Comparisons with prior work
+        - Future directions
+
+        DELIVERABLES:
+        - Paper summary (1-2 pages)
+        - Critical analysis (2-3 pages)
+        - Presentation slides (if applicable)
+        - Discussion points
+
+        Organize by course progression and difficulty.
+  expected_output: >
+    A complete paper analysis curriculum:
+
+    RESEARCH PAPER ANALYSIS FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total papers: 10-12
+    - Reading assignments: Throughout course
+    - Format: Summaries + Critical analysis
+    - Estimated time: 25-30 hours total
+
+    ═══════════════════════════════════════════════
+
+    READING ASSIGNMENT 1: Foundational Paper
+    ═══════════════════════════════════════════════
+    Due: Week 2 | Points: 50 | Difficulty: ⭐⭐
+
+    **PAPER:**
+    [Authors (Year). "Title". Venue]
+    URL: [link to PDF]
+    Citations: [count]
+
+    **WHY THIS PAPER:**
+    This is the seminal paper that introduced [concept/algorithm].
+    It's foundational for understanding {topic} and is cited by virtually all subsequent work.
+
+    **CONNECTION TO COURSE:**
+    - Relates to Module 1, Lessons 1.2-1.4
+    - Introduces concepts we'll build on throughout the course
+    - Provides historical context
+
+    **ESTIMATED TIME:** 3-4 hours (paper + assignment)
+
+    ───────────────────────────────────────────────
+
+    **READING GUIDE:**
+
+    Before you read:
+    - Review Lesson 1.1 (background concepts)
+    - Understand these prerequisites: [list]
+
+    Focus on these sections:
+    - ✓ Abstract and Introduction (understand the problem)
+    - ✓ Section 3: Core Algorithm (this is key!)
+    - ✓ Section 5: Experimental Results
+    - ~ Section 4: Mathematical Analysis (skim if too dense)
+    - ✗ Section 6: Related Work (skip for now)
+
+    Key questions to ask yourself:
+    1. What problem are they solving?
+    2. Why is it important?
+    3. What's novel about their approach?
+    4. How do they validate their claims?
+
+    Technical concepts to understand:
+    - [Concept 1]: Defined on page X
+    - [Concept 2]: Explained in Section Y
+    - [Algorithm Z]: Pseudocode in Figure W
+
+    ───────────────────────────────────────────────
+
+    **ASSIGNMENT QUESTIONS:**
+
+    PART A: SUMMARY (20 points, ~500 words)
+
+    Write a clear summary covering:
+
+    1. **Problem Statement** (5 points)
+       - What problem does this paper address?
+       - Why is it important/challenging?
+       - What were limitations of prior approaches?
+
+    2. **Main Contribution** (8 points)
+       - What is the key idea or innovation?
+       - What algorithm/method do they propose?
+       - How is it different from previous work?
+
+    3. **Results** (7 points)
+       - What are the main findings?
+       - How do they evaluate their approach?
+       - How does it compare to baselines?
+
+    PART B: TECHNICAL UNDERSTANDING (15 points, ~400 words)
+
+    4. **Algorithm Explanation** (10 points)
+       - Explain the core algorithm in your own words
+       - What is the time/space complexity?
+       - Trace through a simple example
+
+    5. **Key Insight** (5 points)
+       - What is THE key insight that makes this work?
+       - Why is it clever/important?
+
+    PART C: CRITICAL ANALYSIS (15 points, ~400 words)
+
+    6. **Strengths** (5 points)
+       - What does the paper do well?
+       - What are convincing aspects?
+
+    7. **Limitations** (5 points)
+       - What assumptions do they make?
+       - What edge cases might not be covered?
+       - What could be improved?
+
+    8. **Future Directions** (5 points)
+       - What open questions remain?
+       - How might this work be extended?
+
+    ───────────────────────────────────────────────
+
+    **DELIVERABLES:**
+
+    Submit via course platform:
+
+    1. `paper1_summary.pdf` - Your written responses to questions above
+       - Format: 1300-1500 words total
+       - Include your name and paper citation at top
+
+    2. `paper1_notes.pdf` (optional, for your own use)
+       - Your reading notes
+       - Figures or diagrams you drew
+       - Questions that came up
+
+    ───────────────────────────────────────────────
+
+    **GRADING RUBRIC:**
+
+    Summary (20 points):
+    - Problem understanding: 5 pts
+    - Contribution clarity: 8 pts
+    - Results accuracy: 7 pts
+
+    Technical Understanding (15 points):
+    - Algorithm explanation: 8 pts
+    - Complexity analysis: 4 pts
+    - Example correctness: 3 pts
+
+    Critical Analysis (15 points):
+    - Strengths identified: 5 pts
+    - Limitations discussed: 5 pts
+    - Future work thoughtful: 5 pts
+
+    Writing Quality (5 points):
+    - Clarity: 3 pts
+    - Organization: 2 pts
+
+    Bonus (up to 5 points):
+    - Exceptionally deep insights
+    - Connections to other work
+    - Creative extensions
+
+    ───────────────────────────────────────────────
+
+    **SAMPLE ANSWER EXCERPT:**
+
+    *Problem Statement:*
+    "Prior to this work, the main approach to [problem] was [old approach], which suffered from [limitation]. This paper addresses the challenge of [specific challenge] in the context of [application domain]..."
+
+    *Main Contribution:*
+    "The key innovation is [insight]. Unlike previous methods that [old way], this paper proposes [new way]. The algorithm works by..."
+
+    [Continue with high-quality example]
+
+    ───────────────────────────────────────────────
+
+    **DISCUSSION QUESTIONS (for class/forum):**
+
+    These are optional but encouraged:
+
+    1. The paper makes assumption X. How would relaxing this affect the algorithm?
+    2. How does this compare to [related technique] we learned about?
+    3. Could this approach work for [different problem]?
+    4. What real-world systems might benefit from this?
+
+    ═══════════════════════════════════════════════
+
+    READING ASSIGNMENT 2: Methodology Paper
+    ═══════════════════════════════════════════════
+    Due: Week 4 | Points: 60 | Difficulty: ⭐⭐⭐
+
+    [Similar detailed structure]
+
+    Paper focuses on experimental methodology and analysis techniques.
+
+    Additional requirements:
+    - Critique experimental design
+    - Discuss statistical validity
+    - Propose alternative experiments
+
+    ═══════════════════════════════════════════════
+
+    READING ASSIGNMENT 3: Recent Research
+    ═══════════════════════════════════════════════
+    Due: Week 7 | Points: 60 | Difficulty: ⭐⭐⭐
+
+    [Structure for recent paper from last 2 years]
+
+    Additional requirements:
+    - How does it build on foundations?
+    - What's state-of-the-art now?
+    - Reproduction feasibility
+
+    ═══════════════════════════════════════════════
+
+    COMPARATIVE ANALYSIS ASSIGNMENT
+    ═══════════════════════════════════════════════
+    Due: Week 10 | Points: 100 | Difficulty: ⭐⭐⭐⭐
+
+    **OBJECTIVE:**
+    Compare and contrast 3 papers on [specific subproblem of {topic}].
+
+    **PAPERS:**
+    1. [Paper A citation + URL]
+    2. [Paper B citation + URL]
+    3. [Paper C citation + URL]
+
+    **WHY THESE PAPERS:**
+    These three papers represent different approaches to [specific problem]:
+    - Paper A: [Classical/foundational approach]
+    - Paper B: [Alternative methodology]
+    - Paper C: [Recent advancement]
+
+    Together they show the evolution of ideas in this area.
+
+    **ESTIMATED TIME:** 8-10 hours
+
+    ───────────────────────────────────────────────
+
+    **ASSIGNMENT TASKS:**
+
+    PART A: INDIVIDUAL SUMMARIES (30 points, ~300 words each)
+
+    For EACH paper, provide:
+    1. One-paragraph summary of main contribution
+    2. Key algorithm/technique used
+    3. Main results and findings
+    4. One strength and one limitation
+
+    PART B: COMPARATIVE ANALYSIS (40 points, ~1200 words)
+
+    Create a detailed comparison covering:
+
+    1. **Problem Formulation** (10 points)
+       - Do they define the problem the same way?
+       - What assumptions does each make?
+       - Which formulation is most general/practical?
+
+    2. **Methodology Comparison** (15 points)
+       - Compare the core techniques
+       - What are the key differences in approach?
+       - Create a comparison table with dimensions:
+         * Time complexity
+         * Space complexity
+         * Key assumptions
+         * Strengths
+         * Limitations
+
+    3. **Results Analysis** (10 points)
+       - How do the experimental setups differ?
+       - Are results directly comparable?
+       - Which approach performs best under what conditions?
+       - What metrics do they use and why?
+
+    4. **Evolution of Ideas** (5 points)
+       - How does Paper B build on Paper A?
+       - What novel contributions does Paper C make?
+       - What's the research trajectory?
+
+    PART C: SYNTHESIS (30 points, ~800 words)
+
+    5. **Unified Understanding** (15 points)
+       - What common principles underlie all three approaches?
+       - What fundamental trade-offs exist?
+       - What have we learned collectively from these papers?
+
+    6. **Critical Evaluation** (10 points)
+       - Which approach do you think is best and why?
+       - What are the practical implications?
+       - Which would you choose for different scenarios?
+
+    7. **Future Directions** (5 points)
+       - What gaps remain?
+       - What would be a logical next step?
+       - Propose a research direction combining strengths
+
+    ───────────────────────────────────────────────
+
+    **REQUIRED COMPARISON TABLE:**
+
+    Create a table like this (expand with more details):
+
+    | Aspect | Paper A | Paper B | Paper C |
+    |--------|---------|---------|---------|
+    | Year | [year] | [year] | [year] |
+    | Main Idea | [brief] | [brief] | [brief] |
+    | Time Complexity | O(...) | O(...) | O(...) |
+    | Space Complexity | O(...) | O(...) | O(...) |
+    | Key Assumption | [assumption] | [assumption] | [assumption] |
+    | Datasets Used | [list] | [list] | [list] |
+    | Best Performance | [metric: value] | [metric: value] | [metric: value] |
+    | Strengths | [2-3 points] | [2-3 points] | [2-3 points] |
+    | Limitations | [2-3 points] | [2-3 points] | [2-3 points] |
+    | Best Use Case | [when to use] | [when to use] | [when to use] |
+
+    ───────────────────────────────────────────────
+
+    **DELIVERABLES:**
+
+    1. `comparative_analysis.pdf` (8-12 pages)
+       - All parts above
+       - Comparison table
+       - References section
+
+    2. `presentation_slides.pdf` (10-15 slides, optional)
+       - If you want to present to class
+       - Visual comparison of approaches
+       - Key insights
+
+    ───────────────────────────────────────────────
+
+    **GRADING RUBRIC:**
+
+    Individual Summaries (30 points):
+    - Accuracy and completeness: 20 pts
+    - Clarity: 10 pts
+
+    Comparative Analysis (40 points):
+    - Problem formulation comparison: 10 pts
+    - Methodology comparison depth: 15 pts
+    - Results analysis quality: 10 pts
+    - Evolution understanding: 5 pts
+
+    Synthesis (30 points):
+    - Unified understanding: 15 pts
+    - Critical evaluation: 10 pts
+    - Future directions: 5 pts
+
+    Writing Quality (10 points):
+    - Organization and flow: 5 pts
+    - Clarity and precision: 5 pts
+
+    Bonus (up to 10 points):
+    - Exceptional insights
+    - Novel connections
+    - Comprehensive analysis
+
+    ═══════════════════════════════════════════════
+
+    LITERATURE REVIEW ASSIGNMENT
+    ═══════════════════════════════════════════════
+    Due: Week 14 | Points: 150 | Difficulty: ⭐⭐⭐⭐⭐
+
+    **OBJECTIVE:**
+    Conduct a mini literature review on [specific topic within {topic}].
+
+    **SCOPE:**
+    Review 8-10 papers on [subtopic] to understand the research landscape.
+
+    **PAPER SELECTION:**
+
+    You must include:
+    - 2 foundational papers (pre-2015)
+    - 4-5 papers from 2015-2020
+    - 2-3 recent papers (2021-present)
+
+    Papers should cover:
+    - Different approaches to the problem
+    - Various application domains
+    - Theoretical and empirical work
+
+    **ASSIGNMENT STRUCTURE:**
+
+    Your literature review should follow this format:
+
+    1. **INTRODUCTION** (500 words)
+       - What is the problem area?
+       - Why is it important?
+       - Scope of this review
+       - Organization of the review
+
+    2. **BACKGROUND** (800 words)
+       - Problem definition and formalization
+       - Key challenges
+       - Evolution of approaches over time
+       - Foundational concepts
+
+    3. **METHODOLOGY TAXONOMY** (1200 words)
+       - Categorize the papers by approach
+       - Create a taxonomy (e.g., tree structure)
+       - Describe each category:
+         * Core technique
+         * Representative papers
+         * Strengths and limitations
+
+       Example taxonomy:
+    ```
+       Approaches to [Problem]
+       ├── Category A: [Technique Type]
+       │   ├── Subcategory A1: [Variant]
+       │   │   └── Papers: [X, Y, Z]
+       │   └── Subcategory A2: [Variant]
+       │       └── Papers: [W, V]
+       └── Category B: [Technique Type]
+           └── Papers: [U, T, S]
+    ```
+
+    4. **COMPARATIVE ANALYSIS** (1000 words)
+       - Compare approaches across categories
+       - Performance comparison (create summary table)
+       - Complexity comparison
+       - Applicability comparison
+       - Trade-offs discussion
+
+    5. **RESEARCH TRENDS** (600 words)
+       - How has the field evolved?
+       - What patterns do you see?
+       - What problems have been solved?
+       - What remains open?
+
+    6. **OPEN PROBLEMS & FUTURE DIRECTIONS** (500 words)
+       - What challenges remain?
+       - What are promising research directions?
+       - What would you work on?
+
+    7. **CONCLUSION** (300 words)
+       - Summary of main findings
+       - Key takeaways
+       - Your perspective on the field
+
+    ───────────────────────────────────────────────
+
+    **REQUIRED COMPONENTS:**
+
+    1. **Annotated Bibliography**
+       For each of the 8-10 papers:
+    ```
+       [Full Citation]
+
+       Summary: [2-3 sentences on main contribution]
+
+       Methodology: [1 sentence on approach]
+
+       Results: [1 sentence on key findings]
+
+       Relevance: [1 sentence on why included]
+    ```
+
+    2. **Comparison Table**
+       Comprehensive table comparing all papers on:
+       - Problem formulation
+       - Methodology
+       - Complexity
+       - Datasets used
+       - Performance metrics
+       - Main strengths
+       - Limitations
+
+    3. **Taxonomy Diagram**
+       Visual representation of how papers relate and categorize
+
+    4. **Timeline Figure**
+       Show evolution of ideas chronologically
+
+    ───────────────────────────────────────────────
+
+    **DELIVERABLES:**
+
+    1. `literature_review.pdf` (12-18 pages)
+       - Formatted as a mini survey paper
+       - Include all required sections
+       - Professional quality
+
+    2. `annotated_bibliography.pdf` (3-5 pages)
+       - All papers annotated
+
+    3. `taxonomy_diagram.[png/pdf]`
+       - Visual taxonomy
+
+    4. `timeline.[png/pdf]`
+       - Evolution timeline
+
+    ───────────────────────────────────────────────
+
+    **GRADING RUBRIC:**
+
+    Content (100 points):
+    - Introduction and background: 15 pts
+    - Taxonomy quality: 25 pts
+    - Comparative analysis: 25 pts
+    - Trends identification: 15 pts
+    - Open problems discussion: 15 pts
+    - Conclusion: 5 pts
+
+    Organization (20 points):
+    - Logical flow: 10 pts
+    - Clear structure: 10 pts
+
+    Technical Quality (20 points):
+    - Accuracy: 10 pts
+    - Depth of understanding: 10 pts
+
+    Figures and Tables (10 points):
+    - Quality and clarity: 5 pts
+    - Completeness: 5 pts
+
+    Writing Quality (10 points):
+    - Clarity: 5 pts
+    - Grammar and style: 5 pts
+
+    Bonus (up to 15 points):
+    - Exceptional synthesis
+    - Novel insights
+    - Publication-quality work
+
+    ───────────────────────────────────────────────
+
+    **EXAMPLE STRUCTURE:**
+
+    See this example mini literature review for guidance:
+    [Link to sample review paper]
+
+    Your work should be similar in:
+    - Professional formatting
+    - Comprehensive coverage
+    - Critical analysis
+    - Clear organization
+
+    ═══════════════════════════════════════════════
+
+    PRESENTATION ASSIGNMENTS
+    ═══════════════════════════════════════════════
+
+    Throughout the course, you may be asked to present papers to the class.
+
+    **PAPER PRESENTATION FORMAT:**
+
+    Duration: 20 minutes + 10 min Q&A
+
+    Slide Structure:
+    1. Title slide (with your name)
+    2. Motivation (2-3 slides)
+       - Problem context
+       - Why it matters
+    3. Background (2 slides)
+       - Prerequisites
+       - Related work (briefly)
+    4. Main Contribution (4-5 slides)
+       - Key idea
+       - Algorithm/approach
+       - Examples
+    5. Results (2-3 slides)
+       - Experimental setup
+       - Main findings
+       - Graphs/tables
+    6. Critical Analysis (2 slides)
+       - Strengths
+       - Limitations
+    7. Takeaways (1 slide)
+       - Main lessons
+       - Open questions
+    8. Questions slide
+
+    **Presentation Tips:**
+    - Don't just read the paper aloud
+    - Explain concepts in your own words
+    - Use visuals and examples
+    - Highlight key insights
+    - Engage audience with questions
+    - Manage time carefully
+
+    **Grading:**
+    - Content understanding: 40%
+    - Clarity of explanation: 30%
+    - Visual aids quality: 15%
+    - Time management: 10%
+    - Q&A handling: 5%
+
+    ═══════════════════════════════════════════════
+
+    PAPER READING LIST
+    ═══════════════════════════════════════════════
+
+    **REQUIRED PAPERS (must read and analyze):**
+
+    Foundational (Weeks 1-4):
+    1. [Paper 1 - Full citation and URL]
+    2. [Paper 2 - Full citation and URL]
+    3. [Paper 3 - Full citation and URL]
+
+    Methodology (Weeks 5-8):
+    4. [Paper 4 - Full citation and URL]
+    5. [Paper 5 - Full citation and URL]
+
+    Recent/Advanced (Weeks 9-12):
+    6. [Paper 6 - Full citation and URL]
+    7. [Paper 7 - Full citation and URL]
+    8. [Paper 8 - Full citation and URL]
+
+    **RECOMMENDED PAPERS (optional, for deeper understanding):**
+
+    Survey Papers:
+    - [Survey 1 - Full citation and URL]
+    - [Survey 2 - Full citation and URL]
+
+    Advanced Topics:
+    - [Advanced 1 - Full citation and URL]
+    - [Advanced 2 - Full citation and URL]
+
+    Classic Papers (historical interest):
+    - [Classic 1 - Full citation and URL]
+    - [Classic 2 - Full citation and URL]
+
+    ═══════════════════════════════════════════════
+
+    TIPS FOR READING RESEARCH PAPERS
+    ═══════════════════════════════════════════════
+
+    **The Three-Pass Approach:**
+
+    Pass 1 (5-10 minutes):
+    - Read title, abstract, introduction
+    - Read section headings
+    - Glance at figures
+    - Read conclusion
+    - Goal: Get the gist
+
+    Pass 2 (1 hour):
+    - Read paper carefully but skip proofs
+    - Note key points and figures
+    - Mark references to read
+    - Goal: Grasp main content
+
+    Pass 3 (4-5 hours, for important papers):
+    - Read very carefully
+    - Challenge every assumption
+    - Think about how you would present it
+    - Note strengths and weaknesses
+    - Goal: Deep understanding
+
+    **Active Reading Strategies:**
+    - Take notes as you read
+    - Draw diagrams
+    - Work through examples
+    - Question claims
+    - Connect to what you know
+
+    **Critical Questions to Ask:**
+    - What problem are they solving?
+    - Is this problem important?
+    - What did they actually do?
+    - Does their approach make sense?
+    - Are the results convincing?
+    - What are the limitations?
+    - What would I do differently?
+
+    ═══════════════════════════════════════════════
+
+    APPENDIX
+    ═══════════════════════════════════════════════
+
+    A. Paper Summary Template
+    B. Critical Analysis Checklist
+    C. Citation Guidelines
+    D. Academic Writing Resources
+    E. Research Databases Access
+  output_model: 'PaperAnalysis'
+  agent: src/agents/academic_agents/academic_workshop_agents/research_paper_analyst.yaml
+  context:
+    - task_academic_writing

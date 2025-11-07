@@ -1,0 +1,910 @@
+task:
+  name : task_mixed_exercises
+  description: >
+    Create integrated exercises combining theory and practice for {topic} for intermediate/advanced learners.
+
+    Use the Comprehensive Course Content to design exercises that bridge concepts and implementation.
+
+        Create 4 TYPES OF INTEGRATED EXERCISES:
+
+        1. IMPLEMENT & ANALYZE (40%)
+           - Implement algorithm or system
+           - Measure performance empirically
+           - Compare to theoretical predictions
+           - Explain discrepancies
+
+           Create 12-15 exercises with both coding and analysis
+
+        2. DESIGN & JUSTIFY (30%)
+           - Design a solution to a problem
+           - Explain design choices theoretically
+           - Analyze trade-offs
+           - Implement and validate
+
+           Create 8-10 design exercises
+
+        3. COMPARE & CONTRAST (20%)
+           - Implement multiple approaches
+           - Benchmark them empirically
+           - Analyze theoretically
+           - Recommend best for different scenarios
+
+           Create 6-8 comparison exercises
+
+        4. EXTEND & OPTIMIZE (10%)
+           - Start with basic implementation
+           - Analyze performance bottlenecks
+           - Apply theoretical insights
+           - Optimize and measure improvement
+
+           Create 3-5 optimization exercises
+
+        FOR EACH EXERCISE PROVIDE:
+
+        THREE COMPONENTS:
+
+        PART A: CONCEPTUAL (30%)
+        - Theory questions
+        - Explain concepts
+        - Analyze algorithms
+        - Predict behavior
+
+        PART B: IMPLEMENTATION (40%)
+        - Write code
+        - Multiple approaches
+        - Handle edge cases
+        - Test thoroughly
+
+        PART C: ANALYSIS (30%)
+        - Measure performance
+        - Compare with theory
+        - Generate insights
+        - Write mini-report
+
+        DELIVERABLES:
+        - Written answers to theory questions
+        - Source code (commented)
+        - Test suite
+        - Benchmark results
+        - Analysis report
+        - README with findings
+
+        Ensure exercises build complete understanding of both theory and practice.
+  expected_output: >
+    A comprehensive integrated exercise collection:
+
+    INTEGRATED EXERCISES FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total exercises: 30-35
+    - Format: Theory + Practice + Analysis
+    - Target: Intermediate to Advanced learners
+    - Time: 40-50 hours total
+    - Goal: Complete mastery through integration
+
+    ═══════════════════════════════════════════════
+
+    MODULE 1: INTEGRATED EXERCISES
+    ═══════════════════════════════════════════════
+
+    IMPLEMENT & ANALYZE EXERCISES
+    ───────────────────────────────────────────────
+
+    Exercise 1.1: [Algorithm Name] - Theory to Practice
+    ───────────────────────────────────────────────
+    ⏱️ 2-3 hours | ⭐⭐⭐ Intermediate | 📊 Theory 40% / Practice 60%
+
+    **LEARNING OBJECTIVES:**
+
+    Understand (Theory):
+    - How [algorithm] works internally
+    - Why it has O(...) complexity
+    - What trade-offs it makes
+
+    Apply (Practice):
+    - Implement the algorithm correctly
+    - Test it thoroughly
+    - Measure its real performance
+
+    Analyze (Integration):
+    - Compare theory vs reality
+    - Understand when predictions match/differ
+    - Make informed decisions
+
+    ───────────────────────────────────────────────
+
+    **PART A: THEORETICAL UNDERSTANDING (30%)**
+
+    **Question 1: Algorithm Analysis (10 points)**
+
+    Before implementing, analyze the algorithm theoretically:
+
+    a) What is the time complexity of [algorithm] in:
+       - Best case: _____ because _____
+       - Average case: _____ because _____
+       - Worst case: _____ because _____
+
+    b) What is the space complexity? _____
+       Explain your reasoning:
+
+    c) For an input of size n=1,000,000:
+       - How many operations do you predict? _____
+       - How much memory? _____
+       - Show your calculations:
+
+    **Question 2: Design Decisions (8 points)**
+
+    d) Why does this algorithm use [data structure X]?
+
+    e) What are the key design trade-offs?
+       - Advantage: _____
+       - Disadvantage: _____
+       - Alternative approach: _____
+
+    f) When would you choose this algorithm over [alternative]?
+
+    **Question 3: Theoretical Prediction (7 points)**
+
+    g) Based on your analysis, predict the running time for:
+       - n=100: _____ operations
+       - n=1,000: _____ operations
+       - n=10,000: _____ operations
+       - n=100,000: _____ operations
+
+    h) Sketch a graph of predicted performance (time vs n)
+
+    ───────────────────────────────────────────────
+
+    **PART B: IMPLEMENTATION (40%)**
+
+    **Task 1: Basic Implementation (15 points)**
+
+    Implement the algorithm:
+    def algorithm_name(input_data):
+
+        Implement [algorithm name]
+
+        Args:
+            input_data: [description]
+
+        Returns:
+            [description]
+
+        Time Complexity: O(...)
+        Space Complexity: O(...)
+
+        # TODO: Your implementation here
+        pass
+    Requirements:
+
+    Must be correct for all test cases
+    Must handle edge cases
+    Code should be clean and readable
+    Include complexity annotations in comments
+
+    Test Cases:
+    python# Test 1: Basic functionality
+    assert algorithm_name([1, 2, 3]) == [expected]
+
+    # Test 2: Edge case - empty input
+    assert algorithm_name([]) == [expected]
+
+    # Test 3: Edge case - single element
+    assert algorithm_name([1]) == [expected]
+
+    # Test 4: Large input (correctness)
+    large_input = generate_test_data(10000)
+    result = algorithm_name(large_input)
+    assert validate_result(result) == True
+
+    # Add more tests for edge cases
+    Task 2: Alternative Implementation (10 points)
+    Implement an alternative approach:
+    def algorithm_name_v2(input_data):
+
+        Alternative implementation using [different approach]
+
+        Compare this with the first version in Part C
+        # TODO: Different approach
+        pass
+    ───────────────────────────────────────────────
+    PART C: EMPIRICAL ANALYSIS (30%)
+    Task 1: Performance Measurement (12 points)
+    Benchmark your implementations:
+    pythonimport time
+    import matplotlib.pyplot as plt
+
+    def benchmark_algorithm():
+        sizes = [100, 500, 1000, 5000, 10000, 50000, 100000]
+        times_v1 = []
+        times_v2 = []
+
+        for n in sizes:
+            # Generate test data
+            data = generate_test_data(n)
+
+            # Benchmark version 1
+            start = time.time()
+            algorithm_name(data)
+            times_v1.append(time.time() - start)
+
+            # Benchmark version 2
+            start = time.time()
+            algorithm_name_v2(data)
+            times_v2.append(time.time() - start)
+
+        return sizes, times_v1, times_v2
+
+    # Run benchmark
+    sizes, times_v1, times_v2 = benchmark_algorithm()
+
+    # Plot results
+    plt.plot(sizes, times_v1, label='Version 1', marker='o')
+    plt.plot(sizes, times_v2, label='Version 2', marker='s')
+    plt.xlabel('Input Size (n)')
+    plt.ylabel('Time (seconds)')
+    plt.title('Performance Comparison')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig('performance_comparison.png')
+    Create this graph and include it in your report.
+    Task 2: Theory vs Practice Analysis (10 points)
+    Compare your predictions with actual measurements:
+    Create a table:
+    Input SizePredicted (ops)Actual Time (s)Operations/Second100[from Part A][measured][calculated]1,000[from Part A][measured][calculated]10,000[from Part A][measured][calculated]100,000[from Part A][measured][calculated]
+    Questions:
+
+    Does the empirical data match your O(...) prediction?
+    If there are discrepancies, explain why:
+    What factors affect real-world performance that theory doesn't capture?
+
+    Task 3: Written Analysis Report (8 points)
+    Write a 1-2 page analysis covering:
+
+    Implementation Approach
+
+    How you implemented it
+    Challenges you faced
+    Design decisions you made
+
+
+    Performance Analysis
+
+    Theoretical complexity recap
+    Empirical results summary
+    Comparison: theory vs practice
+    Graph interpretation
+
+
+    Trade-offs Discussion
+
+    Version 1 vs Version 2 comparison
+    When to use which approach
+    Memory vs time trade-offs
+
+
+    Conclusions
+
+    Key learnings
+    What surprised you
+    Real-world implications
+
+
+
+    ───────────────────────────────────────────────
+    DELIVERABLES CHECKLIST:
+    Submit these files:
+
+     theory_answers.pdf - Part A answers
+     implementation.py - Part B code
+     tests.py - Your test suite
+     benchmark.py - Benchmarking script
+     performance_comparison.png - Graph
+     analysis_report.pdf - Part C analysis (1-2 pages)
+     README.md - How to run everything
+
+    ───────────────────────────────────────────────
+    GRADING RUBRIC:
+    Part A - Theory (25 points):
+
+    Complexity analysis: 10 pts
+    Design decisions: 8 pts
+    Predictions: 7 pts
+
+    Part B - Implementation (40 points):
+
+    Correctness: 20 pts
+    Code quality: 10 pts
+    Alternative approach: 10 pts
+
+    Part C - Analysis (35 points):
+
+    Benchmarking: 12 pts
+    Theory-practice comparison: 10 pts
+    Written analysis: 13 pts
+
+    Bonus (up to 10 points):
+
+    Exceptional insights
+    Additional optimizations
+    Creative extensions
+
+    ───────────────────────────────────────────────
+    SOLUTION GUIDE:
+    <details>
+    <summary>📖 View Solution (try first!)</summary>
+    Part A - Theory Answers:
+    a) Time complexity:
+
+    Best case: O(n) when [condition]
+    Average case: O(n log n) because [reasoning with math]
+    Worst case: O(n²) when [condition]
+
+    b) Space complexity: O(n) because [reasoning]
+    c) For n=1,000,000:
+
+    Operations: ~20,000,000 (n log n ≈ 1M × 20)
+    Memory: ~8MB (assuming 8 bytes per element)
+
+    [Continue with all answers...]
+    Part B - Implementation:
+    def algorithm_name(input_data):
+        Complete implementation with comments
+        # [Clean, efficient code with explanations]
+        pass
+
+    def algorithm_name_v2(input_data):
+        Alternative approach
+        # [Different implementation]
+        pass
+    Part C - Analysis:
+    Expected results:
+
+    Graph should show O(n log n) trend
+    Version 1 slightly faster for small n
+    Version 2 better for large n
+    Real performance ~80% of theoretical due to constant factors
+
+    Key insights:
+
+    [Insight 1]
+    [Insight 2]
+    [Insight 3]
+
+    </details>
+    ═══════════════════════════════════════════════
+    [Continue with more Implement & Analyze exercises...]
+    ═══════════════════════════════════════════════
+    DESIGN & JUSTIFY EXERCISES
+    ───────────────────────────────────────────────
+    Exercise 1.5: System Design Challenge
+    ───────────────────────────────────────────────
+    ⏱️ 2-3 hours | ⭐⭐⭐ Advanced | 🎯 Design Focus
+    THE PROBLEM:
+    Design a [system/component] that [requirements].
+    REQUIREMENTS:
+    Functional:
+
+    Must support [operation 1]
+    Must support [operation 2]
+    Must handle [scale requirement]
+
+    Non-Functional:
+
+    Performance: [specific target]
+    Scalability: [specific target]
+    Memory: [constraint]
+
+    ───────────────────────────────────────────────
+    PART A: DESIGN (40%)
+    Task 1: Design Document (20 points)
+    Create a design document covering:
+
+    Problem Analysis
+
+    What are we building?
+    What are the challenges?
+    What are the constraints?
+
+
+    Design Options
+    Option A: [Approach 1]
+
+    How it works:
+    Time complexity:
+    Space complexity:
+    Pros:
+    Cons:
+
+    Option B: [Approach 2]
+    [Same structure]
+    Option C: [Approach 3]
+    [Same structure]
+    Design Decision
+
+    Chosen approach: _____
+    Justification: _____
+    Trade-offs accepted: _____
+
+
+    Data Structures
+
+    Primary: _____ because _____
+    Secondary: _____ because _____
+
+
+    Algorithm Choices
+
+    For operation 1: _____ (O(...)) because _____
+    For operation 2: _____ (O(...)) because _____
+
+
+    Architecture Diagram
+    [Draw/describe system architecture]
+
+    Task 2: Theoretical Analysis (15 points)
+    For your chosen design:
+    a) Analyze complexity of each operation
+    b) Prove correctness (informal proof)
+    c) Identify potential bottlenecks
+    d) Discuss scalability limits
+    ───────────────────────────────────────────────
+    PART B: IMPLEMENTATION (35%)
+    Implement your design:
+    class YourSystem:
+
+        [Your designed system]
+
+        Design decisions:
+        - [Decision 1]: Because [reason]
+        - [Decision 2]: Because [reason]
+
+        def __init__(self):
+            # Initialize based on your design
+            pass
+
+        def operation1(self, params):
+
+            [Operation 1]
+            Time: O(...)
+            Space: O(...)
+
+            pass
+
+        def operation2(self, params):
+
+            [Operation 2]
+            Time: O(...)
+            Space: O(...)
+
+            pass
+
+    # Comprehensive tests
+    class TestYourSystem:
+        def test_correctness(self):
+            # Test all operations work correctly
+            pass
+
+        def test_edge_cases(self):
+            # Test boundary conditions
+            pass
+
+        def test_performance(self):
+            # Test meets performance requirements
+            pass
+    ───────────────────────────────────────────────
+    PART C: VALIDATION & REFLECTION (25%)
+    Task 1: Performance Validation (12 points)
+    Measure whether your implementation meets requirements:
+    pythondef validate_performance():
+        system = YourSystem()
+
+        # Test requirement 1: [specific requirement]
+        # Expected: [target]
+        actual = measure_operation1_performance()
+        assert actual <= target, f"Failed: actual > target"
+
+        # Test requirement 2: [specific requirement]
+        # [Similar structure]
+    Task 2: Design Reflection (8 points)
+    Write a reflection (1 page):
+
+    What worked well:
+
+    Aspects of design that performed as expected
+    Good decisions that paid off
+
+
+    What could be improved:
+
+    Bottlenecks discovered
+    Trade-offs that hurt more than expected
+    Alternative you'd consider now
+
+
+    Lessons learned:
+
+    How theory guided implementation
+    What practice revealed about theory
+    Key insights gained
+
+
+
+    Task 3: Alternative Exploration (5 points)
+    Briefly implement one alternative approach you didn't choose:
+    class AlternativeSystem:
+
+        The approach you didn't choose
+        Compare this with your main design
+
+        pass
+    Quick benchmark: Which is actually better for your use case?
+    ───────────────────────────────────────────────
+    DELIVERABLES:
+
+     design_document.pdf (Part A)
+     implementation.py (Part B)
+     tests.py (Part B)
+     performance_validation.py (Part C)
+     reflection.pdf (Part C)
+     alternative.py (Part C)
+     README.md
+
+    ───────────────────────────────────────────────
+    EVALUATION:
+    Design Quality (40%):
+
+    Multiple options considered: 10 pts
+    Justification quality: 15 pts
+    Theoretical soundness: 15 pts
+
+    Implementation Quality (35%):
+
+    Correctness: 20 pts
+    Follows design: 10 pts
+    Code quality: 5 pts
+
+    Validation & Reflection (25%):
+
+    Performance validation: 12 pts
+    Reflection depth: 8 pts
+    Alternative exploration: 5 pts
+
+    ═══════════════════════════════════════════════
+    [Continue with more Design & Justify exercises...]
+    ═══════════════════════════════════════════════
+    COMPARE & CONTRAST EXERCISES
+    ───────────────────────────────────────────────
+    Exercise 1.10: Algorithm Comparison Study
+    ───────────────────────────────────────────────
+    ⏱️ 3-4 hours | ⭐⭐⭐⭐ Advanced | 📊 Comparative Analysis
+    THE CHALLENGE:
+    Compare [3 different algorithms] for solving [same problem].
+    ALGORITHMS TO COMPARE:
+
+    Algorithm A: [Name/Approach]
+    Algorithm B: [Name/Approach]
+    Algorithm C: [Name/Approach]
+
+    YOUR MISSION:
+
+    Implement all three
+    Analyze theoretically
+    Benchmark empirically
+    Determine when to use each
+
+    ───────────────────────────────────────────────
+    PART A: THEORETICAL COMPARISON (30%)
+    Create a comprehensive comparison table:
+    AspectAlgorithm AAlgorithm BAlgorithm CTime Complexity- Best caseO(...)O(...)O(...)- Average caseO(...)O(...)O(...)- Worst caseO(...)O(...)O(...)Space ComplexityO(...)O(...)O(...)Assumptions[list][list][list]Strengths[list][list][list]Weaknesses[list][list][list]Best Use Case[when][when][when]
+    Questions:
+
+    Which algorithm has the best theoretical performance overall?
+    Under what conditions does each algorithm excel?
+    Are there scenarios where a "worse" algorithm is actually better?
+    What trade-offs does each make?
+
+    ───────────────────────────────────────────────
+    PART B: IMPLEMENTATION & TESTING (40%)
+    Implement all three algorithms:
+    def algorithm_a(data):
+        Implementation A
+        pass
+
+    def algorithm_b(data):
+        Implementation B
+        pass
+
+    def algorithm_c(data):
+        Implementation C
+        pass
+
+    # Unified test suite (all must pass)
+    def test_all_algorithms():
+        test_data = generate_test_cases()
+
+        for test in test_data:
+            result_a = algorithm_a(test.input)
+            result_b = algorithm_b(test.input)
+            result_c = algorithm_c(test.input)
+
+            # All should produce same correct result
+            assert result_a == test.expected
+            assert result_b == test.expected
+            assert result_c == test.expected
+    ───────────────────────────────────────────────
+    PART C: EMPIRICAL COMPARISON (30%)
+    Comprehensive Benchmarking:
+    pythondef comprehensive_benchmark():
+        scenarios = {
+            'small_input': generate_data(100),
+            'medium_input': generate_data(10000),
+            'large_input': generate_data(1000000),
+            'best_case': generate_best_case(),
+            'worst_case': generate_worst_case(),
+            'random': generate_random_data(),
+        }
+
+        results = {}
+
+        for scenario_name, data in scenarios.items():
+            results[scenario_name] = {
+                'algorithm_a': benchmark(algorithm_a, data),
+                'algorithm_b': benchmark(algorithm_b, data),
+                'algorithm_c': benchmark(algorithm_c, data),
+            }
+
+        return results
+
+    # Visualize results
+    def visualize_comparison(results):
+        # Create multiple graphs:
+        # 1. Time vs input size (all algorithms)
+        # 2. Best/average/worst case comparison
+        # 3. Memory usage comparison
+        pass
+    Analysis Report (2-3 pages):
+
+    Theoretical Predictions
+
+    Recap of theoretical analysis
+    Predictions for each scenario
+
+
+    Empirical Results
+
+    Actual measurements
+    Graphs and tables
+    Statistical analysis
+
+
+    Theory vs Practice
+
+    Where predictions matched
+    Where they differed and why
+    Unexpected findings
+
+
+    Recommendations
+
+    Algorithm selection guide:
+
+    Use A when: [conditions]
+    Use B when: [conditions]
+    Use C when: [conditions]
+
+
+    Decision tree or flowchart
+    Real-world considerations
+
+
+
+    ───────────────────────────────────────────────
+    DELIVERABLES:
+
+     theoretical_comparison.pdf
+     implementations.py (all three algorithms)
+     tests.py
+     benchmark.py
+     comparison_report.pdf (2-3 pages)
+     graphs/ (all visualization images)
+     README.md
+
+    ───────────────────────────────────────────────
+    GRADING:
+    Theoretical Analysis (30%):
+
+    Comparison table completeness: 15 pts
+    Insight quality: 15 pts
+
+    Implementation (40%):
+
+    All algorithms correct: 25 pts
+    Code quality: 10 pts
+    Test coverage: 5 pts
+
+    Empirical Analysis (30%):
+
+    Benchmarking thoroughness: 12 pts
+    Analysis depth: 12 pts
+    Recommendations quality: 6 pts
+
+    ═══════════════════════════════════════════════
+    [Continue with more Compare & Contrast exercises...]
+    ═══════════════════════════════════════════════
+    EXTEND & OPTIMIZE EXERCISES
+    ───────────────────────────────────────────────
+    Exercise 1.15: Optimization Challenge
+    ───────────────────────────────────────────────
+    ⏱️ 2-3 hours | ⭐⭐⭐⭐ Expert | 🚀 Optimization Focus
+    STARTING POINT:
+    You're given a working but naive implementation:
+    def naive_solution(data):
+
+        This works but is O(n³) - way too slow!
+
+        For n=1000, takes 10 seconds
+        For n=10000, would take 10,000 seconds (2.7 hours!)
+
+        Your goal: Optimize to O(n log n) or better
+
+        # [Inefficient but correct code provided]
+        pass
+    YOUR CHALLENGE:
+    Optimize this to handle n=100,000 in under 5 seconds.
+    ───────────────────────────────────────────────
+    PART A: BOTTLENECK ANALYSIS (25%)
+    Task 1: Profile the Code
+    pythonimport cProfile
+    import pstats
+
+    # Profile the naive solution
+    profiler = cProfile.Profile()
+    profiler.enable()
+    naive_solution(test_data)
+    profiler.disable()
+
+    stats = pstats.Stats(profiler)
+    stats.sort_stats('cumulative')
+    stats.print_stats(10)  # Top 10 bottlenecks
+    Questions:
+
+    What is the primary bottleneck?
+    Which part of the code takes the most time?
+    Why is it O(n³)? Identify the nested loops/recursion
+    What theoretical improvements are possible?
+
+    Task 2: Optimization Plan
+    Create a plan:
+
+    Bottleneck 1: [What it is] → Solution: [How to fix] → Expected gain: [improvement]
+    Bottleneck 2: [What it is] → Solution: [How to fix] → Expected gain: [improvement]
+    Target complexity: O(...) because [reasoning]
+
+    ───────────────────────────────────────────────
+    PART B: PROGRESSIVE OPTIMIZATION (45%)
+    Optimization Round 1: O(n²)
+    def optimized_v1(data):
+
+        First optimization: Reduce from O(n³) to O(n²)
+
+        Key improvement: [Explain what you changed]
+
+        # Your improved code
+        pass
+    Benchmark: Should handle n=1000 in ~1 second
+    Optimization Round 2: O(n log n)
+    def optimized_v2(data):
+
+        Second optimization: Reduce to O(n log n)
+
+        Key improvement: [Explain the breakthrough insight]
+        Uses: [Data structure/algorithm]
+
+        # Your further optimized code
+        pass
+    Benchmark: Should handle n=10,000 in ~0.5 seconds
+    Optimization Round 3: O(n) (if possible)
+    def optimized_v3(data):
+
+        Final optimization: Can we get to O(n)?
+
+        This might not be possible, but try!
+
+        # Your ultimate optimization
+        pass
+    ───────────────────────────────────────────────
+    PART C: VALIDATION & ANALYSIS (30%)
+    Correctness Validation:
+    def validate_optimizations():
+        test_cases = generate_comprehensive_tests()
+
+        for test in test_cases:
+            naive_result = naive_solution(test.input)
+            v1_result = optimized_v1(test.input)
+            v2_result = optimized_v2(test.input)
+            v3_result = optimized_v3(test.input)
+
+            assert naive_result == v1_result == v2_result == v3_result
+    Performance Comparison:
+    Create graphs showing:
+
+    Time vs input size (all versions)
+    Speedup factor (compared to naive)
+    Memory usage (if relevant)
+
+    Optimization Report (1-2 pages):
+
+    Initial Analysis
+
+    Bottlenecks identified
+    Theoretical analysis
+
+
+    Optimization Journey
+
+    Round 1: What you did and why
+    Round 2: The key insight
+    Round 3: Final improvements
+
+
+    Results
+
+    Performance gains achieved
+    Complexity improvements
+    Trade-offs made
+
+
+    Lessons Learned
+
+    What techniques worked
+    How theory guided optimization
+    General optimization principles
+
+
+
+    ───────────────────────────────────────────────
+    DELIVERABLES:
+
+     analysis.pdf (Part A)
+     optimizations.py (All versions)
+     tests.py (Validation)
+     benchmark.py
+     optimization_report.pdf
+     performance_graphs.png
+
+    ───────────────────────────────────────────────
+    SUCCESS METRICS:
+    Target Performance:
+
+     n=1,000: < 0.1s
+     n=10,000: < 1s
+     n=100,000: < 5s
+
+    Complexity Achieved:
+
+     Better than O(n²)
+     O(n log n) or better
+     O(n) if possible
+
+    Analysis Quality:
+
+     Identified all bottlenecks
+     Explained each optimization
+     Theoretical justification
+
+    ═══════════════════════════════════════════════
+    [Continue with more optimization exercises...]
+    ═══════════════════════════════════════════════
+    APPENDIX
+    ═══════════════════════════════════════════════
+    A. Exercise Solutions (Detailed)
+    B. Performance Analysis Guide
+    C. Benchmarking Best Practices
+    D. Report Writing Templates
+    E. Code Review Checklist
+  output_model: MixedExercises
+  agent: src/agents/comprehensive_agents/comprehensive_workshop_agents/mixed_exercise_designer.yaml
+  context:
+    -task_comprehensive_writing

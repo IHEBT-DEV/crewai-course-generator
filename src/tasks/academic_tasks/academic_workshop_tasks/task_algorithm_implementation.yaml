@@ -1,0 +1,486 @@
+task:
+  name : task_algorithm_implementation
+  description: >
+    Create advanced programming assignments for {topic} requiring algorithm implementation and analysis.
+  
+            Use the Academic Course Content to identify algorithms that need implementation.
+  
+            Create 4 TYPES OF ASSIGNMENTS:
+  
+            1. ALGORITHM IMPLEMENTATION (40%)
+               - Implement algorithms from pseudocode or papers
+               - Optimize implementations
+               - Handle edge cases rigorously
+               - Verify correctness formally
+  
+               Create 3-4 assignments:
+               - Basic: 1-2 core algorithms (1-2 weeks)
+               - Advanced: Complex algorithm from paper (2-3 weeks)
+               - Optimization: Improve baseline (1-2 weeks)
+  
+            2. PERFORMANCE ANALYSIS (30%)
+               - Benchmark implementations
+               - Compare theoretical vs empirical complexity
+               - Profile and optimize code
+               - Generate performance graphs and analysis
+  
+               Create 2-3 assignments requiring:
+               - Extensive benchmarking
+               - Graph generation
+               - Statistical analysis
+               - Written reports
+  
+            3. RESEARCH REPRODUCTION (20%)
+               - Reproduce results from papers
+               - Implement baseline algorithms for comparison
+               - Generate figures and tables from papers
+               - Write research-style report
+  
+               Create 1-2 assignments:
+               - Reproduce paper experiment
+               - Compare multiple algorithms
+  
+            4. EXTENSION CHALLENGES (10%)
+               - Extend algorithms to new cases
+               - Propose and implement optimizations
+               - Mini research projects
+  
+               Create 2-3 open-ended challenges
+  
+            FOR EACH ASSIGNMENT PROVIDE:
+  
+            SPECIFICATION:
+            - Assignment title and number
+            - Due date suggestion (weeks from start)
+            - Points total
+            - Formal problem description
+            - Input/output specifications
+            - Correctness criteria
+            - Performance requirements
+            - Test cases (visible + hidden)
+  
+            RESOURCES:
+            - References to papers/book chapters
+            - Starter code skeleton (optional)
+            - Dataset links or generation code
+            - Evaluation/testing scripts
+            - Grading rubric
+  
+            DELIVERABLES:
+            - Source code (well-commented)
+            - Test suite
+            - Performance analysis report
+            - Written report (for major assignments)
+            - README with build/run instructions
+  
+            GRADING CRITERIA:
+            - Correctness (40%)
+            - Performance/Efficiency (25%)
+            - Code quality (15%)
+            - Analysis/Report (20%)
+  
+            Include detailed implementation requirements and analysis expectations.
+  expected_output: >
+    A complete set of programming assignments:
+  
+        ALGORITHM IMPLEMENTATION ASSIGNMENTS FOR {topic}
+        ═══════════════════════════════════════════════
+  
+        OVERVIEW
+        - Total assignments: 8-10
+        - Duration: Throughout course (10-14 weeks)
+        - Language: [Python/Java/C++/Your choice]
+        - Submission: GitHub/GitLab repository
+  
+        ═══════════════════════════════════════════════
+  
+        ASSIGNMENT 1: Core Algorithm Implementation
+        ═══════════════════════════════════════════════
+        Due: Week 2-3 | Points: 100 | Difficulty: ⭐⭐
+  
+        **OBJECTIVE:**
+        Implement [2-3 fundamental algorithms] from scratch to understand core concepts of {topic}.
+  
+        **ALGORITHMS TO IMPLEMENT:**
+  
+        1. [Algorithm A]
+           - Based on: [Lesson X.Y]
+           - Complexity requirement: O(...)
+  
+        2. [Algorithm B]
+           - Based on: [Paper citation or textbook]
+           - Complexity requirement: O(...)
+  
+        **PROBLEM SPECIFICATION:**
+        Input: [Precise specification]
+        Output: [Precise specification]
+        Constraints:
+  
+        Time complexity: Must achieve O(...)
+        Space complexity: Must not exceed O(...)
+        Edge cases: Must handle [list]
+  
+  
+        **IMPLEMENTATION REQUIREMENTS:**
+  
+        Required Functions:
+  
+        def algorithm_a(input_data: InputType) -> OutputType:
+  
+            [Detailed docstring with complexity analysis]
+  
+            Args:
+                input_data: [description]
+  
+            Returns:
+                [description]
+  
+            Time: O(...)
+            Space: O(...)
+            pass
+  
+        # [More function signatures]
+        Code Quality Requirements:
+  
+        Type hints on all functions
+        Comprehensive docstrings
+        Complexity analysis in comments
+        Handle edge cases explicitly
+        No external libraries except [allowed list]
+  
+        TEST CASES:
+        Visible Test Cases (you can see these):
+        python# Test Case 1: Basic functionality
+        input1 = [...]
+        expected1 = [...]
+        assert algorithm_a(input1) == expected1
+  
+        # Test Case 2: Edge case
+        input2 = [...]
+        expected2 = [...]
+        assert algorithm_a(input2) == expected2
+  
+        # [5-10 visible test cases]
+        Hidden Test Cases (used for grading):
+  
+        Large inputs (n=10^6)
+        Edge cases
+        Corner cases
+        Performance tests
+  
+        DELIVERABLES:
+  
+        assignment1.py - Your implementations
+        test_assignment1.py - Your test suite
+        README.md - Build and run instructions
+        ANALYSIS.md - Brief analysis (1-2 pages):
+  
+        Explain your approach
+        Discuss complexity
+        Mention challenges faced
+  
+  
+  
+        GRADING RUBRIC:
+        Correctness (40 points):
+  
+        Visible tests pass: 15 points
+        Hidden tests pass: 25 points
+  
+        Performance (25 points):
+  
+        Achieves required complexity: 15 points
+        Handles large inputs efficiently: 10 points
+  
+        Code Quality (15 points):
+  
+        Clean, readable code: 5 points
+        Proper documentation: 5 points
+        Handles edge cases: 5 points
+  
+        Analysis (20 points):
+  
+        Approach explanation: 8 points
+        Complexity discussion: 8 points
+        Reflection: 4 points
+  
+        STARTER CODE:
+        python# assignment1.py
+        # Starter code for Assignment 1
+  
+        from typing import List, Tuple
+  
+        def algorithm_a(input_data: List[int]) -> int:
+  
+            TODO: Implement Algorithm A
+  
+            Your implementation should achieve O(...) time complexity.
+  
+            Args:
+                input_data: [description]
+  
+            Returns:
+                [description]
+  
+            # TODO: Your code here
+            raise NotImplementedError
+  
+        # Test your implementation
+        if __name__ == "__main__":
+            # Example usage
+            test_input = [1, 2, 3, 4, 5]
+            result = algorithm_a(test_input)
+            print(f"Result: ", result)
+        RESOURCES:
+  
+        Lecture notes: Lesson X.Y
+        Textbook: Chapter Z, pages A-B
+        Paper: [Citation with URL]
+        Office hours: [Times]
+  
+        ───────────────────────────────────────────────
+        ASSIGNMENT 2: Advanced Implementation & Optimization
+        ═══════════════════════════════════════════════
+        Due: Week 5-6 | Points: 150 | Difficulty: ⭐⭐⭐
+        OBJECTIVE:
+        Implement a complex algorithm from a research paper and optimize it for performance.
+        ALGORITHM:
+        [Algorithm name] from [Paper: Authors, Year]
+        Paper URL: [link]
+        BACKGROUND:
+        Read Sections [X-Y] of the paper. You'll implement the algorithm described on page [Z].
+        PROBLEM SPECIFICATION:
+        This is a more complex assignment. You need to:
+  
+        Understand the paper's algorithm
+        Implement it correctly
+        Optimize for real-world performance
+        Compare with naive baseline
+  
+        Input: [Complex input specification]
+        Output: [Complex output specification]
+        Constraints:
+        - Must handle inputs up to size 10^6
+        - Should complete within 10 seconds for n=10^6
+        - Memory limit: 2GB
+        PHASES:
+        Phase 1: Naive Implementation (40% of grade)
+  
+        Get correctness first
+        Don't worry about optimization yet
+        Must pass all test cases
+  
+        Phase 2: Optimization (40% of grade)
+  
+        Apply algorithmic optimizations
+        Use efficient data structures
+        Measure improvements
+  
+        Phase 3: Analysis (20% of grade)
+  
+        Benchmark both versions
+        Generate performance graphs
+        Write detailed report
+  
+        IMPLEMENTATION REQUIREMENTS:
+        pythonclass NaiveImplementation:
+            Baseline implementation for correctness
+            def __init__(self):
+                pass
+  
+            def solve(self, input_data):
+                Simple, correct implementation
+                pass
+  
+        class OptimizedImplementation:
+            Optimized version using techniques from paper
+            def __init__(self):
+                # [Efficient data structures]
+                pass
+  
+            def solve(self, input_data):
+                Fast implementation with same correctness
+                pass
+        BENCHMARKING REQUIREMENTS:
+        Create a benchmarking script:
+        pythonimport time
+        import matplotlib.pyplot as plt
+  
+        def benchmark():
+            sizes = [100, 1000, 10000, 100000, 1000000]
+            naive_times = []
+            optimized_times = []
+  
+            for n in sizes:
+                data = generate_test_data(n)
+  
+                # Benchmark naive
+                start = time.time()
+                naive.solve(data)
+                naive_times.append(time.time() - start)
+  
+                # Benchmark optimized
+                start = time.time()
+                optimized.solve(data)
+                optimized_times.append(time.time() - start)
+  
+            # Generate comparison graph
+            plt.plot(sizes, naive_times, label='Naive')
+            plt.plot(sizes, optimized_times, label='Optimized')
+            plt.xlabel('Input Size')
+            plt.ylabel('Time (seconds)')
+            plt.legend()
+            plt.savefig('performance_comparison.png')
+  
+        if __name__ == "__main__":
+            benchmark()
+        DELIVERABLES:
+  
+        naive_implementation.py - Baseline version
+        optimized_implementation.py - Optimized version
+        benchmark.py - Performance testing script
+        tests.py - Comprehensive test suite
+        performance_comparison.png - Graph comparing versions
+        REPORT.md - Detailed report (4-6 pages):
+  
+        Algorithm explanation
+        Implementation approach
+        Optimization techniques applied
+        Performance analysis
+        Theoretical vs empirical complexity
+        Conclusions
+  
+  
+  
+        GRADING RUBRIC:
+        Correctness (60 points):
+  
+        Naive implementation correct: 20 points
+        Optimized implementation correct: 30 points
+        Test suite comprehensive: 10 points
+  
+        Performance (40 points):
+  
+        Meets time requirements: 20 points
+        Optimization effectiveness: 15 points
+        Benchmarking quality: 5 points
+  
+        Code Quality (20 points):
+  
+        Clean code: 8 points
+        Documentation: 7 points
+        Following best practices: 5 points
+  
+        Report (30 points):
+  
+        Algorithm explanation: 8 points
+        Analysis depth: 12 points
+        Graphs and results: 6 points
+        Writing quality: 4 points
+  
+        ───────────────────────────────────────────────
+        [Continue with remaining assignments...]
+        ───────────────────────────────────────────────
+        ASSIGNMENT 5: Research Reproduction
+        ═══════════════════════════════════════════════
+        Due: Week 10-12 | Points: 200 | Difficulty: ⭐⭐⭐⭐
+        OBJECTIVE:
+        Reproduce key results from a research paper on {topic}.
+        PAPER:
+        [Full citation]
+        URL: [link]
+        TASK:
+        Reproduce Figure X and Table Y from the paper.
+        REQUIREMENTS:
+  
+        Implement algorithms from paper:
+  
+        Proposed algorithm
+        2-3 baseline algorithms for comparison
+  
+  
+        Reproduce experiments:
+  
+        Use same datasets (or similar)
+        Follow experimental protocol
+        Generate same metrics
+  
+  
+        Generate results:
+  
+        Create Figure X (matching paper style)
+        Create Table Y with your results
+        Compare your results with paper
+  
+  
+        Write research report:
+  
+        Research paper format
+        8-10 pages
+        Include methodology, results, discussion
+  
+  
+  
+        DELIVERABLES:
+  
+        Complete codebase with all implementations
+        Reproduction of Figure X
+        Reproduction of Table Y
+        Research report (LaTeX or similar)
+        README with reproduction instructions
+  
+        GRADING:
+  
+        Implementation correctness (40%)
+        Result accuracy (30%)
+        Report quality (25%)
+        Code documentation (5%)
+  
+        ───────────────────────────────────────────────
+        FINAL PROJECT: Open-Ended Implementation
+        ═══════════════════════════════════════════════
+        Due: Week 14-15 | Points: 250 | Difficulty: ⭐⭐⭐⭐⭐
+        OBJECTIVE:
+        Implement a significant algorithm or system related to {topic} and conduct comprehensive analysis.
+        PROJECT OPTIONS:
+        Option A: Extend research paper
+  
+        Implement algorithm from paper
+        Propose and implement improvement
+        Compare empirically
+  
+        Option B: Comparative study
+  
+        Implement 3-4 algorithms for same problem
+        Comprehensive benchmarking
+        Analysis of trade-offs
+  
+        Option C: Your proposal
+  
+        Must be approved by Week 10
+        Should demonstrate mastery
+  
+        REQUIREMENTS:
+        All options must include:
+  
+        Substantial implementation (1000+ lines)
+        Comprehensive testing
+        Performance analysis with graphs
+        Research-quality report (15+ pages)
+        Code repository with documentation
+  
+        GRADING:
+        See detailed rubric in course materials.
+        ═══════════════════════════════════════════════
+        APPENDIX
+        ═══════════════════════════════════════════════
+        A. Coding Standards
+        B. Testing Guidelines
+        C. Performance Profiling Tools
+        D. Report Writing Guide
+        E. Git/GitHub Best Practices
+        F. Submission Instructions
+  output_model: 'AlgorithmImplementation'
+  agent: src/agents/academic_agents/academic_workshop_agents/algorithm_implementation.yaml
+  context:
+    - task_academic_writing

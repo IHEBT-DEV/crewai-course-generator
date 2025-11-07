@@ -1,0 +1,89 @@
+task:
+  name : task_academic_research
+  description: >
+    Conduct rigorous academic research on {topic} for expert-level learners.
+  
+        Your research must cover:
+  
+        PHASE 1 - FOUNDATIONAL PAPERS (40% of effort):
+        - Search Semantic Scholar for seminal papers on {topic}
+        - Use ArXiv to find foundational computer science papers
+        - Identify the original papers that introduced {topic}
+        - Find highly-cited works (500+ citations preferred)
+        - Extract core theoretical principles
+  
+        Search queries to use:
+        - "{topic}"
+        - "{topic} survey"
+        - "{topic} algorithm"
+        - "introduction to {topic}"
+  
+        PHASE 2 - STATE-OF-THE-ART (30% of effort):
+        - Find recent papers (last 2-3 years)
+        - Identify current research trends
+        - Look for benchmark results
+        - Note open problems and future directions
+  
+        PHASE 3 - ALGORITHMIC ANALYSIS (20% of effort):
+        - Papers with complexity analysis
+        - Algorithm descriptions and pseudocode
+        - Proof techniques and formal methods
+        - Performance comparisons
+  
+        PHASE 4 - IMPLEMENTATIONS (10% of effort):
+        - Papers with reproducible results
+        - GitHub repositories (official implementations)
+        - Technical reports with code
+  
+        For each important paper found, extract:
+        - Title, authors, year, venue, citation count
+        - Main contribution and key findings
+        - Algorithms and complexity
+        - Limitations and future work
+        - Links to paper and code (if available)
+  
+        Use all available tools: Semantic Scholar, ArXiv, Web Scraper, DuckDuckGo.
+        Cross-reference findings across multiple sources.
+        Prioritize peer-reviewed publications from top venues.
+  expected_output: >
+    A comprehensive academic research report with:
+  
+    1. EXECUTIVE SUMMARY (2-3 paragraphs)
+       - Overview of {topic} from academic perspective
+       - Key theoretical concepts
+       - Research landscape
+  
+    2. FOUNDATIONAL PAPERS (10-15 papers)
+       For each paper:
+       - Full citation: [Authors (Year). Title. Venue]
+       - PDF URL (if accessible)
+       - Main contribution (2-3 sentences)
+       - Key algorithms/concepts introduced
+       - Citation count and influence
+  
+    3. STATE-OF-THE-ART RESEARCH (5-10 recent papers)
+       - Recent advances (last 2-3 years)
+       - Current research trends
+       - Performance benchmarks
+       - Open research problems
+  
+    4. ALGORITHMIC FOUNDATIONS
+       - Core algorithms with complexity analysis
+       - Theoretical principles and proofs
+       - Mathematical frameworks
+       - Design patterns and techniques
+  
+    5. IMPLEMENTATION RESOURCES
+       - Papers with code available
+       - GitHub repositories (with URLs and stars)
+       - Technical reports and whitepapers
+  
+    6. RECOMMENDED READING PATH
+       - Beginner papers (foundational)
+       - Intermediate papers (applications)
+       - Advanced papers (cutting-edge)
+  
+    All sources must include working URLs and be properly cited.
+  output_model: 'Resources'
+  agent: src/agents/academic_agents/academic_researcher.yaml
+  context: []

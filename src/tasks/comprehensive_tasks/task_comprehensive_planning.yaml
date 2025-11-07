@@ -1,0 +1,355 @@
+task:
+  name : task_comprehensive_planning
+  description: >
+    Design a balanced, comprehensive course outline for {topic} combining theory and practice.
+
+        Use the Comprehensive Research Report as your source.
+
+        Your course must integrate theoretical understanding with practical application:
+
+        OVERALL STRUCTURE:
+        - 5-6 modules
+        - Each module: 40% theory, 60% practice
+        - Duration: 25-35 hours total
+
+        For EACH MODULE define:
+
+        1. MODULE OVERVIEW
+           - Professional title
+           - Learning objectives (both conceptual and practical)
+           - Theory topics covered
+           - Practical skills gained
+           - Estimated time
+           - Prerequisites
+
+        2. LESSON BREAKDOWN
+           For each lesson (integrate theory + practice):
+
+           THEORY COMPONENT:
+           - Concepts to understand
+           - Algorithms and complexity
+           - Design principles
+           - Papers to reference (1-2)
+
+           PRACTICE COMPONENT:
+           - Hands-on tutorial
+           - Code examples
+           - Mini-exercises (2-3)
+           - Practical application
+
+           INTEGRATION:
+           - How theory guides practice
+           - How practice validates theory
+           - Design decisions explained
+
+        3. PROJECT PROGRESSION
+           - Proof-of-concept (Module 1)
+           - Working prototype (Module 2)
+           - Feature-complete (Module 3)
+           - Optimized (Module 4)
+           - Production-ready capstone (Module 5)
+
+        4. ASSESSMENT MIX
+           - Conceptual questions (theory)
+           - Coding exercises (practice)
+           - Design challenges (integration)
+           - Analysis reports (both)
+
+        TYPICAL PROGRESSION:
+
+        MODULE 1: Foundations (5-6 hours)
+        - What/Why/History (theory)
+        - Quick hands-on success (practice)
+        - Core concepts formally (theory)
+        - Basic implementation (practice)
+
+        MODULE 2: Core Concepts (6-7 hours)
+        - Principles and algorithms (theory)
+        - Implementation tutorial (practice)
+        - Complexity analysis (theory)
+        - Performance testing (practice)
+
+        MODULE 3: Intermediate (6-7 hours)
+        - Advanced algorithms (theory)
+        - Real-world project (practice)
+        - Design patterns (theory + practice)
+        - Case studies (integration)
+
+        MODULE 4: Advanced (6-7 hours)
+        - Sophisticated techniques (theory)
+        - Production system (practice)
+        - Research papers (theory)
+        - Optimization project (practice)
+
+        MODULE 5: Mastery (4-5 hours)
+        - Cutting-edge research (theory)
+        - Comprehensive capstone (practice)
+        - Open problems (theory)
+        - Portfolio showcase (practice)
+
+        Balance theory and practice in each lesson.
+        Ensure theory informs practice and practice motivates theory.
+  expected_output: >
+    A complete comprehensive course outline with:
+
+    COURSE OVERVIEW:
+    - Course title: "Mastering {topic}: Theory and Practice"
+    - Target audience: Intermediate/Advanced learners
+    - Total duration: 28-35 hours
+    - Prerequisites: [list technical background needed]
+    - Learning outcomes:
+      CONCEPTUAL (Theory):
+      - [Theoretical understanding goal 1]
+      - [Theoretical understanding goal 2]
+      PRACTICAL (Practice):
+      - [Practical skill goal 1]
+      - [Practical skill goal 2]
+
+    LEARNING PATH:
+    - Theory: 40% (understand concepts, algorithms, design)
+    - Practice: 60% (build, optimize, deploy)
+    - Integration: Continuous (theory guides practice)
+
+    ═══════════════════════════════════════
+
+    MODULE 1: [Title]
+    ═══════════════════════════════════════
+    Duration: 5-6 hours
+    Approach: Foundation (theory + practice)
+
+    LEARNING OBJECTIVES:
+
+    Understand (Theory):
+    - [Conceptual objective 1]
+    - [Conceptual objective 2]
+
+    Apply (Practice):
+    - [Practical objective 1]
+    - [Practical objective 2]
+
+    THEORY TOPICS:
+    - [Core concept 1]
+    - [Core concept 2]
+    - [Algorithm 1 with complexity]
+
+    PRACTICAL SKILLS:
+    - [Implementation skill 1]
+    - [Tool usage 1]
+    - [Testing/debugging 1]
+
+    KEY PAPERS:
+    - [Paper 1 citation with URL]
+    - [Paper 2 citation with URL]
+
+    ───────────────────────────────────────
+
+    LESSONS:
+
+    1.1 [Title] (1.5 hours) - THEORY FOCUS
+
+        Theory Component (60%):
+        - Concept: [What you'll understand]
+        - Formal definition
+        - Why it matters
+        - Historical context
+        - Paper reference: [Author et al., Year]
+
+        Practice Component (40%):
+        - Quick demonstration code
+        - See concept in action
+        - Simple exercise
+
+        Integration:
+        - How theory predicts behavior
+        - Why we design it this way
+
+    1.2 [Title] (1.5 hours) - PRACTICE FOCUS
+
+        Theory Component (30%):
+        - Algorithm explanation
+        - Complexity analysis
+        - Design rationale
+
+        Practice Component (70%):
+        - Implementation tutorial
+        - Code walkthrough
+        - Hands-on exercises
+        - Build something working
+
+        Integration:
+        - Apply theoretical concepts
+        - Measure and compare with theory
+
+    1.3 [Title] (1.5 hours) - BALANCED
+
+        Theory Component (50%):
+        - [Advanced concept]
+        - [Mathematical foundation]
+
+        Practice Component (50%):
+        - [Implementation]
+        - [Testing approach]
+
+        Integration:
+        - Theory-driven optimization
+        - Practice-validated design
+
+    [Continue for all lessons]
+
+    ───────────────────────────────────────
+
+    MODULE PROJECT: [Name] (2 hours)
+
+    Project Goal:
+    Build [something that demonstrates both understanding and skill]
+
+    Theory Requirements:
+    - Explain your algorithm choice
+    - Analyze complexity
+    - Justify design decisions
+    - Document trade-offs
+
+    Practice Requirements:
+    - Working implementation
+    - Comprehensive tests
+    - Performance benchmarks
+    - Clean code
+
+    Deliverables:
+    1. Source code (commented)
+    2. Design document (2 pages)
+    3. Analysis report (1-2 pages)
+    4. README
+
+    Evaluation:
+    - Correctness (30%)
+    - Performance (20%)
+    - Code quality (20%)
+    - Understanding (20%)
+    - Documentation (10%)
+
+    ───────────────────────────────────────
+
+    [Repeat for all modules]
+
+    ═══════════════════════════════════════
+
+    MODULE 5: CAPSTONE PROJECT
+    ═══════════════════════════════════════
+    Duration: 8-10 hours
+    Approach: Comprehensive integration
+
+    PROJECT OPTIONS:
+
+    Option A: [Research-oriented project]
+    - Implement algorithm from paper
+    - Reproduce results
+    - Analyze and optimize
+    - Write research-style report
+
+    Option B: [System-building project]
+    - Design complete system
+    - Production-quality code
+    - Performance analysis
+    - Deployment guide
+
+    Option C: [Your own proposal]
+    - Must integrate theory + practice
+    - Approval required
+
+    PROJECT PHASES:
+
+    Phase 1: Design (2 hours)
+    - Research and planning
+    - Theoretical foundation
+    - Architecture design
+    - Design document
+
+    Phase 2: Implementation (4-5 hours)
+    - Core functionality
+    - Testing
+    - Optimization
+    - Refinement
+
+    Phase 3: Analysis (2-3 hours)
+    - Performance measurement
+    - Complexity validation
+    - Results documentation
+    - Reflection
+
+    DELIVERABLES:
+    1. Design document (3-5 pages)
+       - Problem analysis
+       - Theoretical foundation
+       - Algorithm choices
+       - Architecture
+
+    2. Implementation
+       - Source code
+       - Test suite
+       - Benchmarks
+
+    3. Analysis report (4-6 pages)
+       - Performance results
+       - Theory vs practice
+       - Trade-off analysis
+       - Lessons learned
+
+    4. Portfolio presentation
+       - README
+       - Demo
+       - Documentation
+
+    ═══════════════════════════════════════
+
+    ASSESSMENT STRATEGY:
+
+    Theory (40%):
+    - Conceptual quizzes (each module)
+    - Algorithm analysis exercises
+    - Design justification
+    - Paper reviews
+
+    Practice (40%):
+    - Coding exercises
+    - Projects
+    - Code reviews
+    - Performance optimization
+
+    Integration (20%):
+    - Design challenges
+    - Analysis reports
+    - Case study discussions
+    - Capstone project
+
+    ═══════════════════════════════════════
+
+    RESOURCES:
+
+    Academic Papers (for theory):
+    - [List of 10-15 papers with URLs]
+
+    Tutorials & Docs (for practice):
+    - [List of 15-20 resources with URLs]
+
+    Tools & Frameworks:
+    - [List of tools needed]
+
+    Community:
+    - [Forums, Discord, etc.]
+
+    ═══════════════════════════════════════
+
+    COURSE CALENDAR:
+
+    Week 1: Module 1
+    Week 2: Module 2
+    Week 3: Module 3
+    Week 4: Module 4
+    Week 5: Module 5 + Capstone
+
+    Flexible self-paced option: 4-8 weeks
+  output_model: Plan
+  agent: src/agents/comprehensive_agents/comprehensive_planner.yaml
+  context:
+    -task_comprehensive_research

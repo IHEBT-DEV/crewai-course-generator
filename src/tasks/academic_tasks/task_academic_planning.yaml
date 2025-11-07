@@ -1,0 +1,143 @@
+task:
+  name : task_academic_planning
+  description: >
+    Design a rigorous academic course outline for {topic} based on the research findings.
+  
+        Use the Academic Research Report as your primary source.
+  
+        Your course structure must follow academic standards:
+  
+        MODULE STRUCTURE:
+        - 4-6 modules total
+        - Each module: 3-5 lessons
+        - Progressive difficulty: foundations → advanced → research
+  
+        For EACH MODULE define:
+  
+        1. MODULE OVERVIEW
+           - Title and number
+           - Learning objectives (using Bloom's taxonomy: analyze, evaluate, create)
+           - Prerequisites (from previous modules)
+           - Estimated study time
+           - Key papers to read (2-4 per module)
+  
+        2. LESSON BREAKDOWN
+           For each lesson:
+           - Lesson title
+           - Specific learning outcomes
+           - Topics covered
+           - Theoretical concepts to master
+           - Algorithms to understand
+           - Mathematical skills needed
+           - Estimated time (1-2 hours per lesson)
+  
+        3. THEORETICAL DEPTH
+           - Core theorems and proofs
+           - Complexity analysis required
+           - Mathematical foundations
+           - Formal definitions needed
+  
+        4. RESEARCH INTEGRATION
+           - Which papers support each concept
+           - Citation to specific sections
+           - Key figures/algorithms from papers
+  
+        5. ASSESSMENT STRATEGY
+           - Problem sets (proof-based)
+           - Algorithm analysis exercises
+           - Paper reviews
+           - Theoretical exams
+  
+        TYPICAL PROGRESSION:
+  
+        MODULE 1: Foundations (4-5 lessons)
+        - Mathematical prerequisites
+        - Historical context
+        - Formal problem definition
+        - Core concepts and notation
+  
+        MODULE 2: Core Theory (5-6 lessons)
+        - Fundamental algorithms
+        - Complexity analysis
+        - Correctness proofs
+        - Key theorems
+  
+        MODULE 3: Advanced Concepts (5-6 lessons)
+        - Sophisticated algorithms
+        - Optimization techniques
+        - Theoretical limitations
+        - Advanced data structures
+  
+        MODULE 4: Research Frontiers (4-5 lessons)
+        - State-of-the-art techniques
+        - Recent papers (last 2-3 years)
+        - Open problems
+        - Research directions
+  
+        MODULE 5: Applications (Optional, 3-4 lessons)
+        - Theory to practice translation
+        - Implementation challenges
+        - Case studies from research
+  
+        Ensure rigorous progression and cite specific papers throughout.
+
+  expected_output: >
+    A complete academic course outline with:
+  
+    COURSE OVERVIEW:
+    - Course title: "Advanced {topic}: Theory and Algorithms"
+    - Target audience: Graduate students, researchers
+    - Total duration: 40-60 hours
+    - Prerequisites: [list technical requirements]
+    - Learning outcomes (5-7 high-level goals)
+  
+    MODULE 1: [Title]
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Duration: X hours
+    Prerequisites: [list]
+  
+    Learning Objectives:
+    - [Objective 1 - Bloom's level]
+    - [Objective 2 - Bloom's level]
+    - [Objective 3 - Bloom's level]
+  
+    Key Papers:
+    - [Paper 1 citation with URL]
+    - [Paper 2 citation with URL]
+  
+    Lessons:
+      1.1 [Lesson Title] (2 hours)
+          - Topics: [list]
+          - Concepts: [list]
+          - Algorithms: [list]
+          - Paper reference: [citation section X.Y]
+  
+      1.2 [Lesson Title] (2 hours)
+          - [Same structure]
+  
+      [Continue for all lessons]
+  
+    Assessment:
+    - Problem Set 1: [topics covered]
+    - Proof exercises: [specific types]
+  
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  
+    [Repeat for all modules]
+  
+    FINAL ASSESSMENT:
+    - Comprehensive exam
+    - Research paper review
+    - Algorithm implementation project
+  
+    READING LIST:
+    - Required papers (15-20)
+    - Recommended papers (10-15)
+    - Textbooks (2-3)
+  
+    COURSE CALENDAR (Week-by-week breakdown)
+
+  output_model: 'Plan'
+  agent: src/agents/academic_agents/academic_planner.yaml
+  context:
+    - academic_course_planner

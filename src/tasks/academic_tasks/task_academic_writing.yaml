@@ -1,0 +1,156 @@
+task:
+  name : task_academic_writing
+  description: >
+    Write comprehensive academic course content for {topic} based on the course outline.
+  
+        Use the Course Outline as your structure and the Research Report for content.
+  
+        For EACH LESSON, write:
+  
+        1. FORMAL INTRODUCTION (10% of lesson)
+           - Precise problem statement
+           - Formal definitions of new terms
+           - Mathematical notation conventions
+           - Learning objectives for this lesson
+           - Prerequisites review (if needed)
+  
+        2. THEORETICAL DEVELOPMENT (40% of lesson)
+           - Core concepts with rigorous definitions
+           - Theorems with proofs (or proof sketches)
+           - Algorithms in pseudocode
+           - Complexity analysis (time and space)
+           - Correctness arguments
+           - Derivations step-by-step
+  
+        3. MATHEMATICAL FOUNDATIONS (20% of lesson)
+           - Relevant mathematical background
+           - Formal models
+           - Key equations (with derivations)
+           - Lemmas and corollaries
+           - Proof techniques explained
+  
+        4. RESEARCH CONTEXT (15% of lesson)
+           - Historical development
+           - Key papers that introduced ideas [cite as: Author et al., Year]
+           - Current research directions
+           - Open problems
+           - Connections to other areas
+  
+        5. RIGOROUS EXAMPLES (10% of lesson)
+           - Worked examples with detailed analysis
+           - Edge cases and corner cases
+           - Proof techniques demonstrated
+           - Counter-examples for intuition building
+  
+        6. FURTHER READING (5% of lesson)
+           - Seminal papers with annotations
+           - Survey papers
+           - Advanced topics for exploration
+           - Related research areas
+  
+        WRITING STYLE:
+        - Formal academic tone
+        - Precise technical language
+        - Define before use (every term)
+        - Prove or cite significant claims
+        - Use mathematical notation (LaTeX-style, clearly formatted)
+        - Number important equations
+        - Include complexity annotations
+  
+        CODE PRESENTATION (when needed):
+        - Formal pseudocode
+        - Complexity in comments
+        - Correctness invariants
+        - Actual implementation marked as "reference"
+  
+        LENGTH GUIDELINES:
+        - Each lesson: 3,000-5,000 words
+        - Emphasis on depth over breadth
+        - Thorough explanations
+  
+        CITATION FORMAT:
+        - In-text: [Author et al., Year]
+        - References: Full citation with URL
+  
+        Write for learners who want deepest understanding.
+        Assume strong mathematical background but explain key steps.
+        Prepare learners to read research papers independently.
+  expected_output: >
+    Complete course content with all lessons fully written.
+  
+    For EACH MODULE provide:
+  
+    MODULE X: [Title]
+    ════════════════════════════════════════
+  
+    [Module Introduction - 500 words]
+    - Overview of what's covered
+    - Why this module matters
+    - How it builds on previous knowledge
+    - Learning journey ahead
+  
+    ───────────────────────────────────────
+  
+    LESSON X.1: [Title]
+    ───────────────────────────────────────
+  
+    INTRODUCTION
+    [Formal problem setup, definitions, objectives - 300 words]
+  
+    THEORETICAL FOUNDATIONS
+    [Core concepts, definitions, theorems with proofs - 1500 words]
+  
+    Definition X.1 (Formal): [Precise definition]
+  
+    Theorem X.1: [Statement]
+    Proof: [Step-by-step proof with explanations]
+    □
+  
+    Algorithm X.1: [Name]
+    Complexity Analysis:
+    - Time: O(...) because [detailed reasoning]
+    - Space: O(...) because [detailed reasoning]
+  
+    [Continue with all theoretical content]
+  
+    MATHEMATICAL FOUNDATIONS
+    [Relevant math, derivations - 800 words]
+  
+    RESEARCH CONTEXT
+    [Papers, history, trends - 600 words]
+  
+    Key Papers:
+    - [Author et al., Year]: Introduced [concept]. Main contribution: [summary]. [URL]
+    - [Continue for all relevant papers]
+  
+    RIGOROUS EXAMPLES
+    [Worked examples - 400 words]
+  
+    Example X.1: [Problem]
+    Solution: [Step-by-step with analysis]
+  
+    FURTHER READING
+    - [Paper 1 with annotation]
+    - [Paper 2 with annotation]
+    - [Advanced topics]
+  
+    KEY TAKEAWAYS
+    - [Summary point 1]
+    - [Summary point 2]
+    - [Summary point 3]
+  
+    ───────────────────────────────────────
+  
+    [Repeat for ALL lessons in ALL modules]
+  
+    COMPLETE REFERENCE LIST
+    [All papers cited throughout, alphabetically]
+  
+    APPENDIX
+    - Mathematical notation guide
+    - Proof techniques reference
+    - Complexity classes overview
+  output_model: 'Course'
+  agent: src/agents/academic_agents/academic_writer.yaml
+  context:
+    - task_academic_planning

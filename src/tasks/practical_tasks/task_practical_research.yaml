@@ -1,0 +1,124 @@
+task:
+  name : task_practical_research
+  description: >
+    Find accessible, hands-on learning resources for {topic} for beginner/intermediate learners.
+
+        Your research must cover:
+
+        PHASE 1 - OFFICIAL DOCUMENTATION (25% of effort):
+        - Find official website and docs for {topic}
+        - Locate "Getting Started" guides
+        - Installation and setup instructions
+        - Official tutorials and examples
+        - API documentation
+
+        PHASE 2 - TUTORIALS AND GUIDES (35% of effort):
+        - Search for beginner-friendly tutorials
+        - Step-by-step guides with screenshots/code
+        - Video courses (YouTube, Udemy, etc.)
+        - Interactive tutorials
+        - Blog posts from practitioners
+
+        Priority sources:
+        - freeCodeCamp
+        - DigitalOcean tutorials
+        - Real Python (if Python-related)
+        - MDN Web Docs (if web-related)
+        - Official blogs
+
+        PHASE 3 - CODE EXAMPLES AND PROJECTS (25% of effort):
+        - GitHub repositories with good README
+        - "Awesome-{topic}" curated lists
+        - Sample projects and starter templates
+        - Code snippets with explanations
+        - Boilerplate code
+
+        Search for repos with:
+        - 1000+ stars
+        - Recent updates (last year)
+        - Good documentation
+        - Beginner-friendly
+
+        PHASE 4 - COMMUNITY RESOURCES (15% of effort):
+        - Stack Overflow top questions about {topic}
+        - Reddit communities (r/programming, r/{topic})
+        - Dev.to articles
+        - Discord/Slack communities
+        - Common pitfalls and troubleshooting
+
+        For each resource, note:
+        - URL (working link)
+        - Title and description
+        - Difficulty level (beginner/intermediate/advanced)
+        - Format (video/text/interactive)
+        - Last updated date
+        - Quality indicators (views, stars, votes)
+
+        Use DuckDuckGo and Web Scraper extensively.
+        Prioritize recently updated content (last 1-2 years).
+        Focus on practical, "learn by doing" resources.
+  expected_output: >
+    A comprehensive practical learning resource guide with:
+
+    1. OVERVIEW (2 paragraphs)
+       - What is {topic} and why learn it
+       - Practical applications and use cases
+       - Prerequisites needed (if any)
+
+    2. OFFICIAL DOCUMENTATION
+       - Official website URL
+       - Getting started guide URL
+       - Installation instructions URL
+       - API docs URL
+       - Official tutorials (list with URLs)
+
+    3. LEARNING TUTORIALS (15-20 resources)
+       Organized by difficulty:
+
+       BEGINNER:
+       - [Title] - [Format] - [URL] - [Brief description]
+       - [Estimated time]
+
+       INTERMEDIATE:
+       - [Same format]
+
+       ADVANCED:
+       - [Same format]
+
+    4. VIDEO COURSES (5-10 courses)
+       - Course title
+       - Platform (YouTube, Udemy, etc.)
+       - Duration
+       - URL
+       - Rating/views
+       - Free or paid
+
+    5. CODE REPOSITORIES (10-15 repos)
+       - Repository name and URL
+       - Stars count
+       - Description
+       - What you can learn from it
+       - Last updated
+
+    6. PRACTICAL PROJECTS IDEAS (5-10 projects)
+       - Project name
+       - Difficulty level
+       - What you'll build
+       - Skills practiced
+       - Tutorial URL (if available)
+
+    7. COMMUNITY RESOURCES
+       - Stack Overflow top questions (URLs)
+       - Reddit communities
+       - Discord/Slack links
+       - Blogs to follow
+
+    8. COMMON PITFALLS
+       - Frequent beginner mistakes
+       - Troubleshooting resources
+       - FAQs
+
+    All resources must include working URLs and be recently updated.
+  output_model: Resources
+  agent: src/agents/practical_agents/practical_researcher.yaml
+  context: []

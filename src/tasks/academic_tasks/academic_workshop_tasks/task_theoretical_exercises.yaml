@@ -1,0 +1,290 @@
+task:
+  name : task_theoretical_exercises
+  description: >
+    Create rigorous theoretical exercises and problem sets for {topic} based on the academic course content.
+
+        Use the Academic Course Content to identify key concepts that need reinforcement through exercises.
+
+        Create 4 TYPES OF EXERCISES:
+
+        1. PROOF EXERCISES (40% of exercises)
+           - Prove theorems or lemmas
+           - Show correctness of algorithms
+           - Prove complexity bounds (upper/lower)
+           - Construct counter-examples
+           - Prove properties of data structures
+
+           Difficulty levels:
+           - Easy: Direct application of definitions (5 exercises)
+           - Medium: Multi-step reasoning (8 exercises)
+           - Hard: Creative proofs (4 exercises)
+           - Challenge: Research-level (2 exercises)
+
+        2. ALGORITHM ANALYSIS EXERCISES (30% of exercises)
+           - Analyze time/space complexity
+           - Derive recurrence relations and solve them
+           - Compare algorithms theoretically
+           - Prove optimality or find better bounds
+           - Worst-case vs average-case analysis
+
+           Include:
+           - 6 complexity analysis problems
+           - 4 recurrence solving problems
+           - 3 algorithm comparison problems
+
+        3. CONCEPTUAL QUESTIONS (20% of exercises)
+           - Explain concepts deeply
+           - Compare and contrast approaches
+           - Discuss assumptions and limitations
+           - Trace algorithm execution step-by-step
+           - Justify design decisions
+
+           Include:
+           - 5 explanation questions
+           - 3 comparison questions
+           - 3 trace/execution questions
+
+        4. MATHEMATICAL PROBLEMS (10% of exercises)
+           - Apply mathematical techniques
+           - Derive formulas related to algorithms
+           - Solve equations in algorithm analysis
+           - Probabilistic analysis
+           - Combinatorial problems
+
+           Include:
+           - 3 derivation problems
+           - 2 probabilistic problems
+
+        FOR EACH EXERCISE PROVIDE:
+
+        STRUCTURE:
+        - Exercise number and title
+        - Difficulty rating (⭐ to ⭐⭐⭐⭐)
+        - Point value (5-20 points based on difficulty)
+        - Clear problem statement
+        - Relevant background/context
+        - What needs to be proven/analyzed/explained
+        - Any assumptions or constraints
+
+        HINTS (for harder problems):
+        - Hint 1: Subtle guidance (after 15 min)
+        - Hint 2: Reference to relevant theorem (after 30 min)
+        - Hint 3: Suggested proof technique (after 45 min)
+
+        COMPLETE SOLUTIONS:
+        - Step-by-step formal solution
+        - Alternative approaches (when applicable)
+        - Common mistakes to avoid
+        - Grading rubric (point breakdown)
+        - Connection to course concepts
+
+        Organize exercises by course module.
+        Ensure coverage of all major theoretical concepts.
+        Build upon previous exercises progressively.
+  expected_output: >
+    A comprehensive problem set organized by module:
+
+    THEORETICAL EXERCISES FOR {topic}
+    ═══════════════════════════════════════
+
+    OVERVIEW
+    - Total exercises: 40-50
+    - Difficulty: Graduate level
+    - Estimated time: 30-40 hours total
+    - Format: Proof-based and analytical
+
+    ═══════════════════════════════════════
+
+    MODULE 1 EXERCISES: [Module Title]
+    ═══════════════════════════════════════
+
+    PROOF EXERCISES
+    ───────────────────────────────────────
+
+    Exercise 1.1: [Title] ⭐⭐ (10 points)
+
+    **Problem Statement:**
+    Prove that [algorithm/structure] satisfies [property].
+
+    **Given:**
+    - [Assumption 1]
+    - [Assumption 2]
+
+    **To Prove:**
+    [Formal statement of what needs to be proven]
+
+    **Constraints:**
+    - Use [specific proof technique]
+    - Cite any theorems you use
+
+    **Hints:**
+    💡 Hint 1 (click after 15 min): Consider [subtle guidance]
+    💡 Hint 2 (click after 30 min): This is similar to [theorem X]
+    💡 Hint 3 (click after 45 min): Try proof by [technique]
+
+    **Solution:**
+
+    *Proof:*
+    [Step-by-step formal proof]
+
+    Step 1: [Establish base case/setup]
+    [Detailed reasoning]
+
+    Step 2: [Main argument]
+    [Mathematical derivation]
+
+    Step 3: [Conclusion]
+    Therefore, [result]. □
+
+    *Alternative Approach:*
+    [Another way to prove it, if applicable]
+
+    *Common Mistakes:*
+    - ❌ Students often assume [X], but this doesn't hold when [condition]
+    - ❌ Forgetting to check [edge case]
+
+    *Grading Rubric:*
+    - Correct setup (2 points)
+    - Main argument logic (5 points)
+    - Formal reasoning (2 points)
+    - Conclusion (1 point)
+
+    *Connection to Course:*
+    This exercise reinforces [concept from Lesson X.Y]
+
+    ───────────────────────────────────────
+
+    Exercise 1.2: [Title] ⭐⭐⭐ (15 points)
+
+    [Same detailed structure]
+
+    ───────────────────────────────────────
+
+    [Continue with all proof exercises for module]
+
+    ───────────────────────────────────────
+
+    ALGORITHM ANALYSIS EXERCISES
+    ───────────────────────────────────────
+
+    Exercise 1.6: Complexity Analysis ⭐⭐ (10 points)
+
+    **Problem:**
+    Analyze the time and space complexity of the following algorithm:
+    ```pseudocode
+    Algorithm: [Name]
+    Input: [description]
+    1. [step]
+    2. [step]
+    3. [nested loops or recursion]
+    Tasks:
+    a) Derive the recurrence relation (if recursive)
+    b) Solve for tight bounds (Θ notation)
+    c) Analyze space complexity
+    d) Identify best, average, and worst cases
+    Solution:
+    Part (a): Recurrence Relation
+    Let T(n) be the time for input size n.
+    [Derive T(n) = ...]
+    [Explanation of how we got this]
+    Part (b): Solving the Recurrence
+    Using [Master Theorem / Recursion Tree / Substitution]:
+    [Step-by-step solution]
+    Therefore, T(n) = Θ(...)
+    Part (c): Space Complexity
+    [Analysis of space usage]
+    S(n) = Θ(...)
+    Part (d): Case Analysis
+
+    Best case: Θ(...) when [condition]
+    Average case: Θ(...) under [assumption]
+    Worst case: Θ(...) when [condition]
+
+    ───────────────────────────────────────
+    [Continue with all analysis exercises]
+    ───────────────────────────────────────
+    CONCEPTUAL QUESTIONS
+    ───────────────────────────────────────
+    Exercise 1.10: Concept Explanation ⭐ (5 points)
+    Question:
+    Explain why [concept/design decision] is important in [context].
+    Provide both intuitive reasoning and formal justification.
+    Expected Answer Length: 300-500 words
+    Solution:
+    Intuitive Explanation:
+    [Clear, accessible explanation]
+    Formal Justification:
+    [Technical reasoning with citations]
+    Example:
+    [Concrete example demonstrating the concept]
+    Grading Rubric:
+
+    Intuitive clarity (2 points)
+    Formal correctness (2 points)
+    Example quality (1 point)
+
+    ───────────────────────────────────────
+    [Continue with all conceptual questions]
+    ───────────────────────────────────────
+    MATHEMATICAL PROBLEMS
+    ───────────────────────────────────────
+    Exercise 1.15: Derivation ⭐⭐⭐ (12 points)
+    Problem:
+    Derive the expected running time of [algorithm] under [probability distribution].
+    Given:
+
+    Input follows [distribution]
+    [Other assumptions]
+
+    Derive:
+    E[T(n)] = ?
+    Show all steps:
+    Solution:
+    [Complete mathematical derivation]
+    Step 1: Set up the expectation
+    E[T(n)] = Σ [probability] × [time]
+    Step 2: Evaluate probabilities
+    [Calculate each probability]
+    Step 3: Simplify
+    [Algebraic manipulation]
+    Step 4: Final result
+    E[T(n)] = [formula]
+    ───────────────────────────────────────
+    [Continue for all modules]
+    ═══════════════════════════════════════
+    MODULE 2 EXERCISES: [Module Title]
+    ═══════════════════════════════════════
+    [Same structure as Module 1]
+    [15-20 exercises total per module]
+    ───────────────────────────────────────
+    [Repeat for all modules]
+    ═══════════════════════════════════════
+    COMPREHENSIVE PROBLEM SET
+    ═══════════════════════════════════════
+    Challenge Problems (10-15 problems)
+    These integrate concepts from multiple modules:
+    Exercise C.1: [Integration Challenge] ⭐⭐⭐⭐ (20 points)
+    [Problems that require synthesizing multiple concepts]
+    ───────────────────────────────────────
+    EXAM PREPARATION
+    ═══════════════════════════════════════
+    Sample Midterm Exam (2 hours, 100 points)
+
+    [10 problems covering modules 1-3]
+
+    Sample Final Exam (3 hours, 150 points)
+
+    [15 problems covering all modules]
+
+    ───────────────────────────────────────
+    APPENDIX
+    ═══════════════════════════════════════
+    A. Proof Techniques Reference
+    B. Complexity Analysis Cheat Sheet
+    C. Common Recurrence Relations
+    D. Mathematical Formulas
+    E. Grading Guidelines
+  output_model: 'TheoreticalExercises'
+  agent: src/agents/academic_agents/academic_workshop_agents/theoretical_exercise_designer.yaml
+  context:
+    - task_academic_writing

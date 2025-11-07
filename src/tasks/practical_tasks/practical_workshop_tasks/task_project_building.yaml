@@ -1,0 +1,745 @@
+task:
+  name : task_project_building
+  description: >
+    Create engaging, portfolio-worthy projects for {topic} for beginner/intermediate learners.
+
+        Use the Practical Course Content to design projects that showcase skills.
+
+        Create 3 TYPES OF PROJECTS:
+
+        1. MINI-PROJECTS (5-6 projects)
+           - Duration: 30 min - 2 hours each
+           - Quick wins, single feature focus
+           - Complete and working
+           - Spread throughout course
+
+           Examples:
+           - Quick start project (Module 0)
+           - Feature projects (Modules 1-2)
+           - Integration projects (Modules 3-4)
+
+        2. MODULE PROJECTS (4-5 projects)
+           - Duration: 3-6 hours each
+           - One per major module
+           - Multiple features
+           - Building complexity progressively
+
+           Each project should:
+           - Demonstrate module concepts
+           - Be practical and useful
+           - Have clear milestones
+           - Be portfolio-worthy
+
+        3. CAPSTONE PROJECT (1 comprehensive project)
+           - Duration: 10-20 hours
+           - Final course project
+           - Comprehensive application
+           - True portfolio showcase
+           - Multiple options to choose from
+
+           Should integrate:
+           - All course concepts
+           - Best practices
+           - Professional quality
+
+        FOR EACH PROJECT PROVIDE:
+
+        PROJECT BRIEF:
+        - Catchy name and tagline
+        - What you'll build and why it's cool
+        - What you'll learn/practice
+        - Time estimate
+        - Difficulty level
+        - Prerequisites
+
+        REQUIREMENTS:
+        - Core features (must-have)
+        - Stretch features (optional enhancements)
+        - Visual mockup description
+        - Success criteria
+
+        STEP-BY-STEP GUIDE:
+        - Setup instructions
+        - Implementation phases
+        - Milestones and checkpoints
+        - Testing guidelines
+
+        STARTER PACK:
+        - Boilerplate code (when appropriate)
+        - Project structure
+        - Assets (if needed)
+        - Example data
+
+        SHOWCASE GUIDE:
+        - How to demo
+        - Screenshots to take
+        - Portfolio presentation
+        - LinkedIn post template
+
+        Make projects exciting, achievable, and portfolio-ready.
+  expected_output: >
+    A complete project collection:
+
+    PROJECTS FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total projects: 10-12
+    - Mini-projects: 5-6 (quick wins)
+    - Module projects: 4-5 (substantial)
+    - Capstone: 1 (comprehensive)
+    - Total time: 40-60 hours
+
+    ═══════════════════════════════════════════════
+
+    QUICK START PROJECT
+    ═══════════════════════════════════════════════
+
+    PROJECT 0: Hello {topic} - Your First Success
+    ───────────────────────────────────────────────
+    ⏱️ 30 minutes | ⭐ Beginner | 🎯 Quick Win
+
+    **WHAT YOU'LL BUILD:**
+    A simple [description] that [does something visible/exciting]!
+
+    **WHY THIS IS COOL:**
+    You'll see {topic} in action immediately and have something working in just 30 minutes. This is your "Hello World" moment! 🚀
+
+    **WHAT YOU'LL LEARN:**
+    - Basic {topic} setup
+    - Core syntax
+    - Your first working code
+    - Confidence boost!
+
+    **WHAT YOU'LL PRACTICE:**
+    ✓ Installing and running {topic}
+    ✓ Basic commands
+    ✓ Seeing results
+
+    ───────────────────────────────────────────────
+
+    **STEP-BY-STEP GUIDE:**
+
+    **STEP 1: Setup (5 min)**
+
+    Install {topic}:
+    ```bash
+    # [Installation command]
+    Verify it works:
+    bash# [Verification command]
+    You should see: [expected output]
+    STEP 2: Create Your First File (5 min)
+    Create a file called hello.[ext]:
+    language// Your first {topic} code!
+    [Simple starter code]
+    STEP 3: Run It! (5 min)
+    bash# [Command to run]
+    🎉 You should see: [exciting output]
+    If it works, congratulations! You just ran your first {topic} code!
+    STEP 4: Make It Yours (15 min)
+    Now customize it:
+    language// Change these values to personalize it
+    [code with customization options]
+    Try changing:
+
+    [Option 1]
+    [Option 2]
+    [Option 3]
+
+    Run it again and see your changes!
+    ───────────────────────────────────────────────
+    TROUBLESHOOTING:
+    ❌ Error: [common error]
+    ✅ Fix: [solution]
+    ❌ Error: [another common error]
+    ✅ Fix: [solution]
+    ───────────────────────────────────────────────
+    WHAT YOU ACCOMPLISHED:
+    ✅ Installed {topic}
+    ✅ Wrote your first code
+    ✅ Saw it work
+    ✅ Made it your own
+    NEXT STEPS:
+    Take a screenshot and share it! You're officially a {topic} developer now! 🎊
+    ───────────────────────────────────────────────
+    ═══════════════════════════════════════════════
+    MODULE 1 PROJECT
+    ═══════════════════════════════════════════════
+    PROJECT 1: [Catchy Project Name]
+    ───────────────────────────────────────────────
+    ⏱️ 2 hours | ⭐⭐ Beginner+ | 🎯 Portfolio Piece
+    WHAT YOU'LL BUILD:
+    A [description of what they'll build] that [cool functionality].
+    WHY BUILD THIS:
+    This is something you can actually use! Plus, it perfectly demonstrates the concepts from Module 1.
+    WHAT YOU'LL LEARN:
+
+    [Concept 1 from module]
+    [Concept 2 from module]
+    [Concept 3 from module]
+    Practical application of theory
+
+    WHAT YOU'LL PRACTICE:
+    ✓ [Skill 1]
+    ✓ [Skill 2]
+    ✓ [Skill 3]
+    ✓ Real-world problem solving
+    PREREQUISITES:
+
+    Completed Module 1 lessons
+    Comfortable with [basic concepts]
+
+    ───────────────────────────────────────────────
+    THE PROJECT:
+    CORE FEATURES (must build):
+
+    [Feature 1] - [Brief description]
+    [Feature 2] - [Brief description]
+    [Feature 3] - [Brief description]
+
+    STRETCH GOALS (if you have time):
+    🌟 [Enhancement 1]
+    🌟🌟 [Enhancement 2]
+    🌟🌟🌟 [Enhancement 3]
+    SUCCESS CRITERIA:
+    ✅ All core features working
+    ✅ Handles edge cases
+    ✅ Clean, readable code
+    ✅ You can demo it!
+    ───────────────────────────────────────────────
+    PROJECT ROADMAP:
+    PHASE 1: Foundation (30 min)
+    Set up the basic structure:
+    language// Project structure
+    project/
+    ├── main.[ext]
+    ├── utils.[ext]
+    └── README.md
+    Start with this template:
+    language// main.[ext]
+    // [Starter code with TODOs]
+
+    // TODO: Implement feature 1
+    // TODO: Implement feature 2
+    // TODO: Implement feature 3
+    PHASE 2: Core Feature 1 (20 min)
+    Build [Feature 1]:
+    What it should do:
+    [Clear description]
+    How to approach it:
+
+    [Step 1]
+    [Step 2]
+    [Step 3]
+
+    Example code structure:
+    languagefunction feature1(input) {
+        // Step 1: [what to do]
+        // Step 2: [what to do]
+        // Step 3: [what to do]
+        return result;
+    }
+    Test it:
+    language// Test cases
+    test_feature1([input], [expected_output]);
+    ✅ Checkpoint: Can you [specific thing]?
+    PHASE 3: Core Feature 2 (25 min)
+    Build [Feature 2]:
+    [Similar detailed structure as Phase 2]
+    ✅ Checkpoint: Does [specific functionality] work?
+    PHASE 4: Core Feature 3 (25 min)
+    Build [Feature 3]:
+    [Similar detailed structure]
+    ✅ Checkpoint: Can you [complete action]?
+    PHASE 5: Integration & Testing (15 min)
+    Put it all together:
+    language// Main function that uses all features
+    function main() {
+        // Use feature 1
+        // Use feature 2
+        // Use feature 3
+        // Display results
+    }
+    Test the full flow:
+
+    [Test scenario 1]
+    [Test scenario 2]
+    [Test edge case]
+
+    PHASE 6: Polish (15 min)
+    Make it great:
+
+    Add error handling
+    Improve user experience
+    Clean up code
+    Add comments
+    Write README
+
+    ───────────────────────────────────────────────
+    STARTER CODE:
+    Download or copy this starter pack:
+    language// [Full starter code with helpful comments and TODOs]
+    ───────────────────────────────────────────────
+    TESTING YOUR PROJECT:
+    Use these test cases:
+    language// Test Case 1: Normal usage
+    // Input: [data]
+    // Expected: [result]
+
+    // Test Case 2: Edge case
+    // Input: [data]
+    // Expected: [result]
+
+    // Test Case 3: Error handling
+    // Input: [invalid data]
+    // Expected: [error message]
+    ───────────────────────────────────────────────
+    EXAMPLE OUTPUT:
+    When working correctly, you should see:
+    [Example of program output]
+    ───────────────────────────────────────────────
+    STRETCH GOALS:
+    🌟 Easy Enhancement:
+    Add [simple feature]
+    How:
+    [Brief guidance]
+    🌟🌟 Medium Enhancement:
+    Implement [moderate feature]
+    Hint:
+    You'll need to [guidance]
+    🌟🌟🌟 Challenge Enhancement:
+    Create [advanced feature]
+    On your own!
+    This one is a challenge. Use what you've learned!
+    ───────────────────────────────────────────────
+    PORTFOLIO SHOWCASE:
+    How to demo this project:
+
+    Quick Demo (30 seconds):
+    "This is [project name], it [main functionality]. Watch as I [demo action]."
+    Key Features to Highlight:
+
+    [Feature that looks impressive]
+    [Technical challenge you solved]
+    [Unique aspect of your implementation]
+
+
+    Screenshots to Take:
+
+    [Main interface]
+    [Feature 1 in action]
+    [Interesting output/result]
+
+
+
+    Add to Portfolio:
+    markdown## [Project Name]
+
+    [One-line description]
+
+    **Technologies:** {topic}, [other tech used]
+    **Features:**
+    - [Feature 1]
+    - [Feature 2]
+    - [Feature 3]
+
+    **What I Learned:**
+    [1-2 sentences about key learnings]
+
+    [Screenshot]
+
+    [Link to code]
+    LinkedIn Post Template:
+    Just built [project name]! 🚀
+
+    Used {topic} to create [brief description].
+    Implemented features like [feature] and [feature].
+
+    This project taught me [key learning].
+
+    Check it out: [link]
+
+    #coding #[topic] #project #learning
+    ───────────────────────────────────────────────
+    COMMON CHALLENGES:
+    Challenge: [Common issue students face]
+    Solution: [How to solve it]
+    Challenge: [Another common issue]
+    Solution: [How to solve it]
+    ───────────────────────────────────────────────
+    WHAT YOU ACCOMPLISHED:
+    🎉 You just built a real [project type]!
+    ✅ Implemented [X] features
+    ✅ Solved [Y] challenges
+    ✅ Created something portfolio-worthy
+    ✅ Practiced core {topic} concepts
+    Share it: Post about it, show friends, add to portfolio!
+    ═══════════════════════════════════════════════
+    [Continue with MODULE 2, 3, 4 PROJECTS...]
+    ═══════════════════════════════════════════════
+    CAPSTONE PROJECT
+    ═══════════════════════════════════════════════
+    PROJECT FINAL: Your Portfolio Masterpiece
+    ───────────────────────────────────────────────
+    ⏱️ 15-20 hours | ⭐⭐⭐⭐⭐ Advanced | 🏆 Capstone
+    CONGRATULATIONS!
+    You've made it to the final project! This is where you bring everything together into one impressive application.
+    WHAT YOU'LL BUILD:
+    You have 3 options (or propose your own!):
+    ───────────────────────────────────────────────
+    OPTION A: [Project Idea A]
+    Description:
+    A [comprehensive description] that [functionality].
+    Why This is Impressive:
+
+    [Impressive aspect 1]
+    [Impressive aspect 2]
+    [Impressive aspect 3]
+
+    What You'll Demonstrate:
+
+    All concepts from the course
+    [Advanced technique 1]
+    [Advanced technique 2]
+    Professional-quality code
+
+    Core Features:
+
+    [Major feature 1]
+    [Major feature 2]
+    [Major feature 3]
+    [Major feature 4]
+    [Major feature 5]
+
+    Advanced Features:
+
+    [Optional advanced feature 1]
+    [Optional advanced feature 2]
+
+    Technical Challenges:
+    You'll need to figure out:
+
+    [Challenge 1]
+    [Challenge 2]
+    [Challenge 3]
+
+    Estimated Time: 15-18 hours
+    ───────────────────────────────────────────────
+    OPTION B: [Project Idea B]
+    [Similar detailed structure as Option A]
+    ───────────────────────────────────────────────
+    OPTION C: [Project Idea C]
+    [Similar detailed structure]
+    ───────────────────────────────────────────────
+    OPTION D: Your Own Idea! 💡
+    Have your own idea? Great!
+    Requirements:
+
+    Must use {topic} extensively
+    Must demonstrate course concepts
+    Should be portfolio-worthy
+    Need approval (post in forum/Discord)
+
+    Proposal Template:
+    Project Name: [name]
+    Description: [2-3 sentences]
+    Core Features: [list 4-5]
+    Why it's challenging: [explanation]
+    Tech stack: [list]
+    ───────────────────────────────────────────────
+    PROJECT PHASES (for all options):
+    PHASE 1: Planning & Design (2-3 hours)
+    📋 Create a plan:
+
+    Feature List
+
+    Core features (must-have)
+    Nice-to-have features
+    Future enhancements
+
+
+    Technical Design
+
+    Architecture diagram
+    Data structures needed
+    Algorithms to use
+    External libraries (if any)
+
+
+    Milestones
+
+    Week 1 goal: [milestone]
+    Week 2 goal: [milestone]
+    Week 3 goal: [milestone]
+
+
+    Success Criteria
+    What "done" looks like:
+
+     [Criterion 1]
+     [Criterion 2]
+     [Criterion 3]
+
+
+
+    Create a PLAN.md file with this info.
+    PHASE 2: Core Implementation (8-10 hours)
+    Build the essential features:
+    Week 1: Foundation
+
+    Set up project structure
+    Implement core data structures
+    Basic functionality working
+
+    ✅ Checkpoint: [Specific testable outcome]
+    Week 2: Features
+
+    Implement Feature 1
+    Implement Feature 2
+    Implement Feature 3
+
+    ✅ Checkpoint: [Specific testable outcome]
+    Week 3: Integration
+
+    Connect all features
+    End-to-end functionality
+    Initial testing
+
+    ✅ Checkpoint: Can you [complete workflow]?
+    PHASE 3: Enhancement & Polish (3-4 hours)
+    Make it great:
+    Testing:
+
+     All features work
+     Edge cases handled
+     Error handling robust
+     Performance acceptable
+
+    Code Quality:
+
+     Code is clean and readable
+     Comments where needed
+     No dead code
+     Consistent style
+
+    User Experience:
+
+     Intuitive to use
+     Clear feedback
+     Good error messages
+     Looks professional
+
+    PHASE 4: Documentation (2-3 hours)
+    README.md:
+    markdown# [Project Name]
+
+    [Compelling description]
+
+    ## Features
+    - [Feature 1 with screenshot]
+    - [Feature 2 with screenshot]
+    - [Feature 3 with screenshot]
+
+    ## Demo
+    [GIF or video link]
+
+    ## Installation
+    ```bash
+    [Steps to install]
+    Usage
+    bash[Examples of use]
+    Technologies
+
+    {topic}
+    [Other tech]
+
+    What I Learned
+    [Reflection paragraph]
+    Future Improvements
+
+    [Idea 1]
+    [Idea 2]
+
+    Screenshots
+    [Multiple screenshots showcasing features]
+    Author
+    [Your name] - [Your links]
+
+    **Code Documentation:**
+    - Docstrings for all functions
+    - Inline comments for complex logic
+    - Architecture documentation
+
+    ───────────────────────────────────────────────
+
+    **PORTFOLIO PRESENTATION:**
+
+    **For Your Portfolio Website:**
+
+    Create a project page with:
+
+    1. **Hero Section:**
+       - Project name and tagline
+       - Impressive screenshot or demo GIF
+       - Links to GitHub and live demo (if applicable)
+
+    2. **Overview:**
+       - What it does (2-3 sentences)
+       - Why you built it
+       - Technologies used
+
+    3. **Challenges & Solutions:**
+       Highlight 2-3 technical challenges:
+       - Challenge 1: [Problem]
+         Solution: [How you solved it]
+       - Challenge 2: [Problem]
+         Solution: [Creative solution]
+
+    4. **Features Showcase:**
+       - Screenshots with captions
+       - Brief explanations
+       - Code snippets of interesting parts
+
+    5. **Results:**
+       - What you accomplished
+       - Metrics (if applicable)
+       - Lessons learned
+
+    **For Interviews:**
+
+    Be ready to discuss:
+    - **Architecture decisions:** Why did you structure it this way?
+    - **Technical challenges:** What was hardest to implement?
+    - **Trade-offs:** What compromises did you make?
+    - **Future improvements:** What would you add with more time?
+    - **Learning:** What did this teach you about {topic}?
+
+    **Practice your 2-minute pitch:**
+    "This project is [name], which [main functionality]. The most interesting technical challenge was [challenge] which I solved by [solution]. This demonstrates my ability to [key skill]."
+
+    ───────────────────────────────────────────────
+
+    **SUBMISSION:**
+
+    When you're done:
+
+    1. **Code Repository:**
+       - [ ] Clean Git history
+       - [ ] Comprehensive README
+       - [ ] Code commented
+       - [ ] LICENSE file
+
+    2. **Demo:**
+       - [ ] Working demo (video or live)
+       - [ ] Screenshots
+       - [ ] Usage examples
+
+    3. **Reflection:**
+       Write a brief reflection (500 words):
+       - What you built and why
+       - Main technical challenges
+       - Key learnings
+       - What you'd do differently
+
+    4. **Share:**
+       - Post on course forum
+       - Share on LinkedIn
+       - Add to portfolio
+       - Get feedback!
+
+    ───────────────────────────────────────────────
+
+    **EVALUATION (Self-Assessment):**
+
+    Rate your project honestly:
+
+    **Functionality (40%):**
+    - [ ] All core features work
+    - [ ] Handles edge cases
+    - [ ] No major bugs
+    - [ ] Performant
+
+    **Code Quality (25%):**
+    - [ ] Clean and readable
+    - [ ] Well-organized
+    - [ ] Properly documented
+    - [ ] Follows best practices
+
+    **Design & UX (20%):**
+    - [ ] Intuitive interface
+    - [ ] Good user feedback
+    - [ ] Professional appearance
+    - [ ] Thoughtful details
+
+    **Documentation (15%):**
+    - [ ] Excellent README
+    - [ ] Code comments
+    - [ ] Usage examples
+    - [ ] Clear instructions
+
+    **Bonus Points:**
+    - [ ] Deployed/live demo
+    - [ ] Tests included
+    - [ ] Extra features
+    - [ ] Exceptional polish
+
+    ───────────────────────────────────────────────
+
+    **WHAT YOU ACCOMPLISHED:**
+
+    🏆 **You completed the course!**
+
+    You just built a comprehensive {topic} application from scratch.
+
+    **Your Skills Now:**
+    ✅ Solid understanding of {topic}
+    ✅ Practical project experience
+    ✅ Portfolio-ready work
+    ✅ Problem-solving ability
+    ✅ Ready for real-world projects
+
+    **Next Steps:**
+    1. Polish this project for your portfolio
+    2. Build more projects to practice
+    3. Contribute to open source
+    4. Apply for jobs/freelance work
+    5. Keep learning!
+
+    ═══════════════════════════════════════════════
+
+    PROJECTS SUMMARY
+    ═══════════════════════════════════════════════
+
+    You'll build these projects throughout the course:
+
+    **Quick Wins:**
+    - Project 0: Hello {topic} (30 min)
+    - Project 1.5: [Mini-project] (1 hour)
+    - Project 2.5: [Mini-project] (1.5 hours)
+
+    **Module Projects:**
+    - Project 1: [Name] (2 hours)
+    - Project 2: [Name] (3 hours)
+    - Project 3: [Name] (4 hours)
+    - Project 4: [Name] (5 hours)
+
+    **Capstone:**
+    - Final Project: [Your Choice] (15-20 hours)
+
+    **Total:** 30-40 hours of building!
+
+    ═══════════════════════════════════════════════
+
+    APPENDIX
+    ═══════════════════════════════════════════════
+
+    A. Project Ideas Bank (50+ ideas)
+    B. Portfolio Templates
+    C. Demo Video Guidelines
+    D. README Templates
+    E. Code Review Checklist
+    F. Deployment Guides
+  output_model: ProjectBuilding
+  agent: src/agents/practical_agents/practical_workshop_agents/project_builder.yaml
+  context:
+    -task_practical_writing

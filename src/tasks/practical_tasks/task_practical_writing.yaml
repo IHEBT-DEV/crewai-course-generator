@@ -1,0 +1,313 @@
+task:
+  name : task_practical_writing
+  description: >
+    Write clear, engaging practical course content for {topic} based on the outline.
+
+        Use the Course Outline for structure and Research Report for resources.
+
+        For EACH LESSON, write:
+
+        1. HOOK (5% - 1 paragraph)
+           - Start with WHY this matters
+           - Show end result first (motivate)
+           - Promise: "By the end, you'll be able to..."
+
+        2. CONCEPT EXPLANATION (20%)
+           - Start with analogy or real-world example
+           - Explain in plain English (no jargon)
+           - Show simple code example
+           - Explain what each part does
+           - Build complexity gradually
+
+        3. HANDS-ON TUTORIAL (40%)
+           - "First, do this..." step-by-step
+           - Code blocks with line-by-line explanations
+           - Expected output shown clearly
+           - "If you see X, that means Y"
+           - Multiple checkpoints
+
+        4. WORKING EXAMPLE (15%)
+           - Complete, runnable code
+           - Heavily commented ("// This line does X because...")
+           - Setup instructions included
+           - Screenshots/output described
+
+        5. TRY IT YOURSELF (10%)
+           - Small exercise to practice
+           - Clear instructions
+           - Hints available
+           - Solution provided (after attempt)
+
+        6. COMMON MISTAKES (5%)
+           - "If you get error X, it's probably because..."
+           - Wrong vs right code comparison
+           - Debugging tips
+           - "I made this mistake too..."
+
+        7. MINI-PROJECT (Optional, 5%)
+           - Build something fun/practical
+           - Step-by-step
+           - Extensions to try
+
+        8. KEY TAKEAWAYS (5%)
+           - 3-5 bullet points
+           - Quick reference
+           - What's next
+
+        WRITING STYLE:
+        - Friendly, conversational ("you" and "we")
+        - Short sentences and paragraphs
+        - Active voice
+        - Lots of examples
+        - Celebrate progress
+        - Acknowledge difficulty
+
+        CODE STYLE:
+        - Always full, working examples
+        - Comment every non-obvious line
+        - Meaningful variable names
+        - Show before-and-after
+        - Include error handling
+
+        ANALOGIES AND METAPHORS:
+        - Use everyday comparisons
+        - "Think of X like..."
+        - Visual/spatial analogies
+        - Relate to familiar concepts
+
+        LENGTH GUIDELINES:
+        - Each lesson: 1,500-2,500 words
+        - More code than text
+        - Lots of visuals described
+
+        PROGRESSION:
+        - Start extremely simple
+        - One new concept at a time
+        - Review naturally
+        - Build confidence before challenges
+
+        Write as if explaining to a friend learning to code.
+        Never assume prior knowledge without stating it.
+        Make learning feel achievable and fun.
+  expected_output: >
+    Complete course content with all lessons fully written.
+
+    For EACH MODULE provide:
+
+    MODULE X: [Title]
+    ════════════════════════════════════════
+
+    [Module Intro - 300 words]
+    🎯 What You'll Build: [Exciting description]
+    ⏱️ Time Needed: X hours
+    🎓 What You'll Learn: [Skills list]
+    ✅ Prerequisites: [Minimal list]
+
+    Ready? Let's dive in! 🚀
+
+    ───────────────────────────────────────
+
+    LESSON X.1: [Action-Oriented Title]
+    ───────────────────────────────────────
+    ⏱️ 45 minutes
+
+    🎯 GOAL
+    By the end of this lesson, you'll be able to [specific outcome].
+
+    WHY THIS MATTERS
+    [1-2 paragraphs explaining practical importance with real example]
+
+    ───────────────────────────────────────
+
+    📚 THE CONCEPT
+
+    Let me explain [topic] with a simple analogy:
+
+    [Analogy explanation - make it relatable]
+
+    In technical terms, [concept] means [simple explanation].
+
+    Here's the simplest example:
+    ```language
+    // This is the most basic way to [do X]
+    code example here  // This line does...
+    more code         // This part handles...
+    When you run this, you'll see:
+    [Expected output]
+    Cool, right? Let's break it down step by step...
+    [Detailed explanation of how it works]
+    ───────────────────────────────────────
+    🛠️ HANDS-ON TUTORIAL
+    Okay, time to build something! Follow along:
+    STEP 1: Setup
+    First, create a new file called example.ext:
+    language// Start with this basic structure
+    [starter code]
+    STEP 2: Add [Feature]
+    Now let's add [feature description]:
+    language// Add this code
+    [new code]
+    💡 What's happening here?
+
+    Line 1: [explanation]
+    Line 2: [explanation]
+    Line 3: [explanation]
+
+    STEP 3: Test It
+    Run your code:
+    bash$ [command to run]
+    You should see:
+    [expected output]
+    ✅ Checkpoint: If you see that output, great! If not, check:
+
+    [Common issue 1]
+    [Common issue 2]
+
+    STEP 4: [Next step]
+    [Continue with clear steps...]
+    ───────────────────────────────────────
+    💻 COMPLETE WORKING EXAMPLE
+    Here's the full code all together:
+    language// Complete working example
+    // [Description of what this does]
+
+    [Full code with extensive comments explaining each part]
+
+    // Expected output:
+    // [Show what happens when run]
+    📁 Files you need:
+
+    main.ext - [description]
+    config.ext - [description]
+
+    🚀 To run it:
+    bash$ [exact commands]
+    ───────────────────────────────────────
+    ✏️ TRY IT YOURSELF
+    Now it's your turn! Here's a small challenge:
+    Challenge: [Clear description of what to build]
+    Requirements:
+
+     [Requirement 1]
+     [Requirement 2]
+     [Requirement 3]
+
+    Hints:
+    <details>
+    <summary>💡 Hint 1 (click to reveal)</summary>
+    [Subtle guidance]
+    </details>
+    <details>
+    <summary>💡 Hint 2</summary>
+    [More specific guidance]
+    </details>
+    <details>
+    <summary>✅ Solution (try first!)</summary>
+    ```language
+    // Here's one way to do it:
+    [solution code with explanations]
+    ```
+    Explanation:
+    [Why this solution works]
+    </details>
+    ───────────────────────────────────────
+    ⚠️ COMMON MISTAKES
+    Mistake #1: [Common error]
+    ❌ Wrong way:
+    language[bad code]
+    ✅ Right way:
+    language[good code]
+    Why it matters: [Explanation]
+    Mistake #2: [Another common error]
+    [Same format]
+    🐛 Debugging Tips:
+
+    If you see error "[error message]", it means [explanation]
+    If [symptom], try [solution]
+
+    ───────────────────────────────────────
+    🎯 KEY TAKEAWAYS
+    You just learned:
+    ✅ [Takeaway 1 - what you can now do]
+    ✅ [Takeaway 2]
+    ✅ [Takeaway 3]
+    Quick Reference:
+    language// [Most important syntax/pattern]
+    What's Next?
+    In the next lesson, we'll [preview next lesson].
+    ───────────────────────────────────────
+    [Repeat for ALL lessons]
+    ───────────────────────────────────────
+    MODULE PROJECT: Build [Project Name]
+    ───────────────────────────────────────
+    ⏱️ 1-2 hours
+    🎯 WHAT YOU'LL BUILD
+    [Description with why it's cool/useful]
+    Features:
+
+    [Feature 1]
+    [Feature 2]
+    [Feature 3]
+
+    What you'll practice:
+
+    [Skill 1 from lesson X]
+    [Skill 2 from lesson Y]
+    [Skill 3 from lesson Z]
+
+    ───────────────────────────────────────
+    🗺️ PROJECT ROADMAP
+    Phase 1: Setup (10 min)
+    [Step-by-step setup]
+    Phase 2: Core Feature (30 min)
+    [Build main functionality]
+    Phase 3: Additional Features (30 min)
+    [Add more features]
+    Phase 4: Polish (20 min)
+    [Make it look good, handle errors]
+    ───────────────────────────────────────
+    📝 STEP-BY-STEP GUIDE
+    STEP 1: [First step]
+    [Detailed instructions with code]
+    STEP 2: [Second step]
+    [Continue...]
+    [Provide complete walkthrough]
+    ───────────────────────────────────────
+    🎨 MAKE IT YOUR OWN
+    Try these extensions:
+
+    🌟 Easy: [Extension idea]
+    🌟🌟 Medium: [Extension idea]
+    🌟🌟🌟 Hard: [Extension idea]
+
+    ───────────────────────────────────────
+    🎉 YOU DID IT!
+    [Celebration message]
+    Show it off:
+
+    Take a screenshot
+    Add to your portfolio
+    Share on [platform]
+
+    ───────────────────────────────────────
+    [Repeat for all modules]
+    APPENDIX
+    ═══════════════════════════════════════
+    📖 CHEAT SHEETS
+    [Quick reference for each module]
+    🔧 TROUBLESHOOTING GUIDE
+    [Common issues and solutions]
+    💬 GLOSSARY
+    [Terms defined simply]
+    🌐 RESOURCES
+
+    Official docs: [URL]
+    Community: [URLs]
+    Tutorials: [URLs]
+
+    🚀 NEXT STEPS
+    [Where to go after this course]
+  output_model: Course
+  agent: src/agents/practical_agents/practical_writer.yaml
+  context:
+    -task_practical_planning

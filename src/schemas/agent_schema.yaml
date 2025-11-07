@@ -1,0 +1,14 @@
+agent:
+  name: name
+  role: "role"
+  goal: >
+    here
+  backstory: |
+    here
+
+  allow_delegation: false
+  verbose: true
+
+llm:
+  provider:
+  model:

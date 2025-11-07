@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9458d82-70d1-4b53-89df-3f6835d30e4d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/it_course_creator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_planner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_researcher.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_workshop_agents/algorithm_implementation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_workshop_agents/research_paper_analyst.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_workshop_agents/theoretical_exercise_designer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/academic_agents/academic_writer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/agent_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/classifier_agent.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_planner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_researcher.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_workshop_agents/case_study_creator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_workshop_agents/mini_project_designer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_workshop_agents/mixed_exercise_designer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/comprehensive_agents/comprehensive_writer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/global_integrator_agent.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/integrator_agent.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_planner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_researcher.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_workshop_agents/code_challenge_creator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_workshop_agents/hands_on_exercise_designer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_workshop_agents/project_builder.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agents/practical_agents/practical_writer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/controllers/crew_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/schemas/course_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/model_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/model_provider.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schemas/agent_schema.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schemas/task_schema.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/strategies.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/strategy_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/academic_workshop_tasks/task_algorithm_implementation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/academic_workshop_tasks/task_paper_analysis.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/academic_workshop_tasks/task_theoretical_exercises.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/task_academic_planning.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/task_academic_research.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/academic_tasks/task_academic_writing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/classification_task.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_case_studies.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_mini_projects.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_mixed_exercises.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/task_comprehensive_planning.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/task_comprehensive_research.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/comprehensive_tasks/task_comprehensive_writing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/integration_task.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/output_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/practical_workshop_tasks/task_code_challenges.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/practical_workshop_tasks/task_hands_on_exercises.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/practical_workshop_tasks/task_project_building.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/task_practical_planning.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/task_practical_research.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/practical_tasks/task_practical_writing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/task_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/arxiv_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/duckduckgo_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/scraper_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/semantic_scholar_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/logging_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/path_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_agents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_model_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_workflow.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="34QYb7azlPdu9soVvpgyHXLg1r6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_model_provider.test_load_config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crew.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ihebt/PycharmProjects/it_course_creator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ihebt\PycharmProjects\it_course_creator\src\tasks" />
+      <recent name="C:\Users\ihebt\PycharmProjects\it_course_creator\src\strategies" />
+      <recent name="C:\Users\ihebt\PycharmProjects\it_course_creator\src\config" />
+      <recent name="C:\Users\ihebt\PycharmProjects\it_course_creator\src\factories" />
+      <recent name="C:\Users\ihebt\PycharmProjects\it_course_creator\src\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.crew">
+    <configuration name="crew" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="it_course_creator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/crew.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="it_course_creator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_model_provider.test_load_config" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="it_course_creator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_model_provider.test_load_config&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.crew" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_model_provider.test_load_config" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9458d82-70d1-4b53-89df-3f6835d30e4d" name="Changes" comment="" />
+      <created>1761147330227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761147330227</updated>
+      <workItem from="1761147331357" duration="4449000" />
+      <workItem from="1761222565334" duration="9280000" />
+      <workItem from="1761232398362" duration="244000" />
+      <workItem from="1761232851522" duration="5078000" />
+      <workItem from="1761250106212" duration="1151000" />
+      <workItem from="1761318318221" duration="1527000" />
+      <workItem from="1761667566476" duration="5323000" />
+      <workItem from="1761827496967" duration="15597000" />
+      <workItem from="1761924169751" duration="5828000" />
+      <workItem from="1761997939850" duration="5982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/it_course_creator$main.coverage" NAME="main Coverage Results" MODIFIED="1761232449358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/it_course_creator$.coverage" NAME=" Coverage Results" MODIFIED="1761223354861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>

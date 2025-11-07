@@ -1,0 +1,9 @@
+task:
+  name : task_name
+  description: >
+    here
+  expected_output: >
+    here
+  output_model: model
+  agent_path: src/agents/
+  context: []

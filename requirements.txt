@@ -1,0 +1,13 @@
+crewai
+crewai-tools
+fastapi
+pydantic
+PyYAML
+langchain-community
+dotenv
+python-dotenv
+pytest
+ddgs
+arxiv
+semanticscholar
+litellm

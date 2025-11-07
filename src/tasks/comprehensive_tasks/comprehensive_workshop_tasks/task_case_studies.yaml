@@ -1,0 +1,823 @@
+task:
+  name : task_case_studies
+  description: >
+    Create real-world case studies for {topic} showing production applications at scale.
+
+        Use the Comprehensive Research Report to identify real company use cases.
+
+        Create 4 TYPES OF CASE STUDIES:
+
+        1. ARCHITECTURE CASE STUDIES (40%)
+           - How major companies use {topic}
+           - System design decisions at scale
+           - Performance and scalability achieved
+           - Lessons learned from production
+
+           Target companies: Netflix, Uber, Airbnb, Spotify, Google, Amazon, etc.
+           Create 5-6 architecture case studies
+
+        2. MIGRATION CASE STUDIES (25%)
+           - Company migrated from technology X to {topic}
+           - Business reasons for migration
+           - Technical challenges during migration
+           - Results and improvements achieved
+           - ROI and metrics
+
+           Create 3-4 migration stories
+
+        3. PROBLEM-SOLVING CASE STUDIES (20%)
+           - Specific technical problem at scale
+           - How {topic} solved it uniquely
+           - Alternative approaches considered
+           - Trade-offs and design decisions
+           - Quantifiable results
+
+           Create 3-4 problem-focused studies
+
+        4. FAILURE CASE STUDIES (15%)
+           - When {topic} wasn't the right choice
+           - What went wrong and why
+           - Warning signs they missed
+           - Lessons learned the hard way
+           - Better alternatives they switched to
+
+           Create 2-3 failure stories for learning
+
+        FOR EACH CASE STUDY PROVIDE:
+
+        STRUCTURE:
+
+        1. COMPANY CONTEXT (10%)
+           - Company name and industry
+           - Scale (users, data, traffic)
+           - Technical stack before
+           - Business challenges
+
+        2. SITUATION ANALYSIS (15%)
+           - The problem or opportunity
+           - Why it was critical
+           - Constraints and requirements
+           - Previous attempts and failures
+
+        3. SOLUTION WITH {topic} (30%)
+           - Why they chose {topic}
+           - Architecture and design
+           - Implementation approach
+           - Technical innovations
+           - Integration challenges
+
+        4. CHALLENGES & SOLUTIONS (20%)
+           - Major obstacles encountered
+           - How they overcame them
+           - Unexpected issues
+           - Creative solutions
+
+        5. RESULTS & METRICS (15%)
+           - Performance improvements (with numbers)
+           - Cost savings or efficiency gains
+           - User experience improvements
+           - Business impact
+
+        6. LESSONS LEARNED (10%)
+           - What worked well
+           - What they'd do differently
+           - Advice for others
+           - Future plans
+
+        LEARNING ACTIVITIES FOR EACH CASE:
+
+        1. ANALYSIS QUESTIONS
+           - Technical decision analysis
+           - Trade-off discussions
+           - Alternative approach evaluation
+
+        2. DISCUSSION PROMPTS
+           - "Would you have made the same choice?"
+           - "What would you do differently?"
+           - "How would this apply to [your context]?"
+
+        3. PRACTICAL EXERCISE
+           - Recreate simplified architecture
+           - Design similar system for different scale
+           - Identify bottlenecks and optimizations
+
+        4. DESIGN CHALLENGE
+           - "Design a similar system for [scenario]"
+           - "How would you handle [specific challenge]?"
+           - "Propose improvements to their architecture"
+
+        DELIVERABLES FOR LEARNERS:
+
+        For each case study:
+        - Reading material (3-5 pages)
+        - Architecture diagram recreation exercise
+        - Analysis questions (5-7 questions)
+        - Design proposal assignment
+        - Discussion forum prompts
+
+        Sources to use:
+        - Engineering blogs (company tech blogs)
+        - Conference presentations (QCon, GOTO, etc.)
+        - Technical whitepapers
+        - Podcast interviews with engineers
+        - Open-source code repositories
+
+        Prioritize recent case studies (last 3-5 years) for relevance.
+        Include diverse company sizes (startups to FAANG).
+        Cover different industries and use cases.
+  expected_output: >
+    A comprehensive case study collection:
+
+    REAL-WORLD CASE STUDIES FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total case studies: 12-15
+    - Architecture studies: 5-6
+    - Migration stories: 3-4
+    - Problem-solving: 3-4
+    - Failure analysis: 2-3
+    - Time per case: 2-3 hours study
+    - Total: 30-40 hours
+
+    ═══════════════════════════════════════════════
+
+    ARCHITECTURE CASE STUDIES
+    ═══════════════════════════════════════════════
+
+    Case Study A.1: [Company Name]'s [System Name] Architecture
+    ───────────────────────────────────────────────
+    📊 Scale: [X] million users | [Y] requests/sec | [Z] TB data
+    🏢 Industry: [Industry]
+    📅 Year: [Year]
+    🔗 Source: [Engineering blog URL]
+
+    **COMPANY CONTEXT**
+
+    [Company] is a [industry] company serving [X] million users globally.
+
+    **Business Challenge:**
+    Before implementing {topic}, they faced:
+    - Challenge 1: [Specific problem with metrics]
+    - Challenge 2: [Another problem]
+    - Challenge 3: [Critical bottleneck]
+
+    **Previous Architecture:**
+    ```
+    [Old Architecture]
+    - Technology A: [Purpose]
+    - Technology B: [Purpose]
+    - Bottlenecks: [List issues]
+    ```
+
+    **Scale Metrics (Before):**
+    - Request latency: [X]ms p99
+    - Throughput: [Y] req/sec
+    - Availability: [Z]%
+    - Cost: $[amount]/month
+    - Team size: [N] engineers
+
+    ───────────────────────────────────────────────
+
+    **SITUATION ANALYSIS**
+
+    **The Critical Problem:**
+    [Detailed description of what wasn't working]
+
+    Example incident that triggered change:
+    > "[Quote from engineering blog about specific failure]"
+
+    **Requirements:**
+    - Functional: Must support [specific features]
+    - Performance: Need to handle [scale]
+    - Reliability: Must achieve [uptime]
+    - Cost: Budget constraint of [amount]
+
+    **Why Existing Solutions Failed:**
+    1. Technology A: [Why it didn't work]
+    2. Technology B: [Limitation encountered]
+    3. Approach C: [Why ruled out]
+
+    **Decision Criteria:**
+    They evaluated solutions based on:
+    - Performance at scale ✓
+    - Operational complexity
+    - Cost effectiveness
+    - Team expertise
+    - Community support
+
+    ───────────────────────────────────────────────
+
+    **SOLUTION WITH {topic}**
+
+    **Why They Chose {topic}:**
+
+    [Company]'s VP of Engineering, [Name], explained:
+    > "[Quote about why they chose this technology]"
+
+    Key factors:
+    1. **Performance**: {topic} could handle [X] because [reason]
+    2. **Scalability**: Proven to scale to [benchmarks]
+    3. **Ecosystem**: [Specific tools/integrations needed]
+    4. **Team**: [Why team could adopt it]
+
+    **Architecture Design:**
+    ```
+    ┌─────────────────────────────────────────┐
+    │         Load Balancer                    │
+    └────────────┬────────────────────────────┘
+                 │
+          ┌──────┴──────┐
+          │             │
+    ┌─────▼─────┐ ┌────▼──────┐
+    │  {topic}  │ │  {topic}  │
+    │  Cluster  │ │  Cluster  │
+    │  (Region  │ │  (Region  │
+    │   US)     │ │   EU)     │
+    └─────┬─────┘ └────┬──────┘
+          │            │
+          └──────┬─────┘
+                 │
+        ┌────────▼─────────┐
+        │   Data Store     │
+        └──────────────────┘
+    ```
+
+    **Key Components:**
+
+    1. **Component A: [Name]**
+       - Purpose: [What it does]
+       - Technology: {topic} [specific feature]
+       - Design choice: [Why this way]
+
+    2. **Component B: [Name]**
+       - Purpose: [What it does]
+       - Scales to: [Numbers]
+       - Innovation: [What's clever]
+
+    3. **Component C: [Name]**
+       - [Details]
+
+    **Implementation Approach:**
+
+    **Phase 1: Proof of Concept (2 months)**
+    - Built small prototype
+    - Tested with 1% traffic
+    - Validated performance assumptions
+    - Result: [What they learned]
+
+    **Phase 2: Pilot (3 months)**
+    - Rolled out to 10% users
+    - Monitored metrics closely
+    - Found issues: [List]
+    - Iterated and improved
+
+    **Phase 3: Full Migration (6 months)**
+    - Gradual rollout to 100%
+    - Kept old system as fallback
+    - Automated rollback procedures
+    - Zero-downtime migration
+
+    **Technical Innovations:**
+
+    1. **Innovation 1: [Clever Solution]**
+       They developed [custom approach] because:
+       - Problem: [Specific challenge]
+       - Standard approach: [Why insufficient]
+       - Their solution: [Novel approach]
+       - Open-sourced: [Link if available]
+
+    2. **Innovation 2: [Another Innovation]**
+       [Description]
+
+    **Code Architecture (Simplified):**
+    ```language
+    // Core service using {topic}
+    class ServiceName {
+        constructor() {
+            // Initialize {topic} connection
+            this.client = new TopicClient({
+                config: productionConfig
+            });
+        }
+
+        async handleRequest(request) {
+            // Their custom implementation
+            // Handles [X] requests/sec
+        }
+    }
+    ```
+
+    ───────────────────────────────────────────────
+
+    **CHALLENGES & SOLUTIONS**
+
+    **Challenge 1: [Major Technical Challenge]**
+
+    **Problem:**
+    During initial rollout, they discovered [specific issue].
+
+    Symptoms:
+    - [Symptom 1]
+    - [Symptom 2]
+    - Impact: [Business impact]
+
+    **Root Cause:**
+    After investigation, they found:
+    [Detailed explanation of root cause]
+
+    **Solution:**
+    They solved it by:
+    1. [Action 1]
+    2. [Action 2]
+    3. [Creative solution]
+
+    Code fix:
+    ```language
+    // Before (problematic)
+    function oldApproach() {
+        // [Code that caused issues]
+    }
+
+    // After (fixed)
+    function newApproach() {
+        // [Improved code]
+        // Reduced latency by 80%
+    }
+    ```
+
+    **Lesson:** [Key takeaway]
+
+    **Challenge 2: [Operational Challenge]**
+
+    **Problem:** [Description]
+
+    **Solution:** [How they solved it]
+
+    **Lesson:** [Takeaway]
+
+    **Challenge 3: [Scale Challenge]**
+
+    **Problem:** At [X] scale, they hit [bottleneck]
+
+    **Investigation:**
+    ```
+    # Profiling revealed:
+    - 60% time in [operation]
+    - Memory usage spiked at [point]
+    - Network became bottleneck
+    ```
+
+    **Solution:**
+    [Multi-part solution with technical details]
+
+    **Result:**
+    - Latency reduced from [X]ms to [Y]ms
+    - Throughput increased [Z]x
+    - Cost decreased by [%]
+
+    ───────────────────────────────────────────────
+
+    **RESULTS & METRICS**
+
+    **Performance Improvements:**
+
+    | Metric | Before | After | Improvement |
+    |--------|--------|-------|-------------|
+    | Latency (p50) | [X]ms | [Y]ms | [Z]% faster |
+    | Latency (p99) | [X]ms | [Y]ms | [Z]% faster |
+    | Throughput | [X]/sec | [Y]/sec | [Z]x increase |
+    | Availability | [X]% | [Y]% | [Z] nines |
+    | Error Rate | [X]% | [Y]% | [Z]% reduction |
+
+    **Cost Impact:**
+
+    Before: $[X]/month
+    After: $[Y]/month
+    **Savings: $[Z]/month ([%] reduction)**
+
+    Breakdown:
+    - Infrastructure: [savings]
+    - Engineering time: [savings]
+    - Incident costs: [savings]
+
+    **Business Impact:**
+
+    1. **User Experience:**
+       - Page load time: [X]ms → [Y]ms
+       - User satisfaction: [before] → [after]
+       - Conversions: +[Z]%
+
+    2. **Engineering Productivity:**
+       - Deploy frequency: [before] → [after]
+       - Incident count: [before] → [after]
+       - Time to resolution: [before] → [after]
+
+    3. **Business Metrics:**
+       - Revenue impact: +$[amount]
+       - Customer retention: +[X]%
+       - Market expansion: [new markets enabled]
+
+    **Real Quote from CTO:**
+    > "[Quote about business impact and ROI]"
+
+    ───────────────────────────────────────────────
+
+    **LESSONS LEARNED**
+
+    **What Worked Well:**
+
+    1. **Gradual Rollout Strategy**
+       - Starting with 1% traffic caught issues early
+       - Having rollback procedures saved them multiple times
+       - Monitoring everything was crucial
+
+    2. **Team Investment**
+       - Training team before migration
+       - Hiring expert consultants for kickstart
+       - Building internal expertise paid off
+
+    3. **Technical Decisions**
+       - Choosing {topic} feature X was right
+       - Custom optimization Y was worth it
+       - Open-sourcing component Z benefited them
+
+    **What They'd Do Differently:**
+
+    1. **Earlier Investment:**
+       "We should have started the migration 6 months earlier"
+       - Would have avoided [incident]
+       - Could have saved [amount]
+
+    2. **More Testing:**
+       "Load testing at 2x expected scale would have revealed [issue]"
+
+    3. **Better Automation:**
+       "Manual steps caused [problem]"
+
+    **Advice for Others:**
+
+    From their VP Engineering:
+
+    1. **Start Small:** "Don't big-bang migrate. Start with non-critical service."
+
+    2. **Measure Everything:** "We instrumented every component. Saved us countless hours."
+
+    3. **Plan for Failure:** "Have rollback at every step. We used it 5 times."
+
+    4. **Invest in Team:** "Training and documentation are not optional."
+
+    5. **Be Patient:** "Took 11 months total. Don't rush production systems."
+
+    **Future Plans:**
+
+    They're now working on:
+    - Scaling to [X] more regions
+    - Reducing latency to [Y]ms
+    - Adding [new feature]
+
+    ───────────────────────────────────────────────
+
+    **LEARNING ACTIVITIES**
+
+    **ANALYSIS QUESTIONS**
+
+    Answer these to deepen your understanding:
+
+    1. **Architecture Analysis (15 min)**
+       - Why did they choose this architecture over microservices?
+       - What are the single points of failure in their design?
+       - How would you improve their architecture?
+
+    2. **Trade-off Discussion (20 min)**
+       - They chose consistency over availability in [component]. Why?
+       - What's the downside of their approach?
+       - In what scenarios would a different choice be better?
+
+    3. **Scale Estimation (25 min)**
+       - They handle [X] requests/sec. Calculate:
+         * Data throughput (GB/day)
+         * Storage requirements (1 year)
+         * Network bandwidth needed
+         * Server count estimation
+       - Show your calculations
+
+    4. **Cost Analysis (20 min)**
+       - Break down their $[X]/month cost:
+         * Compute costs
+         * Storage costs
+         * Network costs
+       - Identify optimization opportunities
+       - Propose a cost reduction plan
+
+    5. **Failure Mode Analysis (25 min)**
+       - What happens if [component A] fails?
+       - How does their system handle [scenario]?
+       - Design a disaster recovery plan
+
+    **DISCUSSION PROMPTS**
+
+    For group discussion or self-reflection:
+
+    1. **Design Decisions:**
+       "If you were the lead architect, would you have made the same choices? Why or why not?"
+
+    2. **Contextualization:**
+       "How would this architecture need to change for:
+       - A startup with 1000 users?
+       - A company with 10x their scale?
+       - A regulated industry (finance/healthcare)?"
+
+    3. **Technology Alternatives:**
+       "Could they have used [alternative technology]? What would be different?"
+
+    4. **Risk Assessment:**
+       "What risks did they take? Were they justified? What would you do differently?"
+
+    ───────────────────────────────────────────────
+
+    **PRACTICAL EXERCISE**
+
+    **Exercise 1: Architecture Recreation (2 hours)**
+
+    Recreate a simplified version of their architecture:
+
+    **Task:**
+    Design and implement a scaled-down version that:
+    - Handles 100 req/sec (vs their millions)
+    - Uses the same core {topic} concepts
+    - Demonstrates the key innovation they built
+
+    **Deliverables:**
+    - Architecture diagram
+    - Proof-of-concept code
+    - Load test results
+    - Brief report (1-2 pages)
+
+    **Starter Code:**
+    ```language
+    // Implement their core pattern
+    class SimplifiedService {
+        // TODO: Implement key concepts from case study
+    }
+    ```
+
+    **Exercise 2: Scale-Up Design (1.5 hours)**
+
+    **Scenario:**
+    You're hired to scale their system 10x (to [X] req/sec).
+
+    **Task:**
+    1. Identify bottlenecks at 10x scale
+    2. Propose architectural changes
+    3. Estimate costs
+    4. Create migration plan
+
+    **Deliverable:**
+    Design document (3-4 pages) with:
+    - Bottleneck analysis
+    - Proposed architecture
+    - Cost-benefit analysis
+    - Risk assessment
+
+    ───────────────────────────────────────────────
+
+    **DESIGN CHALLENGE**
+
+    **Challenge: Apply to Different Domain**
+
+    **Scenario:**
+    You're building a [different type of system] that needs to:
+    - Handle [similar scale]
+    - Provide [similar capabilities]
+    - Meet [similar constraints]
+
+    **Your Task:**
+    Design an architecture inspired by this case study but adapted for your scenario.
+
+    **Requirements:**
+    1. Architecture diagram
+    2. Component descriptions
+    3. Technology choices justified
+    4. Comparison with this case study
+    5. What you'd keep vs change
+
+    **Deliverable:**
+    Design proposal (4-5 pages)
+
+    **Evaluation Criteria:**
+    - Understanding of original architecture ✓
+    - Appropriate adaptations ✓
+    - Technical soundness ✓
+    - Trade-off awareness ✓
+
+    ───────────────────────────────────────────────
+
+    **ADDITIONAL RESOURCES**
+
+    **Engineering Blog Post:**
+    🔗 [Link to original blog post]
+
+    **Conference Talk:**
+    🎥 [Link to video if available]
+
+    **Code Repository:**
+    💻 [Link to open-source components]
+
+    **Follow-up Articles:**
+    📚 [Links to related articles]
+
+    **Discussion Forum:**
+    💬 Discuss this case study with peers: [forum link]
+
+    ═══════════════════════════════════════════════
+
+    [Continue with more architecture case studies...]
+
+    ═══════════════════════════════════════════════
+
+    MIGRATION CASE STUDIES
+    ═══════════════════════════════════════════════
+
+    Case Study M.1: [Company]'s Migration from [Old Tech] to {topic}
+    ───────────────────────────────────────────────
+    📊 Scale: [Scale]
+    ⏱️ Duration: [Months]
+    💰 Cost: [Budget]
+    📈 Result: [Key metric improvement]
+
+    **WHY THEY MIGRATED:**
+
+    [Company] was facing:
+    - [Problem 1 with old technology]
+    - [Problem 2]
+    - [Breaking point that forced decision]
+
+    **THE MIGRATION JOURNEY:**
+
+    **Phase 1: Evaluation (2 months)**
+    - Evaluated [X] alternatives
+    - Built prototypes
+    - ROI analysis
+    - Decision: {topic}
+
+    **Phase 2: Planning (3 months)**
+    - [Detailed planning]
+
+    **Phase 3: Execution (8 months)**
+    - [Migration process]
+
+    **Phase 4: Optimization (4 months)**
+    - [Post-migration improvements]
+
+    **CHALLENGES:**
+    [Key challenges faced]
+
+    **RESULTS:**
+    [Impressive results with metrics]
+
+    **LESSONS:**
+    [Key lessons learned]
+
+    ───────────────────────────────────────────────
+
+    [Continue with migration studies...]
+
+    ═══════════════════════════════════════════════
+
+    PROBLEM-SOLVING CASE STUDIES
+    ═══════════════════════════════════════════════
+
+    Case Study P.1: How [Company] Solved [Specific Problem] with {topic}
+    ───────────────────────────────────────────────
+
+    [Focused case study on solving one specific technical problem]
+
+    ═══════════════════════════════════════════════
+
+    FAILURE CASE STUDIES (Learn from Mistakes)
+    ═══════════════════════════════════════════════
+
+    Case Study F.1: When {topic} Wasn't the Answer - [Company]'s Story
+    ───────────────────────────────────────────────
+    ⚠️ Outcome: Switched away from {topic}
+    📅 Year: [Year]
+    💸 Cost of mistake: $[amount] + [time] months
+
+    **WHY THEY CHOSE {topic} (Initially):**
+
+    [Company] thought {topic} was perfect because:
+    - [Reason 1 - seemed good]
+    - [Reason 2 - looked promising]
+    - [Reason 3 - hype influenced them]
+
+    **RED FLAGS THEY MISSED:**
+
+    Looking back, warning signs included:
+    1. ⚠️ [Warning sign 1]
+    2. ⚠️ [Warning sign 2]
+    3. ⚠️ [Warning sign 3]
+
+    **WHAT WENT WRONG:**
+
+    **Problem 1: [Major Issue]**
+    - What happened: [Description]
+    - Why it matters: [Impact]
+    - Root cause: [Why {topic} wasn't suited]
+
+    **Problem 2: [Another Issue]**
+    [Details]
+
+    **THE PIVOT:**
+
+    After [X] months, they made the hard decision to:
+    - Abandon {topic}
+    - Switch to [alternative]
+    - Cost: [Time and money]
+
+    **LESSONS LEARNED:**
+
+    **1. Technology Fit Matters**
+       "{topic} is great for [use case A], but not for [their use case]"
+
+    **2. Don't Follow Hype**
+       "We chose it because everyone was using it, not because it fit our needs"
+
+    **3. Validate Assumptions Early**
+       "We should have built a more realistic prototype"
+
+    **4. Consider Total Cost**
+       "The technology was 'free' but operational cost was huge"
+
+    **ADVICE FOR OTHERS:**
+
+    From their CTO:
+    > "Ask yourself: does this solve MY problem, or does it just sound cool?"
+
+    **When {topic} IS Right:**
+    - Use case: [scenarios where it works]
+
+    **When {topic} is NOT Right:**
+    - Use case: [scenarios like theirs where it fails]
+
+    **Better Alternative for Their Case:**
+    They switched to [technology Y] because:
+    - [Reason 1]
+    - [Reason 2]
+
+    ───────────────────────────────────────────────
+
+    **LEARNING ACTIVITY:**
+
+    **Post-Mortem Analysis Exercise**
+
+    Pretend you're doing a post-mortem:
+    1. What decisions led to the failure?
+    2. What could have prevented it?
+    3. How would you have evaluated {topic} differently?
+
+    Write a 2-page post-mortem report.
+
+    ═══════════════════════════════════════════════
+
+    CASE STUDY INDEX
+    ═══════════════════════════════════════════════
+
+    **By Company:**
+    - [Company A]: Architecture study
+    - [Company B]: Migration study
+    - [Company C]: Problem-solving
+    - [Company D]: Failure study
+
+    **By Use Case:**
+    - Real-time data processing: [Cases]
+    - API infrastructure: [Cases]
+    - Data storage: [Cases]
+    - Microservices: [Cases]
+
+    **By Scale:**
+    - Startup (< 1M users): [Cases]
+    - Mid-size (1-10M users): [Cases]
+    - Large (> 10M users): [Cases]
+
+    **By Industry:**
+    - E-commerce: [Cases]
+    - Social Media: [Cases]
+    - Finance: [Cases]
+    - Gaming: [Cases]
+
+    ═══════════════════════════════════════════════
+
+    APPENDIX
+    ═══════════════════════════════════════════════
+
+    A. Architecture Patterns Glossary
+    B. Scale Estimation Guide
+    C. Cost Calculation Templates
+    D. Design Review Checklist
+    E. Further Reading List
+    F. Company Engineering Blogs Directory
+  output_model: CaseStudy
+  agent: src/agents/comprehensive_agents/comprehensive_workshop_agents/case_study_creator.yaml
+  context:
+    -task_comprehensive_writing

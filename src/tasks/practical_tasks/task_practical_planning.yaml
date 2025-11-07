@@ -1,0 +1,210 @@
+task:
+  name : task_practical_planning
+  description: >
+    Design an engaging, project-based course outline for {topic} for beginners/intermediates.
+
+        Use the Practical Research Report as your source.
+
+        Your course must be structured for "learning by doing":
+
+        OVERALL STRUCTURE:
+        - Module 0: Quick Start (30 min - 1 hour)
+        - Modules 1-4: Progressive skill building (3-5 hours each)
+        - Module 5: Capstone Project (6-8 hours)
+
+        For EACH MODULE define:
+
+        1. MODULE OVERVIEW
+           - Fun, descriptive title
+           - "What you'll build" (tangible outcome)
+           - Skills you'll gain
+           - Estimated time (realistic for beginners)
+           - Prerequisites (minimal, practical)
+
+        2. LESSON BREAKDOWN
+           For each lesson:
+           - Lesson title (action-oriented: "Build X", "Create Y")
+           - What you'll accomplish
+           - New concepts introduced (max 2-3 per lesson)
+           - Hands-on activities (3-5 per lesson)
+           - Mini-project or challenge
+           - Estimated time (30 min - 1.5 hours)
+
+        3. PROJECT PROGRESSION
+           - Quick win project (MODULE 0)
+           - Simple feature project (MODULE 1)
+           - Multi-feature app (MODULE 2-3)
+           - Complex application (MODULE 4)
+           - Portfolio piece (MODULE 5)
+
+        4. LEARNING AIDS
+           - Analogies for complex concepts
+           - Visual guides (describe what diagrams needed)
+           - Cheat sheets for each module
+           - Common mistakes section
+           - Troubleshooting guides
+
+        5. CHECKPOINTS
+           - "Can you do X?" tests
+           - Self-assessment questions
+           - Progress indicators
+
+        PROGRESSION EXAMPLE:
+
+        MODULE 0: Get Started Fast (30 min)
+        - Install and setup
+        - "Hello World" success
+        - First visible result
+
+        MODULE 1: Learn the Basics (3-4 hours)
+        - Core concepts (simple explanations)
+        - Basic patterns
+        - Mini-project: Build [something simple but complete]
+
+        MODULE 2: Essential Features (4-5 hours)
+        - Important capabilities
+        - Real-world patterns
+        - Project: Build [useful tool]
+
+        MODULE 3: Intermediate Skills (4-5 hours)
+        - More advanced features
+        - Integration techniques
+        - Project: Build [portfolio-worthy app]
+
+        MODULE 4: Real-World Application (3-4 hours)
+        - Production practices
+        - Performance basics
+        - Common pitfalls
+        - Project: Build [complete application]
+
+        MODULE 5: Capstone Project (6-8 hours)
+        - Comprehensive project
+        - All skills integrated
+        - Portfolio showcase piece
+
+        Focus on momentum, quick wins, and confidence building.
+        Every lesson must have tangible output.
+        Design for self-learners.
+  expected_output: >
+    A complete practical course outline with:
+
+    COURSE OVERVIEW:
+    - Course title: "Learn {topic}: Hands-On Projects"
+    - Target audience: Beginners, career-changers, self-learners
+    - Total duration: 20-30 hours
+    - Prerequisites: [minimal - list]
+    - What you'll build: [5-7 projects you'll complete]
+    - Skills you'll gain: [practical skills list]
+
+    MODULE 0: Quick Start 🚀
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Duration: 30 minutes
+    Goal: Get something working immediately!
+
+    What you'll build: [Simple but visible result]
+
+    Lessons:
+      0.1 Setup and Installation (10 min)
+          - What to install
+          - Quick setup guide
+          - Verify it works
+
+      0.2 Your First Success (20 min)
+          - Follow-along tutorial
+          - Build: [Hello World equivalent]
+          - See it work!
+          - Celebrate! 🎉
+
+    Checkpoint: ✓ Can you run basic {topic} code?
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    MODULE 1: [Catchy Title]
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Duration: 3-4 hours
+    Goal: Learn fundamentals by building
+
+    What you'll build: [Mini-project name]
+
+    Lessons:
+      1.1 [Action Title] (45 min)
+          - Concept: [Simple explanation]
+          - Hands-on: [Activity 1]
+          - Hands-on: [Activity 2]
+          - Try it: [Small challenge]
+
+      1.2 [Action Title] (45 min)
+          - [Same structure]
+
+      [Continue for 4-5 lessons]
+
+      1.X Project: Build [Project Name] (1 hour)
+          - Step-by-step guide
+          - What you'll learn
+          - Extensions to try
+
+    Common Mistakes:
+    - [Mistake 1 and how to fix]
+    - [Mistake 2 and how to fix]
+
+    Cheat Sheet:
+    - [Key commands/syntax]
+    - [Common patterns]
+
+    Checkpoint: ✓ Can you build [specific thing]?
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    [Repeat for all modules]
+
+    MODULE 5: Capstone Project 🏆
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Duration: 6-8 hours
+    Goal: Build something impressive for your portfolio!
+
+    Project Options (choose one):
+      Option A: [Project idea with description]
+      Option B: [Project idea with description]
+      Option C: [Your own idea!]
+
+    Project Phases:
+      Phase 1: Planning and Design (1 hour)
+      Phase 2: Core Features (3-4 hours)
+      Phase 3: Polish and Deploy (2-3 hours)
+
+    What you'll learn:
+    - [Skill 1]
+    - [Skill 2]
+    - [Skill 3]
+
+    Showcase Guide:
+    - How to demo it
+    - Add to portfolio
+    - Share on LinkedIn
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    PROJECTS SUMMARY:
+    - Module 0: [Quick win project]
+    - Module 1: [Mini project]
+    - Module 2: [Feature project]
+    - Module 3: [Full app]
+    - Module 4: [Complex app]
+    - Module 5: [Capstone]
+
+    NEXT STEPS:
+    - Where to go from here
+    - Advanced topics to explore
+    - Community resources
+    - Career applications
+
+    COURSE CALENDAR (Suggested pace):
+    Week 1: Modules 0-1
+    Week 2: Module 2
+    Week 3: Module 3
+    Week 4: Module 4
+    Week 5: Module 5
+  output_model: Plan
+  agent: src/agents/practical_agents/practical_planner.yaml
+  context:
+    -task_practical_research

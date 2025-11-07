@@ -1,0 +1,1099 @@
+task:
+  name : task_mini_projects
+  description: >
+    Create intermediate-sized projects for {topic} that require both theoretical understanding and practical implementation.
+
+        Use the Comprehensive Course Content to design projects that bridge theory and practice.
+
+        Create 3 PROJECT TIERS:
+
+        1. FOUNDATION PROJECTS (4-5 hours each)
+           - Apply core concepts from modules 1-2
+           - Single algorithm or system component
+           - Theory + Practice integration
+           - Example: "Implement and analyze a bloom filter"
+
+           Create 2-3 foundation projects
+
+        2. INTERMEDIATE PROJECTS (6-8 hours each)
+           - Integrate multiple concepts
+           - More complex system with several components
+           - Performance analysis required
+           - Example: "Build a mini search engine with indexing"
+
+           Create 2-3 intermediate projects
+
+        3. ADVANCED PROJECTS (8-12 hours each)
+           - Comprehensive system with multiple features
+           - Optimization and scaling considerations
+           - Research component (compare approaches)
+           - Example: "Build distributed cache with consistency guarantees"
+
+           Create 1-2 advanced projects
+
+        PROJECT STRUCTURE:
+
+        Each project must include:
+
+        1. PROJECT BRIEF (10%)
+           - What you're building and why
+           - Learning objectives (theory + practice)
+           - Theoretical concepts applied
+           - Time estimate
+           - Prerequisites
+
+        2. REQUIREMENTS (15%)
+           **Functional Requirements:**
+           - Core features (must-have)
+           - Extended features (nice-to-have)
+           - Input/output specifications
+
+           **Theoretical Requirements:**
+           - Explain algorithm choices
+           - Analyze complexity
+           - Compare approaches
+           - Justify design decisions
+
+           **Technical Requirements:**
+           - Performance targets
+           - Testing requirements
+           - Code quality standards
+
+        3. PROJECT PHASES (50%)
+           **Phase 1: Design (15% of project time)**
+           - Research and planning
+           - Algorithm selection with justification
+           - Architecture design
+           - Design document deliverable
+
+           **Phase 2: Implementation (50% of time)**
+           - Core functionality
+           - Extended features
+           - Testing
+           - Refactoring
+
+           **Phase 3: Analysis (20% of time)**
+           - Performance testing
+           - Complexity analysis
+           - Theory-practice comparison
+           - Results documentation
+
+           **Phase 4: Reflection (15% of time)**
+           - What worked well
+           - Challenges faced
+           - Lessons learned
+           - Improvements identified
+
+        4. DELIVERABLES (15%)
+           - Source code (well-commented)
+           - Test suite (unit + integration)
+           - Design document (2-3 pages)
+           - Analysis report (2-4 pages)
+           - README with setup and usage
+
+        5. EVALUATION RUBRIC (10%)
+           - Implementation quality (40%)
+           - Theoretical understanding (30%)
+           - Analysis & insights (20%)
+           - Documentation (10%)
+
+        For each project provide:
+        - Detailed project description
+        - Starter code/structure
+        - Test cases framework
+        - Benchmark framework
+        - Example datasets
+        - Solution guide
+
+        Projects should be:
+        - Portfolio-worthy
+        - Demonstrate both theory and practice
+        - Achievable but substantial
+        - Real-world applicable
+  expected_output: >
+    A complete mini-project collection:
+
+    MINI-PROJECTS FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total projects: 5-8
+    - Foundation: 2-3 projects (4-5h each)
+    - Intermediate: 2-3 projects (6-8h each)
+    - Advanced: 1-2 projects (8-12h each)
+    - Total time: 40-60 hours
+    - All projects: Theory + Practice integrated
+
+    ═══════════════════════════════════════════════
+
+    FOUNDATION PROJECTS (Modules 1-2)
+    ═══════════════════════════════════════════════
+
+    Project F.1: [Project Name]
+    ───────────────────────────────────────────────
+    ⏱️ 4-5 hours | ⭐⭐⭐ Foundation | 🎯 Theory + Practice
+
+    **WHAT YOU'LL BUILD:**
+
+    A [description] that [functionality].
+
+    **WHY THIS PROJECT:**
+
+    This project perfectly demonstrates:
+    - [Theoretical concept 1]
+    - [Theoretical concept 2]
+    - [Practical skill 1]
+
+    You'll understand the theory AND implement it yourself.
+
+    **LEARNING OBJECTIVES:**
+
+    Understand (Theory):
+    - How [algorithm/concept] works mathematically
+    - Why it has O(...) complexity
+    - What trade-offs it makes
+
+    Apply (Practice):
+    - Implement from scratch
+    - Test thoroughly
+    - Measure real performance
+
+    Analyze (Integration):
+    - Compare theory vs practice
+    - Understand design decisions
+    - Make informed optimizations
+
+    **PREREQUISITES:**
+    - Completed Module [X]
+    - Understanding of [concept]
+    - Comfortable with [programming skill]
+
+    ───────────────────────────────────────────────
+
+    **PROJECT BRIEF**
+
+    **Overview:**
+    You'll build a [system name] that [what it does].
+
+    Real-world applications:
+    - [Application 1]
+    - [Application 2]
+    - [Application 3]
+
+    **What Makes This Interesting:**
+    [Explain the interesting theoretical or practical aspects]
+
+    **Time Breakdown:**
+    - Design: 45 min
+    - Implementation: 2-2.5 hours
+    - Analysis: 1 hour
+    - Reflection: 30 min
+
+    ───────────────────────────────────────────────
+
+    **REQUIREMENTS**
+
+    **FUNCTIONAL REQUIREMENTS:**
+
+    Core Features (Must Implement):
+    1. ✓ [Feature 1]: [Description]
+       - Input: [Specification]
+       - Output: [Specification]
+       - Behavior: [Expected behavior]
+
+    2. ✓ [Feature 2]: [Description]
+       [Details]
+
+    3. ✓ [Feature 3]: [Description]
+       [Details]
+
+    Extended Features (Optional):
+    🌟 [Enhancement 1]: [Description]
+    🌟🌟 [Enhancement 2]: [Description]
+
+    **THEORETICAL REQUIREMENTS:**
+
+    You must demonstrate understanding by:
+
+    1. **Algorithm Analysis**
+       - Prove your implementation has the expected complexity
+       - Show work: [what to derive/calculate]
+       - Compare: Theoretical O(...) vs measured performance
+
+    2. **Design Justification**
+       - Explain: Why you chose [data structure X]?
+       - Analyze: What trade-offs did you make?
+       - Compare: Alternative approaches and why yours is better/appropriate
+
+    3. **Complexity Documentation**
+       - Annotate code with complexity for each operation
+       - Explain: Why each operation has its complexity
+       - Identify: Bottlenecks and optimization opportunities
+
+    **TECHNICAL REQUIREMENTS:**
+
+    Performance:
+    - Must handle inputs of size n=100,000
+    - Target: [specific performance metric]
+    - Memory: Must not exceed O(...)
+
+    Code Quality:
+    - Type hints on all functions
+    - Comprehensive docstrings
+    - Complexity annotations
+    - Clean, readable code
+    - No magic numbers
+
+    Testing:
+    - Unit tests for all functions
+    - Integration tests for full system
+    - Edge case coverage
+    - Performance benchmarks
+
+    ───────────────────────────────────────────────
+
+    **PHASE 1: DESIGN (45 minutes)**
+
+    Before writing any code, plan your approach.
+
+    **Step 1: Problem Analysis (15 min)**
+
+    Answer these questions in your design doc:
+
+    1. **What are you building?**
+       - Core functionality:
+       - Key operations:
+       - Success criteria:
+
+    2. **What algorithms will you use?**
+       - For operation A: [Algorithm] because [reason]
+       - For operation B: [Algorithm] because [reason]
+       - Expected complexity: O(...)
+
+    3. **What data structures do you need?**
+       - Primary: [Structure] because [reason]
+       - Secondary: [Structure] because [reason]
+       - Space complexity: O(...)
+
+    **Step 2: Architecture Design (20 min)**
+
+    Create a design document with:
+    PROJECT DESIGN: [Project Name]
+
+    1.ARCHITECTURE OVERVIEW
+    [High-level description]
+    Components:
+
+      -Component A: [Purpose, Interface]
+      -Component B: [Purpose, Interface]
+
+
+    2.DATA STRUCTURES
+
+      -[Structure 1]: [Why chosen, Operations, Complexity]
+      -[Structure 2]: [Why chosen, Operations, Complexity]
+
+
+    3.ALGORITHMS
+
+      -[Algorithm 1]: [Pseudocode, Complexity analysis]
+      -[Algorithm 2]: [Pseudocode, Complexity analysis]
+
+
+    4.COMPLEXITY ANALYSIS
+
+      -Time: [Analysis with reasoning]
+      -Space: [Analysis with reasoning]
+
+
+    5.DESIGN DECISIONS
+
+      -Decision 1: [What and why]
+      -Trade-off: [What you're optimizing for]
+    **Step 3: Interface Design (10 min)**
+
+    Define your public API:
+    ````python
+    class YourSystem:
+
+        [Brief description]
+
+        Time Complexity: O(...)
+        Space Complexity: O(...)
+
+        Design Decisions:
+        - [Decision 1 with rationale]
+        - [Decision 2 with rationale]
+
+
+        def __init__(self, param1, param2):
+
+            Initialize the system.
+
+            Args:
+                param1: [description]
+                param2: [description]
+
+            Time: O(...)
+            Space: O(...)
+
+            pass
+
+        def operation1(self, input_data):
+
+            [Operation description]
+
+            Args:
+                input_data: [specification]
+
+            Returns:
+                [specification]
+
+            Time: O(...)
+            Space: O(...)
+
+            Theory:
+                [Brief note on theoretical basis]
+
+            pass
+
+        def operation2(self, input_data):
+           [Similar structure]
+            pass
+    ````
+
+    **Deliverable for Phase 1:**
+    - [ ] Design document (1-2 pages)
+    - [ ] Architecture diagram (drawn or described)
+    - [ ] Interface definitions
+    - [ ] Complexity analysis
+
+    ───────────────────────────────────────────────
+
+    **PHASE 2: IMPLEMENTATION (2-2.5 hours)**
+
+    Now implement your design!
+
+    **Step 1: Core Implementation (90 min)**
+
+    Start with the essential functionality:
+    ````python
+    # main.py
+
+    class YourSystem:
+        Your implementation here
+
+        def __init__(self):
+            # TODO: Initialize data structures
+            # Remember: O(...) space complexity
+            pass
+
+        def operation1(self, data):
+            # TODO: Implement core algorithm
+            # Remember: Should be O(...) time
+
+            # Step 1: [What]
+            # Complexity: O(...)
+
+            # Step 2: [What]
+            # Complexity: O(...)
+
+            # Total: O(...)
+            pass
+    ````
+
+    **Implementation Checklist:**
+    - [ ] Core data structures initialized
+    - [ ] Each operation implemented
+    - [ ] Edge cases handled
+    - [ ] Complexity annotations added
+    - [ ] Code is readable and clean
+
+    **Step 2: Testing (30 min)**
+
+    Write comprehensive tests:
+    ````python
+    # test_system.py
+
+    import pytest
+    from main import YourSystem
+
+    class TestYourSystem:
+
+        def test_basic_functionality(self):
+            Test normal operation
+            system = YourSystem()
+
+            # Test case 1: Basic usage
+            result = system.operation1([input])
+            assert result == [expected]
+
+            # Test case 2: Another scenario
+            result = system.operation1([different_input])
+            assert result == [expected]
+
+        def test_edge_cases(self):
+            Test boundary conditions
+            system = YourSystem()
+
+            # Empty input
+            assert system.operation1([]) == []
+
+            # Single element
+            assert system.operation1([single]) == [expected]
+
+            # Large input
+            large_input = generate_large_test(10000)
+            result = system.operation1(large_input)
+            assert validate(result)
+
+        def test_correctness_properties(self):
+            Test invariants and properties
+            system = YourSystem()
+
+            # Property 1: [Invariant that should hold]
+            # Test it holds
+
+            # Property 2: [Another invariant]
+            # Test it holds
+
+        def test_performance(self):
+            Test meets performance requirements
+            system = YourSystem()
+
+            import time
+            data = generate_test_data(100000)
+
+            start = time.time()
+            result = system.operation1(data)
+            elapsed = time.time() - start
+
+            # Should complete in reasonable time
+            assert elapsed < 1.0  # Target: < 1 second
+    ````
+
+    **Testing Checklist:**
+    - [ ] Basic functionality tests pass
+    - [ ] Edge cases handled correctly
+    - [ ] Large inputs work
+    - [ ] Performance is acceptable
+    - [ ] All tests documented
+
+    **Step 3: Refinement (30 min)**
+
+    Improve your implementation:
+
+    1. **Code Review Yourself**
+       - Is it readable?
+       - Are variable names clear?
+       - Is it well-documented?
+       - Any duplicated code?
+
+    2. **Optimize if Needed**
+       - Profile if slow
+       - Identify bottlenecks
+       - Apply targeted optimizations
+       - Measure improvements
+
+    3. **Final Polish**
+       - Add remaining comments
+       - Clean up debug code
+       - Format consistently
+       - Update docstrings
+
+    ───────────────────────────────────────────────
+
+    **PHASE 3: ANALYSIS (1 hour)**
+
+    Time to connect theory and practice!
+
+    **Step 1: Performance Benchmarking (30 min)**
+
+    Measure how your implementation actually performs:
+    ````python
+    # benchmark.py
+
+    import time
+    import matplotlib.pyplot as plt
+    from main import YourSystem
+
+    def benchmark_scaling():
+        Test how performance scales with input size
+
+        sizes = [100, 500, 1000, 5000, 10000, 50000, 100000]
+        times = []
+
+        for n in sizes:
+            # Generate test data
+            data = generate_test_data(n)
+
+            # Measure time
+            system = YourSystem()
+            start = time.time()
+            system.operation1(data)
+            elapsed = time.time() - start
+
+            times.append(elapsed)
+            print(f"n=n:6d: elapsed:.4f s")
+
+        return sizes, times
+
+    def plot_results(sizes, times):
+        Visualize performance
+
+        plt.figure(figsize=(10, 6))
+
+        # Plot actual performance
+        plt.plot(sizes, times, 'b-o', label='Measured', linewidth=2)
+
+        # Plot theoretical prediction (if O(n log n))
+        import numpy as np
+        theoretical = [n * np.log(n) * times[0] / (sizes[0] * np.log(sizes[0]))
+                       for n in sizes]
+        plt.plot(sizes, theoretical, 'r--', label='O(n log n) theoretical', linewidth=2)
+
+        plt.xlabel('Input Size (n)', fontsize=12)
+        plt.ylabel('Time (seconds)', fontsize=12)
+        plt.title('Performance Analysis', fontsize=14)
+        plt.legend(fontsize=10)
+        plt.grid(True, alpha=0.3)
+        plt.savefig('performance_analysis.png', dpi=300, bbox_inches='tight')
+        plt.show()
+
+    if __name__ == "__main__":
+        print("Running performance benchmarks...")
+        sizes, times = benchmark_scaling()
+        plot_results(sizes, times)
+        print("\nGraph saved to: performance_analysis.png")
+    ````
+
+    **Run the benchmark and analyze:**
+    ````bash
+    $ python benchmark.py
+    Running performance benchmarks...
+    n=   100: 0.0001s
+    n=   500: 0.0008s
+    n=  1000: 0.0018s
+    n=  5000: 0.0112s
+    n= 10000: 0.0247s
+    n= 50000: 0.1523s
+    n=100000: 0.3301s
+
+    Graph saved to: performance_analysis.png
+    ````
+
+    **Step 2: Theory vs Practice Comparison (20 min)**
+
+    Create a comparison table and analysis:
+    ````markdown
+    # Performance Analysis Report
+
+    ## Theoretical Analysis
+
+    Expected Complexity: O(n log n)
+
+    For our implementation:
+    - Operation 1: O(n) because [reason]
+    - Operation 2: O(log n) because [reason]
+    - Combined: O(n log n)
+
+    ## Empirical Results
+
+    | Input Size | Measured Time | Predicted (theory) | Ratio |
+    |------------|---------------|-------------------|-------|
+    | 100        | 0.0001s       | 0.0001s          | 1.00x |
+    | 1,000      | 0.0018s       | 0.0020s          | 0.90x |
+    | 10,000     | 0.0247s       | 0.0266s          | 0.93x |
+    | 100,000    | 0.3301s       | 0.3322s          | 0.99x |
+
+    ## Analysis
+
+    **Does it match theory?**
+    Yes! The measured performance closely follows the O(n log n) prediction.
+    The ratio stays close to 1.0x, confirming our complexity analysis.
+
+    **Why not exactly 1.0x?**
+    - Constant factors not captured in Big-O
+    - Memory allocation overhead
+    - CPU cache effects at different sizes
+    - Python interpreter overhead
+
+    **Bottlenecks Identified:**
+    1. [Bottleneck 1]: Takes [X]% of time
+    2. [Bottleneck 2]: [Details]
+
+    **Optimization Opportunities:**
+    - [Opportunity 1]: Could improve by [amount]
+    - [Opportunity 2]: Trade-off would be [what]
+    ````
+
+    **Step 3: Reflection Write-Up (10 min)**
+
+    Write brief reflections:
+    ````markdown
+    ## Reflection
+
+    ### What Worked Well
+
+    1. **Design Phase:**
+       Planning the algorithm first saved time during implementation.
+       The complexity analysis helped me choose the right data structure.
+
+    2. **Implementation:**
+       [What went smoothly]
+
+    ### Challenges Faced
+
+    1. **Challenge 1: [Specific issue]**
+       Problem: [What happened]
+       Solution: [How I solved it]
+       Learning: [What I learned]
+
+    2. **Challenge 2:**
+       [Similar structure]
+
+    ### Key Learnings
+
+    **Theory Insight:**
+    Understanding [theoretical concept] helped me realize why [practical thing].
+
+    **Practice Insight:**
+    The real-world performance was affected by [factor] which theory doesn't capture.
+
+    **Integration:**
+    The connection between theory and practice is: [key insight]
+
+    ### If I Did This Again
+
+    - I would: [Improvement 1]
+    - I should have: [Thing to do differently]
+    - Next time: [Lesson for future]
+    ````
+
+    **Deliverables for Phase 3:**
+    - [ ] Benchmark script
+    - [ ] Performance graph
+    - [ ] Analysis report (2-3 pages)
+    - [ ] Reflection write-up (1 page)
+
+    ───────────────────────────────────────────────
+
+    **PHASE 4: DOCUMENTATION & FINALIZATION (30 min)**
+
+    Polish everything for submission/portfolio.
+
+    **Step 1: README (15 min)**
+
+    Create a comprehensive README:
+    ````markdown
+    # [Project Name]
+
+    Brief description of what this is and why it's interesting.
+
+    ## Overview
+
+    This project implements [algorithm/system] with a focus on understanding
+    both the theoretical foundations and practical implementation.
+
+    **Key Features:**
+    - Feature 1
+    - Feature 2
+    - Feature 3
+
+    **Learning Goals:**
+    - Understand [concept]
+    - Implement [algorithm]
+    - Analyze [performance]
+
+    ## Theoretical Foundation
+
+    This implementation is based on [algorithm/paper/concept].
+
+    **Time Complexity:** O(n log n)
+    - Operation 1: O(n)
+    - Operation 2: O(log n)
+
+    **Space Complexity:** O(n)
+
+    **Why these complexities?**
+    [Brief explanation]
+
+    ## Installation
+    ```bash
+    # Clone and setup
+    git clone [repo]
+    cd [project]
+    pip install -r requirements.txt
+    ```
+
+    ## Usage
+    ```python
+    from main import YourSystem
+
+    # Create instance
+    system = YourSystem()
+
+    # Use it
+    result = system.operation1(data)
+    ```
+
+    ## Testing
+    ```bash
+    # Run tests
+    pytest test_system.py
+
+    # Run benchmarks
+    python benchmark.py
+    ```
+
+    ## Results
+
+    Performance on my machine (Intel i7, 16GB RAM):
+
+    | Input Size | Time      |
+    |------------|-----------|
+    | 1,000      | 0.0018s   |
+    | 10,000     | 0.0247s   |
+    | 100,000    | 0.3301s   |
+
+    Matches theoretical O(n log n) prediction! ✓
+
+    ## Architecture
+
+    [Brief description or diagram of how components work together]
+
+    ## Design Decisions
+
+    **Decision 1: Used [data structure X]**
+    - Reasoning: [Why]
+    - Alternative: [What else considered]
+    - Trade-off: [What we optimize for]
+
+    **Decision 2:**
+    [Similar structure]
+
+    ## Challenges & Solutions
+
+    **Challenge 1:** [Problem encountered]
+    **Solution:** [How solved]
+
+    ## Future Improvements
+
+    - [ ] Optimization 1
+    - [ ] Feature addition 2
+    - [ ] Extension idea 3
+
+    ## References
+
+    - [Paper/Article 1]
+    - [Resource 2]
+
+    ## Author
+
+    [Your Name] - [Date]
+    [Portfolio link]
+    ````
+
+    **Step 2: Code Documentation Final Check (10 min)**
+
+    Ensure all code is well-documented:
+    ````python
+    def operation1(self, data):
+
+        [What it does - clear description]
+
+        This implements the [algorithm name] algorithm which works by:
+        1. [Step 1]
+        2. [Step 2]
+        3. [Step 3]
+
+        Theoretical Basis:
+            Based on [concept], this achieves O(n log n) time by
+            [brief explanation of why].
+
+        Args:
+            data: [Type and description]
+                [Constraints or format]
+
+        Returns:
+            [Type and description]
+
+        Raises:
+            ValueError: If [condition]
+
+        Time Complexity: O(n log n)
+            - Step 1: O(n) [reason]
+            - Step 2: O(log n) [reason]
+            - Overall: O(n log n)
+
+        Space Complexity: O(n)
+            [Explanation of space usage]
+
+        Example:
+            >>> system = YourSystem()
+            >>> result = system.operation1([1, 2, 3])
+            >>> print(result)
+            [expected output]
+        # Implementation with inline comments explaining non-obvious parts
+    ````
+
+    **Step 3: Final Checklist (5 min)**
+
+    Before submission:
+
+    **Code Quality:**
+    - [ ] All functions have docstrings
+    - [ ] Complex logic has inline comments
+    - [ ] No commented-out debug code
+    - [ ] Consistent formatting
+    - [ ] No TODO/FIXME left
+
+    **Testing:**
+    - [ ] All tests pass
+    - [ ] Coverage is good
+    - [ ] Edge cases tested
+    - [ ] Performance acceptable
+
+    **Documentation:**
+    - [ ] README is complete
+    - [ ] Design document included
+    - [ ] Analysis report finished
+    - [ ] Reflection written
+
+    **Files to Submit:**
+    - [ ] `main.py` - Core implementation
+    - [ ] `test_system.py` - Tests
+    - [ ] `benchmark.py` - Benchmarking
+    - [ ] `design_document.pdf` - Phase 1 output
+    - [ ] `analysis_report.pdf` - Phase 3 output
+    - [ ] `performance_analysis.png` - Graph
+    - [ ] `README.md` - Documentation
+    - [ ] `requirements.txt` - Dependencies
+
+    ───────────────────────────────────────────────
+
+    **EVALUATION RUBRIC**
+
+    Your project will be evaluated on:
+
+    **Implementation Quality (40 points)**
+
+    Correctness (20 pts):
+    - All features work correctly
+    - Edge cases handled
+    - Tests pass
+
+    Performance (10 pts):
+    - Meets performance targets
+    - Achieves expected complexity
+
+    Code Quality (10 pts):
+    - Clean, readable code
+    - Well-documented
+    - Good structure
+
+    **Theoretical Understanding (30 points)**
+
+    Complexity Analysis (15 pts):
+    - Correct complexity derivation
+    - Clear explanation of why
+    - Accurate predictions
+
+    Design Justification (10 pts):
+    - Good algorithm choices
+    - Trade-offs understood
+    - Alternatives considered
+
+    Documentation (5 pts):
+    - Clear theoretical notes
+    - Complexity annotations
+    - References when used
+
+    **Analysis & Insights (20 points)**
+
+    Benchmarking (8 pts):
+    - Thorough performance testing
+    - Good visualization
+    - Multiple test sizes
+
+    Theory-Practice Connection (8 pts):
+    - Comparison done well
+    - Discrepancies explained
+    - Insights meaningful
+
+    Reflection (4 pts):
+    - Thoughtful analysis
+    - Lessons identified
+    - Improvements proposed
+
+    **Documentation (10 points)**
+
+    README (4 pts):
+    - Complete and clear
+    - Usage examples
+    - Results shown
+
+    Reports (4 pts):
+    - Well-written
+    - Good structure
+    - Professional quality
+
+    Code Docs (2 pts):
+    - All functions documented
+    - Complexity noted
+
+    **Bonus Points (up to 10)**
+    - Exceptional code quality
+    - Creative optimizations
+    - Extended features implemented
+    - Excellent analysis insights
+
+    ───────────────────────────────────────────────
+
+    **SOLUTION GUIDE**
+
+    <details>
+    <summary>📖 View Solution (Try on your own first!)</summary>
+
+    **Design Approach:**
+
+    [Explanation of the optimal design]
+
+    Key insights:
+    1. [Insight 1]
+    2. [Insight 2]
+
+    **Implementation:**
+    ````python
+    # Complete reference implementation
+    class OptimalSolution:
+        Reference implementation with best practices
+
+        def __init__(self):
+            # [Well-designed initialization]
+            pass
+
+        def operation1(self, data):
+            # [Clean, efficient implementation]
+            pass
+    ````
+
+    **Complexity Analysis:**
+
+    Detailed breakdown:
+    - [Each operation analyzed]
+    - [Total complexity derived]
+
+    **Expected Performance:**
+
+    For n=100,000:
+    - Time: ~0.3s
+    - Memory: ~8MB
+
+    **Common Mistakes:**
+
+    1. Mistake: [What students often do wrong]
+       Fix: [Correct approach]
+
+    2. Mistake: [Another common error]
+       Fix: [Solution]
+
+    **Optimizations:**
+
+    Advanced optimizations you might try:
+    - [Optimization 1]: [How and why]
+    - [Optimization 2]: [Details]
+
+    </details>
+
+    ═══════════════════════════════════════════════
+
+    [Continue with more Foundation Projects...]
+
+    ═══════════════════════════════════════════════
+
+    INTERMEDIATE PROJECTS (Modules 3-4)
+    ═══════════════════════════════════════════════
+
+    Project I.1: [More Complex Project Name]
+    ───────────────────────────────────────────────
+    ⏱️ 6-8 hours | ⭐⭐⭐⭐ Intermediate | 🎯 Integration Focus
+
+    [Similar detailed structure but more complex]
+
+    **WHAT YOU'LL BUILD:**
+
+    A [more sophisticated system] with [multiple components].
+
+    **COMPLEXITY:**
+
+    This project is larger and requires:
+    - Integration of [X] concepts
+    - [Y] different algorithms
+    - [Z] components working together
+
+    [Continue with same phase structure but scaled up]
+
+    ═══════════════════════════════════════════════
+
+    ADVANCED PROJECTS (Modules 5+)
+    ═══════════════════════════════════════════════
+
+    Project A.1: [Advanced Project Name]
+    ───────────────────────────────────────────────
+    ⏱️ 8-12 hours | ⭐⭐⭐⭐⭐ Advanced | 🏆 Capstone Level
+
+    [Most comprehensive project structure]
+
+    **WHAT YOU'LL BUILD:**
+
+    A production-quality [system] that [complex functionality].
+
+    **WHY THIS IS ADVANCED:**
+
+    - Requires mastery of [all course concepts]
+    - Multiple sophisticated algorithms
+    - Performance optimization crucial
+    - Research component included
+
+    [Full detailed structure with even more depth]
+
+    ═══════════════════════════════════════════════
+
+    PROJECT PORTFOLIO GUIDE
+    ═══════════════════════════════════════════════
+
+    **How to Showcase These Projects:**
+
+    1. **On GitHub:**
+       - Clear README with results
+       - Clean commit history
+       - Good documentation
+       - Tests included
+
+    2. **In Portfolio:**
+       - Project cards with screenshots
+       - Key metrics highlighted
+       - Technology badges
+       - Links to code and demo
+
+    3. **In Interviews:**
+       - 2-minute project pitch
+       - Technical deep-dive ready
+       - Can explain design decisions
+       - Know the trade-offs
+
+    ═══════════════════════════════════════════════
+
+    APPENDIX
+    ═══════════════════════════════════════════════
+
+    A. Project Templates
+    B. Benchmarking Best Practices
+    C. Report Writing Guide
+    D. Code Review Checklist
+    E. Git Workflow Guide
+  output_model: MiniProjects
+  agent: src/agents/comprehensive_agents/comprehensive_workshop_agents/mini_project_designer.yaml
+  context:
+    -task_comprehensive_writing

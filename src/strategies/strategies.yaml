@@ -1,0 +1,57 @@
+academic_strategy:
+  course_creation:
+    agents:
+      - src/agents/academic_agents/academic_researcher.yaml
+      - src/agents/academic_agents/academic_planner.yaml
+      - src/agents/academic_agents/academic_writer.yaml
+    tasks:
+      - src/tasks/academic_tasks/task_academic_research.yaml
+      - src/tasks/academic_tasks/task_academic_planning.yaml
+      - src/tasks/academic_tasks/task_academic_writing.yaml
+  workshops:
+    agents:
+      - src/agents/academic_agents/academic_workshop_agents/algorithm_implementation.yaml
+      - src/agents/academic_agents/academic_workshop_agents/research_paper_analyst.yaml
+      - src/agents/academic_agents/academic_workshop_agents/theoretical_exercise_designer.yaml
+    tasks:
+      - src/tasks/academic_tasks/academic_workshop_tasks/task_algorithm_implementation.yaml
+      - src/tasks/academic_tasks/academic_workshop_tasks/task_paper_analysis.yaml
+      - src/tasks/academic_tasks/academic_workshop_tasks/task_theoretical_exercises.yaml
+practical_strategy:
+  course_creation:
+    agents:
+      - src/agents/practical_agents/practical_researcher.yaml
+      - src/agents/practical_agents/practical_planner.yaml
+      - src/agents/practical_agents/practical_writer.yaml
+    tasks:
+      - src/tasks/practical_tasks/task_practical_research.yaml
+      - src/tasks/practical_tasks/task_practical_planning.yaml
+      - src/tasks/practical_tasks/task_practical_writing.yaml
+  workshops:
+    agents:
+      - src/agents/practical_agents/practical_workshop_agents/code_challenge_creator.yaml
+      - src/agents/practical_agents/practical_workshop_agents/hands_on_exercise_designer.yaml
+      - src/agents/practical_agents/practical_workshop_agents/project_builder.yaml
+    tasks:
+      - src/tasks/practical_tasks/practical_workshop_tasks/task_code_challenges.yaml
+      - src/tasks/practical_tasks/practical_workshop_tasks/task_hands_on_exercises.yaml
+      - src/tasks/practical_tasks/practical_workshop_tasks/task_project_building.yaml
+comprehensive_strategy:
+  course_creation:
+    agents:
+      - src/agents/comprehensive_agents/comprehensive_researcher.yaml
+      - src/agents/comprehensive_agents/comprehensive_planner.yaml
+      - src/agents/comprehensive_agents/comprehensive_writer.yaml
+    tasks:
+      - src/tasks/comprehensive_tasks/task_comprehensive_research.yaml
+      - src/tasks/comprehensive_tasks/task_comprehensive_planning.yaml
+      - src/tasks/comprehensive_tasks/task_comprehensive_writing.yaml
+  workshops:
+    agents:
+      - src/agents/comprehensive_agents/comprehensive_workshop_agents/case_study_creator.yaml
+      - src/agents/comprehensive_agents/comprehensive_workshop_agents/mini_project_designer.yaml
+      - src/agents/comprehensive_agents/comprehensive_workshop_agents/mixed_exercise_designer.yaml
+    tasks:
+      - src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_case_studies.yaml
+      - src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_mini_projects.yaml
+      - src/tasks/comprehensive_tasks/comprehensive_workshop_tasks/task_mixed_exercises.yaml

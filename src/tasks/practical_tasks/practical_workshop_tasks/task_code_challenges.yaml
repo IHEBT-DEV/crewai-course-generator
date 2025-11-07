@@ -1,0 +1,798 @@
+task:
+  name : task_code_challenges
+  description: >
+    Create coding challenges and puzzles for {topic} for skill development and interview prep.
+
+        Use the Practical Course Content to design challenges that reinforce skills.
+
+        Create 5 TYPES OF CHALLENGES:
+
+        1. ALGORITHM CHALLENGES (30%)
+           - Solve problems using {topic}
+           - Multiple test cases
+           - Optimize solutions
+           - Interview-style
+
+           Create 15-20 challenges across difficulty
+
+        2. DEBUGGING CHALLENGES (25%)
+           - Fix broken code
+           - Identify bugs
+           - Improve code quality
+           - Common mistakes
+
+           Create 10-15 debugging scenarios
+
+        3. CODE GOLF / OPTIMIZATION (20%)
+           - Make code shorter
+           - Make code faster
+           - Reduce memory
+           - Elegant solutions
+
+           Create 8-10 optimization challenges
+
+        4. REAL-WORLD SCENARIOS (15%)
+           - Business logic
+           - Data processing
+           - API integration
+           - Practical problems
+
+           Create 6-8 scenario-based challenges
+
+        5. PUZZLE CHALLENGES (10%)
+           - Creative problem-solving
+           - Think outside the box
+           - Multiple approaches
+           - "Aha!" moments
+
+           Create 4-5 puzzles
+
+        FOR EACH CHALLENGE PROVIDE:
+
+        STRUCTURE:
+        - Challenge title
+        - Difficulty (⭐ to ⭐⭐⭐⭐⭐)
+        - Time target
+        - Problem statement
+        - Input/output specs
+        - Examples
+        - Constraints
+
+        TEST CASES:
+        - Example cases (visible)
+        - Edge cases (some hidden)
+        - Performance cases
+        - Expected outputs
+
+        HINTS (progressive):
+        - Available after time delays
+        - Increasingly specific
+        - Don't give away solution
+
+        SOLUTION:
+        - Optimal solution
+        - Alternative approaches
+        - Complexity analysis
+        - Explanation
+
+        Make challenges engaging, gamified, interview-relevant.
+  expected_output: >
+    A comprehensive challenge collection:
+
+    CODE CHALLENGES FOR {topic}
+    ═══════════════════════════════════════════════
+
+    OVERVIEW
+    - Total challenges: 45-55
+    - Difficulty: Beginner to Expert
+    - Format: Interactive coding problems
+    - Interview prep: ✓
+    - Gamification: Points, badges, leaderboard
+
+    ═══════════════════════════════════════════════
+
+    ALGORITHM CHALLENGES
+    ═══════════════════════════════════════════════
+
+    Challenge A.1: [Challenge Name] ⭐⭐ (15 min)
+
+    **PROBLEM:**
+    [Clear, concise problem statement]
+
+    **INPUT:**
+    [Description of input format and constraints]
+
+    **OUTPUT:**
+    [Description of expected output]
+
+    **EXAMPLES:**
+
+    Example 1:
+    Input: [example input]
+    Output: [example output]
+    Explanation: [why this is the answer]
+
+    Example 2:
+    Input: [another example]
+    Output: [expected output]
+    Explanation: [reasoning]
+
+    **CONSTRAINTS:**
+    - [Constraint 1]
+    - [Constraint 2]
+    - Time limit: X seconds
+    - Memory limit: Y MB
+
+    ───────────────────────────────────────────────
+
+    **YOUR SOLUTION:**
+    ```language
+    function solveProblem(input) {
+        // Your code here
+
+    }
+
+    // Test cases
+    console.assert(solveProblem([test1]) === [expected1]);
+    console.assert(solveProblem([test2]) === [expected2]);
+    ───────────────────────────────────────────────
+    HINTS:
+    💡 Hint 1 (available after 5 min):
+    <details>
+    <summary>Click to reveal</summary>
+    [Conceptual hint without giving solution]
+    </details>
+    💡 Hint 2 (available after 10 min):
+    <details>
+    <summary>Click to reveal</summary>
+    [More specific direction]
+    </details>
+    💡 Hint 3 (available after 15 min):
+    <details>
+    <summary>Click to reveal</summary>
+    [Almost the solution, pseudo-code level]
+    </details>
+    ───────────────────────────────────────────────
+    SOLUTION:
+    <details>
+    <summary>✅ Optimal Solution (try first!)</summary>
+    ```language
+    function solveProblem(input) {
+        // Optimal approach
+        [clean, efficient solution]
+    }
+    ```
+    Complexity:
+
+    Time: O(...)
+    Space: O(...)
+
+    Explanation:
+    [Step-by-step explanation of the approach]
+    Why This Works:
+    [Intuition behind the solution]
+    </details>
+    Alternative Approaches:
+    <details>
+    <summary>Approach 2: [Alternative method]</summary>
+    ```language
+    // Different way to solve it
+    [alternative code]
+    ```
+    Pros: [advantages]
+    Cons: [disadvantages]
+    Complexity: Time O(...), Space O(...)
+    </details>
+    ───────────────────────────────────────────────
+    INTERVIEW RELEVANCE:
+    This type of problem appears in interviews at: [Companies]
+    Similar to: [LeetCode problem name if applicable]
+    LEARNING POINTS:
+
+    Concept: [What this teaches]
+    Pattern: [What pattern to recognize]
+    Technique: [What technique to use]
+
+    ───────────────────────────────────────────────
+    POINTS EARNED:
+    🏆 Solved: 10 points
+    ⚡ Solved in < 10 min: +5 bonus
+    🎯 Optimal solution: +5 bonus
+    💪 No hints used: +3 bonus
+    ═══════════════════════════════════════════════
+    [Continue with more algorithm challenges...]
+    ═══════════════════════════════════════════════
+    DEBUGGING CHALLENGES
+    ═══════════════════════════════════════════════
+    Debug Challenge D.1: Find & Fix ⭐⭐ (10 min)
+    THE SITUATION:
+    Your teammate wrote this code but it's not working correctly!
+    BUGGY CODE:
+    language// This code is supposed to [what it should do]
+    // But it has bugs!
+
+    function buggyFunction(input) {
+        [code with deliberate bugs]
+    }
+
+    // When we test it:
+    console.log(buggyFunction([test]));  // Expected: [X], Got: [Y]
+    YOUR MISSION:
+
+    Find ALL bugs (there are [N] bugs)
+    Fix them
+    Explain what was wrong
+
+    TEST CASES:
+    language// Should pass these:
+    assert(buggyFunction([input1]) === [expected1]);
+    assert(buggyFunction([input2]) === [expected2]);
+    assert(buggyFunction([edgeCase]) === [expected]);
+    ───────────────────────────────────────────────
+    HINTS:
+    💡 Hint 1:
+    <details>
+    <summary>Where to look first</summary>
+    Check line [X] carefully...
+    </details>
+    💡 Hint 2:
+    <details>
+    <summary>What's wrong</summary>
+    [Guidance without full answer]
+    </details>
+    ───────────────────────────────────────────────
+    SOLUTION:
+    <details>
+    <summary>✅ Bugs Found & Fixes</summary>
+    Bug #1: Line [X] - [Description of bug]
+    language// Wrong:
+    [wrong code]
+
+    // Correct:
+    [fixed code]
+    Why: [Explanation]
+    Bug #2: Line [Y] - [Description]
+    [Same format]
+    Bug #3: [If applicable]
+    Fixed Code:
+    language// Complete corrected version
+    [full fixed code]
+    </details>
+    LEARNING POINTS:
+
+    Common mistake: [What to watch for]
+    Best practice: [How to avoid this]
+    Testing tip: [How to catch this]
+
+    ───────────────────────────────────────────────
+    POINTS:
+    🐛 Each bug found: 5 points
+    🔧 All fixed correctly: 10 bonus
+    ═══════════════════════════════════════════════
+    [Continue with debugging challenges...]
+    ═══════════════════════════════════════════════
+    OPTIMIZATION CHALLENGES
+    ═══════════════════════════════════════════════
+    Optimize Challenge O.1: Speed It Up! ⭐⭐⭐ (20 min)
+    THE CHALLENGE:
+    This code works but it's too slow! Make it faster!
+    BASELINE CODE:
+    language// This works but is O(n²) - too slow for large inputs!
+    function slowSolution(data) {
+        [inefficient but correct code]
+    }
+
+    // Performance:
+    // n=1000:   2.5s
+    // n=10000:  250s (too slow!)
+    YOUR GOAL:
+    Optimize this to handle n=10,000 in under 1 second
+    REQUIREMENTS:
+
+    ✓ Must produce same results
+    ✓ Must handle all edge cases
+    ✓ Target: O(n log n) or better
+    ✓ Time limit: < 1s for n=10,000
+
+    ───────────────────────────────────────────────
+    YOUR OPTIMIZED SOLUTION:
+    languagefunction fastSolution(data) {
+        // Your optimized code here
+
+    }
+
+    // Benchmark it!
+    const testData = generateData(10000);
+    const start = Date.now();
+    fastSolution(testData);
+    const elapsed = Date.now() - start;
+    console.log(`Time: elapse dms`);  // Goal: < 1000ms
+    ───────────────────────────────────────────────
+    HINTS:
+    💡 Hint 1: Data Structure
+    <details>
+    <summary>Click for hint</summary>
+    The nested loop is the problem. What data structure gives O(1) lookup?
+    </details>
+    💡 Hint 2: Algorithm
+    <details>
+    <summary>Click for hint</summary>
+    You can solve this in a single pass with [technique]
+    </details>
+    ───────────────────────────────────────────────
+    SOLUTION:
+    <details>
+    <summary>✅ Optimized Solution</summary>
+    ```language
+    function fastSolution(data) {
+        // Optimized O(n log n) or O(n) approach
+        [efficient code]
+    }
+    ```
+    Complexity:
+
+    Time: O(...) - improved from O(n²)
+    Space: O(...) - trade-off explained
+
+    Performance:
+
+    n=1000:   0.05s  (50x faster!)
+    n=10000:  0.8s   (300x faster!)
+    - n=100000: 12s    (scales well!)
+
+    **Key Optimizations:**
+    1. **[Optimization 1]:** Changed [from X to Y] - saves [amount]
+    2. **[Optimization 2]:** Used [technique/data structure] - reduces complexity
+    3. **[Optimization 3]:** Eliminated [wasteful operation]
+
+    **Why It's Faster:**
+    [Detailed explanation of what makes this approach better]
+
+    </details>
+
+    **LEARNING POINTS:**
+    - When you see nested loops, think: can I use a hash map?
+    - Space-time trade-offs: sometimes using more memory saves time
+    - Profile before optimizing: measure where the bottleneck is
+
+    ───────────────────────────────────────────────
+
+    **POINTS:**
+    ⚡ Working optimization: 15 points
+    🏃 Under 1s for n=10k: +10 bonus
+    🚀 Under 0.5s: +15 bonus
+    🎯 Optimal Big-O: +10 bonus
+
+    ═══════════════════════════════════════════════
+
+    [Continue with more optimization challenges...]
+
+    ═══════════════════════════════════════════════
+
+    REAL-WORLD SCENARIO CHALLENGES
+    ═══════════════════════════════════════════════
+
+    Scenario Challenge S.1: [Business Problem] ⭐⭐⭐ (30 min)
+
+    **THE SCENARIO:**
+    You're working at [Company] and your team needs to [business goal].
+
+    **BACKGROUND:**
+    [Business context explaining the problem]
+
+    **YOUR TASK:**
+    Build a solution that [specific requirement].
+
+    **REQUIREMENTS:**
+
+    **Functional:**
+    - Must handle [business rule 1]
+    - Should validate [business rule 2]
+    - Must return [expected output format]
+
+    **Non-Functional:**
+    - Performance: Handle [X] items/second
+    - Reliability: Handle [edge case]
+    - User-friendly: Clear error messages
+
+    **INPUT DATA:**
+    ```javascript
+    // You'll receive data like this:
+    const sampleData = [
+        {[realistic data structure]}
+    ];
+    EXPECTED OUTPUT:
+    javascript{
+        [expected output format with business meaning]
+    }
+    ───────────────────────────────────────────────
+    BUSINESS RULES:
+
+    Rule 1: [Business logic]
+
+    Example: [concrete example]
+    Edge case: [what happens when...]
+
+
+    Rule 2: [Another rule]
+
+    [Explanation and examples]
+
+
+    Rule 3: [Another rule]
+
+    [Details]
+
+
+
+    ───────────────────────────────────────────────
+    YOUR SOLUTION:
+    languagefunction solveBusiness Problem(data) {
+        // Your implementation
+        // Remember to:
+        // - Validate input
+        // - Apply business rules
+        // - Handle edge cases
+        // - Return clear results
+    }
+    ───────────────────────────────────────────────
+    TEST CASES:
+    language// Normal case
+    const test1 = [normal business scenario];
+    const expected1 = [expected result];
+    assert.deepEqual(solveProblem(test1), expected1);
+
+    // Edge case 1: [What edge case]
+    const test2 = [edge case data];
+    const expected2 = [expected handling];
+    assert.deepEqual(solveProblem(test2), expected2);
+
+    // Invalid input
+    const test3 = [invalid data];
+    // Should throw error or return error object
+    ───────────────────────────────────────────────
+    SOLUTION:
+    <details>
+    <summary>✅ Complete Solution</summary>
+    ```language
+    function solveBusinessProblem(data) {
+        // Validation
+        [input validation code]
+    // Business logic
+    [implementation of each business rule]
+
+    // Error handling
+    [graceful error handling]
+
+    // Return formatted result
+    return [result];
+    }
+
+    **Why This Works:**
+    - Validates input properly
+    - Implements all business rules correctly
+    - Handles edge cases gracefully
+    - Returns clear, usable results
+
+    **Production Considerations:**
+    - Add logging for debugging
+    - Consider rate limiting
+    - Think about caching
+    - Plan for scale
+
+    </details>
+
+    **INTERVIEW TIPS:**
+    In real interviews:
+    - Ask clarifying questions about business rules
+    - Discuss edge cases upfront
+    - Think about scale and performance
+    - Consider user experience
+
+    ───────────────────────────────────────────────
+
+    **POINTS:**
+    💼 Correct logic: 15 points
+    ✅ All edge cases: +10 points
+    🛡️ Good error handling: +5 points
+    📊 Clean code: +5 points
+
+    ═══════════════════════════════════════════════
+
+    [Continue with more scenarios...]
+
+    ═══════════════════════════════════════════════
+
+    PUZZLE CHALLENGES
+    ═══════════════════════════════════════════════
+
+    Puzzle Challenge P.1: The Clever Trick ⭐⭐⭐⭐ (45 min)
+
+    **THE PUZZLE:**
+    [Intriguing problem statement that requires creative thinking]
+
+    **WHAT MAKES THIS TRICKY:**
+    The naive approach is [complexity]. But there's a clever trick that makes it [better complexity]!
+
+    **CONSTRAINTS:**
+    - [Unusual constraint that forces creative solution]
+    - [Another constraint]
+    - Must be elegant (no brute force!)
+
+    **EXAMPLES:**
+
+    Example 1:
+    Input: [example]
+    Output: [output]
+    Think about: [what pattern to notice]
+
+    Example 2:
+    Input: [trickier example]
+    Output: [output]
+    Notice: [key insight]
+
+    ───────────────────────────────────────────────
+
+    **STARTER CODE:**
+    ```language
+    function solvePuzzle(input) {
+        // The key insight is: [hidden, user must discover]
+        // Think creatively!
+    }
+    ───────────────────────────────────────────────
+    HINTS:
+    💡 Hint 1 (after 15 min):
+    <details>
+    <summary>Think differently</summary>
+    What if you approached this from [different angle]?
+    </details>
+    💡 Hint 2 (after 30 min):
+    <details>
+    <summary>Key insight</summary>
+    The trick is to [conceptual hint without code]
+    </details>
+    💡 Hint 3 (after 40 min):
+    <details>
+    <summary>Almost there</summary>
+    Try using [specific technique/pattern]
+    </details>
+    ───────────────────────────────────────────────
+    SOLUTION:
+    <details>
+    <summary>✅ The Clever Solution</summary>
+    ```language
+    function solvePuzzle(input) {
+        // The elegant solution
+        [surprisingly simple code]
+    }
+    ```
+    Complexity:
+
+    Time: O(...) - much better than naive O(...)!
+    Space: O(...)
+
+    The "Aha!" Moment:
+    [Explanation of the key insight that makes this work]
+    Why It's Beautiful:
+    [What makes this solution elegant]
+    Naive Approach (Don't do this!):
+    language// This works but is inefficient
+    [brute force approach for comparison]
+    This would be O(...) - way too slow!
+    </details>
+    LEARNING POINTS:
+
+    Sometimes the "obvious" approach is wrong
+    Look for patterns in the data
+    Creative thinking > brute force
+    Elegance often correlates with efficiency
+
+    ───────────────────────────────────────────────
+    POINTS:
+    🧩 Solved: 25 points
+    💡 Found the trick without hints: +20 bonus
+    🎨 Elegant code: +10 bonus
+    ═══════════════════════════════════════════════
+    [Continue with more puzzles...]
+    ═══════════════════════════════════════════════
+    CHALLENGE COLLECTIONS
+    ═══════════════════════════════════════════════
+    DAILY CHALLENGE SERIES:
+    Week 1: Fundamentals
+
+    Day 1: [Easy challenge]
+    Day 2: [Easy challenge]
+    Day 3: [Medium challenge]
+    Day 4: [Medium challenge]
+    Day 5: [Hard challenge]
+    Weekend: [Puzzle challenge]
+
+    Week 2: Data Structures
+    [Same format]
+    Week 3: Algorithms
+    [Same format]
+    Week 4: Real-World
+    [Same format]
+    ───────────────────────────────────────────────
+    THEMED COLLECTIONS:
+    🔥 Interview Prep Track (20 challenges)
+    Classic interview problems using {topic}:
+
+    [Challenge 1] - Arrays
+    [Challenge 2] - Hash Maps
+    [Challenge 3] - Recursion
+    [Continue...]
+
+    ⚡ Speed Challenges (10 challenges)
+    Can you solve these in under 5 minutes?
+
+    [Quick challenge 1]
+    [Quick challenge 2]
+    [Continue...]
+
+    🧠 Brain Teasers (8 challenges)
+    These will make you think:
+
+    [Puzzle 1]
+    [Puzzle 2]
+    [Continue...]
+
+    💼 Business Logic (12 challenges)
+    Real-world scenarios:
+
+    [Scenario 1]
+    [Scenario 2]
+    [Continue...]
+
+    ───────────────────────────────────────────────
+    ═══════════════════════════════════════════════
+    GAMIFICATION & PROGRESS
+    ═══════════════════════════════════════════════
+    POINTS SYSTEM:
+    Earning Points:
+
+    ⭐ Easy challenge: 5-10 points
+    ⭐⭐ Medium challenge: 10-15 points
+    ⭐⭐⭐ Hard challenge: 15-25 points
+    ⭐⭐⭐⭐ Expert challenge: 25-40 points
+
+    Bonus Points:
+
+    ⚡ Speed bonus (beat time target): +3-10
+    💡 No hints used: +3-5
+    🎯 Optimal solution: +5-10
+    🏆 First try success: +5
+
+    BADGES TO EARN:
+    🔰 Beginner Badges:
+
+    First Blood: Complete first challenge
+    Quick Starter: Complete 5 easy challenges
+    Bug Hunter: Find 10 bugs
+
+    🥈 Intermediate Badges:
+
+    Problem Solver: Complete 20 challenges
+    Speed Demon: Beat 10 time targets
+    Optimizer: Optimize 5 solutions
+
+    🥇 Advanced Badges:
+
+    Master: Complete 50 challenges
+    Perfectionist: 10 challenges without hints
+    Guru: Complete all expert challenges
+
+    🏆 Special Badges:
+
+    Daily Grind: Complete 7 daily challenges in a row
+    Weekend Warrior: Complete all weekend puzzles
+    Interview Ready: Complete interview prep track
+
+    LEADERBOARD:
+    Top Solvers:
+    1. Alice - 1,247 points 🥇
+    2. Bob - 1,103 points 🥈
+    3. Carol - 987 points 🥉
+    4. Dave - 856 points
+    5. Eve - 792 points
+
+    Your Rank: #42 (523 points)
+    YOUR PROGRESS:
+    Challenges Completed: 18/55 (33%)
+
+    By Difficulty:
+    ⭐     Easy: 8/15
+    ⭐⭐   Medium: 7/20
+    ⭐⭐⭐ Hard: 3/15
+    ⭐⭐⭐⭐ Expert: 0/5
+
+    By Type:
+    Algorithm: 6/15
+    Debugging: 5/10
+    Optimization: 2/8
+    Real-World: 3/8
+    Puzzle: 2/5
+
+    Badges Earned: 4/15
+    Next Badge: Speed Demon (8/10 speed bonuses)
+    ═══════════════════════════════════════════════
+    INTERVIEW PREPARATION
+    ═══════════════════════════════════════════════
+    INTERVIEW SIMULATION MODE:
+    Practice like it's a real interview:
+    Settings:
+
+    Time limit: 45 minutes
+    Difficulty: [Choose level]
+    Domain: [Choose topic]
+    Hints: Disabled
+    Pressure: ON 😅
+
+    What happens:
+
+    Random challenge from interview bank
+    Timer starts immediately
+    No hints available
+    Must explain solution verbally (record yourself!)
+    Graded on: correctness, efficiency, explanation
+
+    Interview Tips:
+    Before coding:
+
+    ✓ Ask clarifying questions
+    ✓ Discuss edge cases
+    ✓ Outline approach
+    ✓ Analyze complexity
+
+    While coding:
+
+    ✓ Think out loud
+    ✓ Write clean code
+    ✓ Handle errors
+    ✓ Test as you go
+
+    After coding:
+
+    ✓ Walk through solution
+    ✓ Discuss trade-offs
+    ✓ Suggest optimizations
+    ✓ Ask questions
+
+    Common Interview Patterns:
+    Based on these challenges, learn to recognize:
+
+    Two pointers
+    Sliding window
+    Hash map lookups
+    Recursion with memoization
+    Divide and conquer
+    Dynamic programming
+    Greedy algorithms
+
+    ═══════════════════════════════════════════════
+    SOLUTIONS WALKTHROUGH
+    ═══════════════════════════════════════════════
+    VIDEO EXPLANATIONS:
+    [Links to video walkthroughs of hard challenges]
+    DISCUSSION FORUM:
+
+    Post your solutions
+    Get feedback
+    See other approaches
+    Help others
+
+    OFFICE HOURS:
+    Live sessions to discuss challenging problems
+    ═══════════════════════════════════════════════
+    APPENDIX
+    ═══════════════════════════════════════════════
+    A. All Solutions (spoiler alert!)
+    B. Complexity Analysis Guide
+    C. Interview Question Bank
+    D. Company-Specific Challenges
+    E. Time Complexity Cheat Sheet
+    F. Common Patterns Reference
+  output_model: CodeChallenges
+  agent: src/agents/practical_agents/practical_workshop_agents/code_challenge_creator.yaml
+  context:
+    -task_practical_writing

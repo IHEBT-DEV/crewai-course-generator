@@ -1,0 +1,382 @@
+task:
+  name : task_comprehensive_writing
+  description: >
+    Write thorough, balanced course content for {topic} integrating theory and practice.
+
+        Use the Course Outline for structure and Research Report for content.
+
+        For EACH LESSON, write with INTEGRATION in mind:
+
+        1. OVERVIEW (5%)
+           - Why this lesson matters (practical + theoretical)
+           - What you'll learn (concepts + skills)
+           - How it fits in bigger picture
+           - Learning objectives clearly stated
+
+        2. CONCEPTUAL FOUNDATION (20%)
+           - Core idea explained intuitively
+           - Formal definition follows
+           - Visual/mental model
+           - Historical context
+           - "The key insight is..."
+
+        3. THEORETICAL DEEP DIVE (20%)
+           - How it works in detail
+           - Algorithm with complexity
+           - Design principles
+           - Mathematical foundations (accessible)
+           - Citations to papers [Author, Year]
+
+        4. PRACTICAL DEMONSTRATION (20%)
+           - Code example showing concept
+           - Step-by-step walkthrough
+           - Multiple examples (simple → complex)
+           - Real-world use cases
+
+        5. HANDS-ON TUTORIAL (20%)
+           - Build something using concept
+           - Detailed instructions with code
+           - Explain design decisions
+           - Point out theory in practice
+
+        6. INTEGRATION ANALYSIS (10%)
+           - How theory guides implementation
+           - How practice validates theory
+           - Trade-offs and alternatives
+           - When to use what
+           - Performance implications
+
+        7. EXERCISES (5%)
+           - Theory questions
+           - Coding challenges
+           - Design problems
+           - Analysis tasks
+
+        WRITING STYLE:
+        - Professional but accessible
+        - Technical precision without jargon overload
+        - Conversational for explanations
+        - Formal for definitions
+        - Balance rigor and readability
+
+        INTEGRATION TECHNIQUES:
+        - "Theoretically X, in practice this means..."
+        - "The O(n log n) complexity means for 1M items..."
+        - "The formal definition is X, in code..."
+        - Show how theory predicts practical behavior
+
+        CODE PRESENTATION:
+        - Production-quality code
+        - Type annotations
+        - Error handling
+        - Performance notes in comments
+        - Multiple implementations when relevant
+
+        LENGTH GUIDELINES:
+        - Each lesson: 2,500-4,000 words
+        - Balance text and code
+        - Depth without overwhelming
+
+        Write for learners who want complete mastery.
+        Respect their intelligence while ensuring clarity.
+        Prepare them for both research and building systems.
+  expected_output: >
+    Complete course content with all lessons fully written.
+
+    For EACH MODULE provide:
+
+    MODULE X: [Title]
+    ════════════════════════════════════════
+
+    [Module Introduction - 400 words]
+
+    This module bridges theory and practice for [topic].
+
+    **Theoretical Foundation:**
+    You'll understand [concepts] at a deep level...
+
+    **Practical Application:**
+    You'll build [projects/skills] and learn to...
+
+    **Integration:**
+    You'll see how theory informs practice and how practice validates theory...
+
+    **What You'll Accomplish:**
+    - Understand: [theoretical goals]
+    - Build: [practical outcomes]
+    - Master: [integrated skills]
+
+    ⏱️ Time: X hours | 📚 Theory: 40% | 💻 Practice: 60%
+
+    ───────────────────────────────────────
+
+    LESSON X.1: [Title]
+    ───────────────────────────────────────
+    ⏱️ 1.5 hours | 📊 Balance: Theory 50% / Practice 50%
+
+    🎯 LEARNING OBJECTIVES
+
+    Understand (Theory):
+    - [Conceptual goal 1]
+    - [Conceptual goal 2]
+
+    Apply (Practice):
+    - [Practical goal 1]
+    - [Practical goal 2]
+
+    ───────────────────────────────────────
+
+    📖 CONCEPTUAL FOUNDATION
+
+    Let's start with the core idea...
+
+    **The Problem:**
+    [Clear problem statement]
+
+    **The Insight:**
+    [Key conceptual insight explained intuitively]
+
+    **Real-World Analogy:**
+    Think of [concept] like [everyday analogy]...
+
+    **Formal Definition:**
+    Formally, we define [concept] as:
+    [Precise definition]
+
+    Where:
+    - [Variable 1] represents [meaning]
+    - [Variable 2] represents [meaning]
+
+    **Visual Model:**
+    [Describe a mental model or diagram]
+
+    ───────────────────────────────────────
+
+    🔬 THEORETICAL DEEP DIVE
+
+    Now let's understand how this works under the hood.
+
+    **The Algorithm:**
+    ```pseudocode
+    Algorithm: [Name]
+    Input: [description]
+    Output: [description]
+
+    1. [Step with explanation]
+    2. [Step with explanation]
+    3. [Step with explanation]
+    Complexity Analysis:
+    Time Complexity: O(...)
+
+    Best case: O(...) when [condition]
+    Average case: O(...) because [reason]
+    Worst case: O(...) when [condition]
+
+    Space Complexity: O(...) because [explanation]
+    Why This Design:
+    [Explain design rationale, trade-offs]
+    Theoretical Properties:
+
+    Property 1: [Statement and why it matters]
+    Property 2: [Statement and why it matters]
+
+    Research Context:
+    This approach was introduced by [Author et al., Year] in their paper "[Title]".
+    The key contribution was [summary]. [URL]
+    Recent work by [Author, Year] improved this to [advancement].
+    ───────────────────────────────────────
+    💻 PRACTICAL DEMONSTRATION
+    Let's see this in action with code.
+    Simple Example:
+    python# Basic implementation demonstrating the concept
+    # This shows the core idea without optimizations
+
+    def simple_example(input_data):
+
+        [Docstring explaining what this does]
+
+        Time: O(...) | Space: O(...)
+
+        # Step 1: [What this does and why]
+        step1_result = process(input_data)
+
+        # Step 2: [What this does - connects to theory]
+        # This implements the [theoretical concept] we discussed
+        step2_result = transform(step1_result)
+
+        return step2_result
+
+    # Example usage
+    data = [1, 2, 3, 4, 5]
+    result = simple_example(data)
+    print(f"Result: result",result)  # Output: [expected]
+    What's Happening:
+
+    First, we [explanation linking to theory]
+    Then, we [explanation]
+    The complexity is O(...) because [connect to theoretical analysis]
+
+    More Complex Example:
+    python# Production-quality implementation with optimizations
+    # This shows how theory guides practical improvements
+
+    class OptimizedVersion:
+
+        [Comprehensive docstring]
+
+        Design decisions:
+        - [Decision 1]: Based on theoretical property X
+        - [Decision 2]: Trade-off between time and space
+
+
+        def __init__(self):
+            # [Initialization with theoretical justification]
+            pass
+
+        def process(self, data):
+            # [Implementation with comments linking to theory]
+            pass
+
+    # [Usage examples with different scenarios]
+    Performance Characteristics:
+    [Explain how theoretical predictions match practice]
+    ───────────────────────────────────────
+    🛠️ HANDS-ON TUTORIAL
+    Now build something yourself!
+    Project: Build [Mini-Project Name]
+    What you'll build:
+    [Description of what and why it's useful]
+    Step 1: Design
+    Before coding, let's think theoretically...
+    Based on our complexity analysis, we should:
+
+    [Design decision based on theory]
+    [Another decision]
+
+    Step 2: Implementation
+    python# TODO: Implement [feature]
+    # Hint: Remember the O(...) complexity requirement
+
+    def your_implementation():
+        # Your code here
+        pass
+    Step 3: Testing
+    python# Test with different inputs
+    test_cases = [
+        ([small], expected),
+        ([large], expected),
+        ([edge_case], expected),
+    ]
+
+    for input_data, expected in test_cases:
+        result = your_implementation(input_data)
+        assert result == expected
+    Step 4: Analysis
+    Measure the performance:
+    pythonimport time
+
+    sizes = [100, 1000, 10000, 100000]
+    for n in sizes:
+        data = generate_data(n)
+        start = time.time()
+        your_implementation(data)
+        elapsed = time.time() - start
+        print(f"n=n: elapsed:.4f s")
+    Question: Does your measurement match the theoretical O(...)?
+    ───────────────────────────────────────
+    🔄 THEORY-PRACTICE INTEGRATION
+    Let's explicitly connect what we've learned:
+    How Theory Guides Practice:
+
+    The O(n log n) complexity tells us that for n=1M items, we expect ~20M operations
+    The space complexity O(n) means we need to watch memory for large inputs
+    The theoretical worst-case happens when [condition], so we should [mitigation]
+
+    How Practice Validates Theory:
+
+    Our benchmarks confirm the O(...) prediction
+    The performance bottleneck is [what], as theory suggested
+    Edge cases reveal [insight] that connects to [theoretical property]
+
+    Design Trade-offs:
+    ApproachTimeSpaceWhen to Use[Option A]O(...)O(...)[Scenario][Option B]O(...)O(...)[Scenario]
+    Real-World Considerations:
+
+    In production: [how companies actually use this]
+    Performance: [actual numbers from case studies]
+    Scalability: [how it behaves at massive scale]
+
+    ───────────────────────────────────────
+    ✏️ EXERCISES
+    Theory Questions:
+
+    Prove that [algorithm] has O(...) complexity
+    Explain why [design decision] improves performance
+    Compare approaches A and B theoretically
+
+    Coding Challenges:
+
+    Implement [variant] with O(...) complexity
+    Optimize the provided code without changing Big-O
+    Add [feature] while maintaining correctness
+
+    Design Problems:
+
+    Design a system that [requirement] with constraints [X, Y]
+    Given [scenario], choose the best approach and justify
+    Analyze [existing system] and propose improvements
+
+    Analysis Tasks:
+
+    Benchmark your implementation and compare with theory
+    Profile the code and identify bottlenecks
+    Measure space usage and explain discrepancies
+
+    <details>
+    <summary>💡 Solutions</summary>
+    [Detailed solutions with explanations]
+    </details>
+    ───────────────────────────────────────
+    📚 KEY TAKEAWAYS
+    Theory:
+    ✓ [Conceptual understanding point]
+    ✓ [Algorithm/complexity point]
+    ✓ [Design principle]
+    Practice:
+    ✓ [Implementation skill]
+    ✓ [Tool/technique mastered]
+    ✓ [Real-world application]
+    Integration:
+    ✓ [How theory informs practice]
+    ✓ [How practice validates theory]
+    Quick Reference:
+    python# Most important pattern
+    [essential code snippet]
+    Further Reading:
+
+    Academic: [Paper citation with URL]
+    Practical: [Tutorial URL]
+    Deep dive: [Advanced resource]
+
+    ───────────────────────────────────────
+    [Repeat for ALL lessons in ALL modules]
+    ═══════════════════════════════════════
+    APPENDICES
+    ═══════════════════════════════════════
+    A. Mathematical Notation Guide
+    B. Complexity Classes Reference
+    C. Design Patterns Catalog
+    D. Performance Optimization Checklist
+    E. Complete Code Repository
+    F. Paper Reading List
+    G. Tool Setup Guides
+    ═══════════════════════════════════════
+    GLOSSARY
+    [Technical terms with both formal and intuitive definitions]
+    ═══════════════════════════════════════
+    REFERENCES
+    [All papers and resources cited, formatted properly]
+  output_model: Course
+  agent: src/agents/comprehensive_agents/comprehensive_writer.yaml
+  context:
+    -task_comprehensive_planning
